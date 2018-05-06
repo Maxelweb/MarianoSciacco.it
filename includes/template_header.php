@@ -1,14 +1,9 @@
-<?
-/*	include "includes/database_config.php";
-	include "includes/database_const.php";
-	include "includes/php_functions.php"; */
-?>
-
 <!DOCTYPE html>
 <html>
 	<head>
 		<title>Mariano Sciacco, Maxel</title>
 		<link rel="stylesheet" type="text/css" href="style/stylesheet.css" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 		<link rel="shortcut icon" href="images/favicon.png" />
 		<link rel="icon" sizes="192x192" href="images/favicon.png">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
@@ -38,13 +33,13 @@
 										<a href="index.php#portfolio">Portfolio</a>
 									</div>
 								</span>
-								<a href="portfolio.php" class="link-header">Portfolio</a>
+								<a href="http://git.marianosciacco.it" class="link-header">Portfolio</a>
 							</div>			
 					</div>
 					<div id="logo-header" class="cursor logo hide" onclick="location.replace('index.php')"></div>					
 					<div id="navbar-header">
 							<div class="url-list">
-								<a href="http://blog.imaxel.net" class="link-header">Blog & News</a>
+								<a href="http://git.marianosciacco.it/news" class="link-header">News & Updates</a>
 								<a href="index.php#contacts" class="link-header">Contacts</a>
 							</div>				
 					</div>
@@ -60,10 +55,10 @@
 						<a href="index.php#about">&raquo About Me</a>
 						<a href="index.php#skills">&raquo Skillset</a>
 						<a href="index.php#edu">&raquo Education</a>
-						<a href="portfolio.php">&raquo Portfolio</a>
+						<a href="http://git.marianosciacco.it">&raquo Portfolio</a>
 						<a href="index.php#contacts">&raquo Contacts</a>
 					</div>						
-					<a href="http://blog.imaxel.net">Blog and News</a>
+					<a href="http://git.marianosciacco.it/news">News & Updates</a>
 				</div>
 			</div>
 			

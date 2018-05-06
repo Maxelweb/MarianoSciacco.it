@@ -1,4 +1,4 @@
-<? include 'includes/template_header.php'; //#4B97B3 ?>
+<?php include 'includes/template_header.php'; //#4B97B3 ?>
 
 
 <section id="name">
@@ -15,13 +15,13 @@
 		<article>
 			<div class="titolo">
 				<div class="scroll-1">
-					<h2>&raquo About me</h2>
+					<h2>About me</h2>
 					<img src="images/icons/about.png">
 				</div>
 			</div>
 			<div class="contenuto">
 				<h1>Mariano Sciacco, I'm Maxel</h1> 
-				<h2><strong>//</strong> Web Developer / Programmer</h2>
+				<h2><strong>//</strong> <i class="fa fa-user"></i> Web Developer / Programmer</h2>
 				<p>	
 					Ciao, sono Mariano Sciacco, in arte Maxel. 
 				  	Sono del '97 e attualmente vivo a Venezia.
@@ -37,6 +37,63 @@
 			
 		<div class="limit-1"></div>
 
+		 <div class="timeline">
+		  <div class="container right">
+		    <div class="content">
+		      <h2><i class="fa fa-graduation-cap"></i> 2011</h2>
+		      <p>Diploma di Scuola Media</p>
+		    </div>
+		  </div>
+		  <div class="container left">
+		    <div class="content">
+		      <h2><i class="fa fa-book"></i> 2013</h2>
+		      <p>Pubblicazione della prima versione di <b>AtlantisBook</b>, social network per un gioco online e inizio apprendimento dei linguaggi di programmazione.</p>
+		    </div>
+		  </div>
+		  <div class="container right">
+		    <div class="content">
+		      <h2><i class="fa fa-graduation-cap"></i> Aprile 2015</h2>
+		      <p>Conseguimento esame FCE, First Certificate of English (B2).</p>
+		    </div>
+		  </div>
+		  <div class="container left">
+		    <div class="content">
+		      <h2><i class="fa fa-graduation-cap"></i> Luglio 2015</h2>
+		      <p>Conseguimento attestato dei lavoratori e primo soccorso.</p>
+		    </div>
+		  </div>
+		  <div class="container right">
+		    <div class="content">
+		      <h2><i class="fa fa-graduation-cap"></i> Luglio 2016</h2>
+		      <p>Diploma di Scuola Scuola Superiore, Liceo delle Scienze Umane.</p>
+		    </div>
+		  </div>
+		  <div class="container left">
+		    <div class="content">
+		      <h2><i class="fa fa-university"></i> Ottobre 2016</h2>
+		      <p>Inizio studi universitari presso <b>Università degli Studi di Padova</b><br> Corso di <u>Informatica</u>, Scuola di Scienze, Dipartimento di Matematica.</p>
+		    </div>
+		  </div>
+		  <div class="container right">
+		    <div class="content">
+		      <h2><i class="fa fa-book"></i> Febbraio 2018</h2>
+		      <p>Pubblicazione progetto universitario per il corso di <b><a href="https://github.com/Maxelweb/qBreakDatabaseUNIPD">Base di Dati</a></b> in collaborazione con Enrico Buratto.</p>
+		    </div>
+		  </div>
+		  <div class="container left">
+		    <div class="content">
+		      <h2><i class="fa fa-users-cog"></i> Aprile 2018</h2>
+		      <p>Inizio progetto di SA-MP italia: <b><a href="https://lscity.org">LS City Roleplay</a></b>.</p>
+		    </div>
+		  </div>
+		  <div class="container right">
+		    <div class="content">
+		      <h2><i class="fa fa-book"></i> Maggio 2018</h2>
+		      <p>Pubblicazione progetto inglese <b><a href="http://src.debug.ovh">Server Remote Console for SA-MP</a></b>.</p>
+		    </div>
+		  </div>
+		</div>
+		<!--
 		<article>
 			<div class="list-box-option clearfix">
 				
@@ -66,6 +123,8 @@
 
 			</div>
 		</article>
+		-->
+
 	</div>
 </section>
 
@@ -81,13 +140,13 @@
 		<article>
 			<div class="titolo">
 				<div class="scroll-2">
-					<h2>&raquo Skillset</h2>
+					<h2>Skillset</h2>
 					<img src="images/icons/exp.png">
 				</div>
 			</div>
 			<div class="contenuto">	
 				<h1>Competenze Tecniche e Pratiche </h1>
-			 	<h2><strong>//</strong> HTML5 / PHP5 / CSS3 / JS </h2>
+			 	<h2><strong>//</strong> <i class="fa fa-code"></i> HTML5 / PHP / CSS / JS </h2>
 			 	<p>
 			 		Lavoro con l'HTML dal 2010 e gradualmente come autodidatta ho appreso le <b>basi del PHP</b>. 
 			 		Ho iniziato gestendo piccoli forum su forumfree e altervista, finché non ho avuto l'occasione di applicare le mie conoscenze per la realizzazione di piccoli siti web che svolgevano la funzione di database.
@@ -106,12 +165,12 @@
 			 		In generale, mi ritengo un <b>purista</b> del codice, tant'è che mi piace lavorare senza framework e inoltre utilizzo prevalentemente <b>metodi procedurali</b> (e più occasionalmente quelli a oggetti).   
 				</p>
 				<br>
-				<h2><strong>//</strong> Sistemi Operativi / Raspberry / Arduino</h2>
+				<h2><strong>//</strong> <i class="fa fa-laptop"></i> Sistemi Operativi / Raspberry / Arduino</h2>
 				<p>
 			 		Sebbene non abbia mai effettuato corsi specifici utili all'apprendimento base dei sistemi operativi, posso affermare di sapermi muovere piuttosto bene in <b>Windows</b> e in modo discreto sulle distribuzioni <b>Linux</b>. 
 			 	</p>
 			 	<p>
-			 		Tra i sistemi Linux, ho avuto modo di operare su <b>Debian Server, Ubuntu Desktop e Raspbian</b>. Di questi sistemi operativi conosco perlopiù le basi (considerando che sono comunque in grado di configurare un pannello di controllo sul Web e collegarci un dominio internet).
+			 		Tra i sistemi Linux, ho avuto modo di operare su <b>Debian / Ubuntu Server e Raspbian</b>. Di questi sistemi operativi conosco perlopiù le basi (considerando che sono comunque in grado di configurare un pannello di controllo sul Web e collegarci un dominio internet).
 			 	</p>
 			 	<p>
 			 		Per quanto riguarda <b>Raspberry e Arduino</b>, ho realizzato piccoli circuiti molto basilari, giusto per avere una piccola infarinatura di elettronica. 
@@ -136,21 +195,21 @@
 		<article>
 			<div class="titolo">
 				<div class="scroll-3">
-					<h2>&raquo Education</h2>
+					<h2>Education</h2>
 					<img src="images/icons/edu.png">
 				</div>
 			</div>
 			<div class="contenuto">	
-				<h1>Educazione </h1>
+				<h1>Scuole, Università e lavori </h1>
 			 	
-				<h2><strong>//</strong> Università </h2>
+				<h2><strong>//</strong> <i class="fa fa-university"></i> Università </h2>
 				<p>
 					<strong>2016 - In Corso</strong> <br>
 					<span>Informatica, Università degli Studi di Padova</span> <br>
 					Padova (PD)
 				</p>
 
-			 	<h2><strong>//</strong> Diplomi </h2>
+			 	<h2><strong>//</strong> <i class="fa fa-graduation-cap"></i> Diplomi </h2>
 			 	<p>
 			 		<strong>2016</strong> <br>
 			 		<span>Diploma di Scuola Secondaria di Secondo Grado (Scuola Superiore)</span> <br>
@@ -162,20 +221,20 @@
 			 		Scuola Michelangelo / Jesolo (VE)
 			 	</p>	
 
-			 	<h2><strong>//</strong> Certificati </h2>		 	
+			 	<h2><strong>//</strong> <i class="fa fa-book"></i> Certificati </h2>		 	
 			 	<p>
 			 		<strong>2015</strong> <br>
 			 		<span>FCE - First Certificate of English (B2)</span>
 			 	</p>
 
-				<h2><strong>//</strong> Attestati </h2>		 	
+				<h2><strong>//</strong> <i class="fa fa-file"></i> Attestati </h2>		 	
 			 	<p>
 			 		<strong>Luglio 2015</strong> <br>
 			 		<span>Formazione dei Lavoratori</span>
 			 	</p> 	
 			 	<p>
 			 		<strong>Luglio 2015</strong> <br>
-			 		<span>Addetto al Primo Soccorso</span>
+			 		<span>Attestato di Primo Soccorso</span>
 			 	</p>
 		</article>
 	
@@ -198,43 +257,48 @@
 		<article>
 			<div class="titolo">
 				<div class="scroll-4">
-					<h2>&raquo Contacts</h2>
+					<h2>Contacts</h2>
 					<img src="images/icons/contacts.png">
 				</div>
 			</div>
 			<div class="contenuto">			
 				<h1>Contatti</h1> 
-			 	<h2><strong>//</strong> Social Networks </h2>
-			 	<p>
-			 		Puoi ricercarmi su:
-				</p>
+			 	<h2><strong>//</strong> <i class="fa fa-link"></i> Social Networks </h2>
 				<table class="contacts">
 					<tr>
-						<td><img src="images/icons/facebook.png"> <span class="tohide">Facebook</span></td>
+						<td><i class="fab fa-facebook-square"></i> <span class="tohide">Facebook</span></td>
 						<td>Mariano Sciacco</td>
 					</tr>			
 					<tr>
-						<td><img src="images/icons/twitter.png"> <span class="tohide">Twitter</span></td>
+						<td><i class="fab fa-twitter-square"></i> <span class="tohide">Twitter</span></td>
 						<td>@iMaxel27</td>
 					</tr>
 					<tr>
-						<td><img src="images/icons/skype.png"> <span class="tohide">Skype</span></td>
+						<td><i class="fab fa-discord"></i> <span class="tohide">Discord</span></td>
+						<td>Maxel#6107</td>
+					</tr>	
+					<tr>
+						<td><i class="fab fa-skype"></i> <span class="tohide">Skype</span></td>
 						<td>alan_west_27</td>
 					</tr>
 					<tr>
-						<td><img src="images/icons/youtube.png"> <span class="tohide">YouTube</span></td>
+						<td><i class="fab fa-github-square"></i> <span class="tohide">Github</span></td>
 						<td>iMaxel</td>
-					</tr>														
+					</tr>	
+					<tr>
+						<td><i class="fab fa-youtube"></i> <span class="tohide">YouTube</span></td>
+						<td>iMaxel</td>
+					</tr>													
 				</table>
 
-			 	<h2><strong>//</strong> Email </h2>
+			 	<h2><strong>//</strong> <i class="fa fa-envelope"></i> Email </h2>
 				<table class="contacts">
 					<tr>
-						<td><img src="images/icons/email.png"> <span class="tohide">Email Principale</span></td>
+						<td><i class="fa fa-at"></i> <span class="tohide">Principale</span></td>
 						<td>marianosciacco@gmail.com</td>
 					</tr>	
 					<tr>
-						<td><img src="images/icons/email2.png"> <span class="tohide">Email Secondaria</span></td>
+						<td><i class="fa fa-envelope-square"></i> <span class="tohide">Secondaria</span></td>
 						<td>maxelweb@gmail.com</td>
 					</tr>												
 				</table>
@@ -256,13 +320,13 @@
 	<div class="limiter">
 		<article>
 			<div class="titolo">
-				<h2>&raquo Portfolio</h2>
+				<h2>Portfolio</h2>
 				<img src="images/icons/portfolio.png">
 			</div>
 			
 			<div class="contenuto">		
 				<h1>Lavori e Progetti</h1> 
-				<h2><strong>//</strong> Websites</h2>
+				<h2><strong>//</strong> <i class="fa fa-link"></i> Websites</h2>
 
 				<p>In questa sezione sono esposti alcuni dei principali siti che ho realizzato. Per una lista più completa e aggiornata <a href="portfolio.php">clicca qui.</a></p>
 			</div>
@@ -320,4 +384,4 @@
 	</div>
 </section>
 
-<? include 'includes/template_footer.php'; ?>
+<?php include 'includes/template_footer.php'; ?>

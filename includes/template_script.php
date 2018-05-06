@@ -14,7 +14,7 @@
 	<script src="script/fadeInScroll.js"></script>
 	<script src="script/jquery-scrolltofixed.js"></script>
 	<script src="script/morphext.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+	<!--<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>-->
 
 	<script> 
 		$(document).ready(function() {
@@ -26,9 +26,10 @@
 				$('.fade').fadeInScroll();
 			});*/
 
+	/*
 
 	    window.cookieconsent_options = {"message":"Questo sito utilizza i cookie per assicurare la migliore esperienza di navigazione all'utente.","dismiss":"Ho capito!","learnMore":"Maggiori Informazioni sui Cookie e sulle condizioni d'uso.","link":"http://imaxel.net/terms","theme":"dark-bottom"};
-
+	*/
 
 
 		$(document).ready(function() {

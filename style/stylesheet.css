@@ -1,23 +1,10 @@
-/* 
-   | --------------------------------- |
+/*
 
-     Designed by Maxel (www.iMaxel.net)
+     Designed by Maxel (marianosciacco.it)
      
-     iMaxel.net - Stylesheet  
-     Versione: 1.2   
-     E' vietata la copia del CSS senza autorizzazione da parte del webdesigner stesso
+     MarianoSciacco.it - Stylesheet  
+     Version: 1.3
 
- 
-           |||||         |||||                                                              |||||                                                     |||
-           ||| ||       || |||                                                              |||               |||                                     |||
-      |||  |||  ||     ||  |||   ||||||||||||||||  |||        |||   ||||||||||||||||||      |||               |||                |||||||||||||||    |||||||||||||
-      |||  |||   ||  ||    |||               ||||    |||    |||     |||            |||      |||               |||||||||||||||    |||         |||      |||
-      |||  |||     ||      |||               ||||      |||||        |||            |||      |||               |||         |||    |||         |||      |||
-      |||  |||             |||    |||||||||||||||      |||||        ||||||||||||||||||      |||               |||         |||    |||||||||||||||      |||
-      |||  |||             |||    |||        ||||    |||    |||     |||                     |||      ||||     |||         |||    |||                  |||
-      |||  |||             |||    |||||||||||||||  |||        |||   ||||||||||||||||||      |||      ||||     |||         |||    |||||||||||||||      ||||||||||||     
-
-   | --------------------------------- |
 */
 
 @import url("main.css");
@@ -25,3 +12,4 @@
 @import url("mobile.css");
 @import url("morphext.css");
 @import url("animate.css");
+@import url("timeline.css");

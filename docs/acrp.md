@@ -1,9 +1,6 @@
----
-description: "Atlantis City Roleplay"
----
-
-
 ## Atlantis (City) Roleplay \[2011 - 2017\]
+
+### [Torna indietro]()
 
 Atlantis (City) Roleplay era una community italiana di **San Andreas Multiplayer (SA-MP)**, nota mod multiplayer non ufficiale di Grand Theft Auto: San Andreas. All'interno di questo gioco si simulava la vita reale impersonando i ruoli di una società moderna quali poliziotto, criminale, civile disoccupato, medico, pompiere, tassista e via dicendo.
 
@@ -35,7 +32,7 @@ La peculitarità di questi siti stava nel fatto che ciascuno era sviluppato in m
 
 La struttura dei siti era molto semplice. Se stilassimo una mappa del sito verrebbe nella maggior parte dei casi una cosa del genere:
 
-![](images/portfolio/database-structure.png)
+![](https://marianosciacco.it/images/portfolio/database-structure.png)
 
 -   Partendo dal basso, troviamo la **Visitor Area** che è la zona adibita ai visitatori, solitamente con poche pagine da poter vedere, tra cui la zona di registrazione e accesso al sito.
 -   Nella parte centrale c'è il fulcro del sistema: la **User & Moderator Area** in cui gli utenti e i moderatori adoperavano le tabelle piene di dati come ad esempio Fedine Penali, Veicoli Sequestrati, Lezioni di guida effettuate, Richiami alla patente, Visite mediche effettuate e tante altre cose.
@@ -45,7 +42,7 @@ La struttura dei siti era molto semplice. Se stilassimo una mappa del sito verre
 
 Diversamente, i portali web avevano una struttura leggermente differente essendo indirizzati appunto ad essere siti di notizie e informazioni per i visitatori.
 
-![](images/portfolio/portal-structure.png)
+![](https://marianosciacco.it/images/portfolio/portal-structure.png)
 
 -   Troviamo infatti la **admin area** e la **visitor area** che assumono maggiore centralità, mentre l'area utente viene completamente rimossa. Difatti dalla admin area è possibile accedere alle funzioni di gestione delle news la quale, nella maggior parte dei casi, era sviluppata in maniera molto elementare e con giusto un paio di funzioni di controllo (logs).
 -   Ciò che balzava sicuramente all'occhio era ovviamente la maggior accuratezza per quanto riguarda il design, dal momento che tutti i miei progetti si rifanno a fogli di stile CSS completamente sviluppati ex novo. Questo per mettere a disposizione del visitatore le informazioni disponibili con maggior piacere di navigazione web.

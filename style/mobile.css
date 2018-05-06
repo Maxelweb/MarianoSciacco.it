@@ -1,0 +1,113 @@
+/* -------------------------------------------------------
+
+     Designed by Maxel (www.iMaxel.net)
+     
+     iMaxel.net
+     File: mobile.css   
+     Versione: 1.0         
+      
+  --------------------------------------------------------- 
+*/
+
+/*  ====================== MEDIA QUERY 1  ======================  */
+
+@media only screen and (min-width:150px) and (max-width:799px) {
+        
+    body {color: #000;font-size: 14px;font-style: normal;font-variant: normal;margin: 0;padding: 0;min-width: 150px; }    
+    body img{ max-width: 50%;} 
+    #top-header{ min-height: 20px; height: auto; padding: 5px; width: auto;}      
+    header {width: 100%; min-width: 310px; margin: 0px auto;padding: 0px 0px;height: auto;position: relative;}
+    #navbar-header{display: none;}
+    #mobile-navbar{display: block;}
+    #logo-footer img{ max-width: 85%;}
+    #logo-header { background-position: -3px 6px; }
+    .limiter{width: auto; padding: 0 !important;} 
+    #wrapper { width: 100%; min-width: 150px; margin: 0 auto; padding: 0px; -webkit-box-shadow: 0 0 0 0 #999; -moz-box-shadow: 0 0 0 0 #999; }
+    #wrapper img { max-width: 50%;} 
+    footer{ width: 100%; padding-bottom: 20px; height: auto; }
+    footer .footer-logo, footer .footer-text{ float: none; }
+    #navbar-footer, #info-footer, #logo-footer {width: auto;}
+    #info-footer{ border: none; border-top: 4px solid #114A74; border-bottom: 4px solid #114A74;}
+    section#ads{ display: none;}
+    section#name div.desc {line-height: 45px; font-size: 24px;}
+    section#name div.image {width: auto;}
+    section#name div.name {font-size: 40px; line-height: 50px;}
+    section div.box-option {width: 250px; height: 250px; margin: 30px auto;}
+    .titolo, .contenuto { float: none !important; width: 100% !important; }
+    .contenuto p { text-align: justify; line-height: 35px; }
+    table td{ word-break: break-all; }
+    table span.tohide{ display: none; }
+    article { margin: 0 auto;}
+    .fright, .fleft{ float: none; }
+}
+
+/*  ====================== MEDIA QUERY 2  ======================  */
+
+@media only screen and (orientation:portrait) and (min-width:321px) {
+    
+    body {color: #000;font-size: 14px;font-style: normal;font-variant: normal;margin: 0;padding: 0;min-width: 321px; }    
+    body img{ max-width: 50%;} 
+    #top-header{ min-height: 20px; height: auto; padding: 5px; width: auto;}      
+    header {width: 100%; min-width: 310px; margin: 0px auto;padding: 0px 0px;height: auto;position: relative;}
+    #navbar-header{display: none;}
+    #mobile-navbar{display: block;}
+    #logo-footer img{ max-width: 85%;}
+    #logo-header { background-position: -15px 6px; }
+    .limiter{width: auto;} 
+    #wrapper { width: 100%; min-width: 310px; margin: 0 auto; padding: 0px; -webkit-box-shadow: 0 0 0 0 #999; -moz-box-shadow: 0 0 0 0 #999; }
+    #wrapper img { max-width: 50%;} 
+    footer{ width: 100%; height: auto; padding-bottom: 20px; height: auto;  }
+    footer .footer-logo, footer .footer-text{ float: none;  width: auto; }
+    #navbar-footer, #info-footer, #logo-footer {width: auto;}
+    #info-footer{ border: none; border-top: 4px solid #114A74; border-bottom: 4px solid #114A74;}
+    section#ads{ display: none;}
+    section#name div.desc {line-height: 45px;}
+    section#name div.image {width: auto;}
+    section#name div.name {font-size: 23px;}
+    section div.box-option {width: 300px;}
+    .titolo, .contenuto { float: none; width: 100%; }
+    .contenuto p { text-align: justify; line-height: 35px; }
+    table td{ word-break: break-all; }
+    table span.tohide{ display: none; }
+    article { margin: 0 auto;}
+}
+
+/*  ======================  MEDIA QUERY 3  ====================== */
+
+@media only screen and (max-width: 1175px) and (min-width: 800px) {     
+  
+    body {color: #000;font-size: 14px;font-style: normal;font-variant: normal;margin: 0;padding: 0;min-width: 800px; }    
+    body img{ max-width: 50%;} 
+    #top-header{ min-height: 20px; height: auto; padding: 5px; width: auto; }      
+    header {width: 100%; min-width: 310px; margin: 0px auto;padding: 0px 0px;height: auto;position: relative;}
+    .link-header{margin: 0 8px !important; padding: 15px !important;}
+    .url-list{ margin: 7px 0 0 !important; }
+    header#header .limiter{ width: 96%; }
+    #logo-footer img{ max-width: 85%;}
+    #logo-header { background-position: -15px 6px; }
+    .limiter{width: auto;} 
+    #wrapper { width: 100%; min-width: 310px; margin: 0 auto; padding: 0px; -webkit-box-shadow: 0 0 0 0 #999; -moz-box-shadow: 0 0 0 0 #999; }
+    #wrapper img { max-width: 50%;} 
+    footer{ width: 100%; height: auto; padding-bottom: 20px; height: auto; }
+    footer .footer-logo, footer .footer-text{ float: none; }
+    #navbar-footer, #info-footer, #logo-footer {width: auto; width: auto;}
+    #info-footer{ border: none; border-top: 4px solid #114A74; border-bottom: 4px solid #114A74;}
+    section#name div.desc {line-height: 45px;}
+    section#name div.image {width: auto;}
+    section#name div.name {font-size: 40px; line-height: 50px;}
+    section div.box-option {width: 300px;}
+    .titolo, .contenuto { float: none; width: 100%; }
+    .contenuto p { text-align: justify; line-height: 35px; }
+    table td{ word-break: break-all; }
+    table span.tohide{ display: none; }
+    article { margin: 0 auto;}
+}
+
+/*  ======================  MEDIA QUERY 3  ====================== */
+
+@media (min-width: 1280px){     
+  
+    #navbar-header .url-list a.link-header{ margin: 0 35px 0 35px; }
+}
+
+

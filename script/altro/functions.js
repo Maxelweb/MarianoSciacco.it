@@ -1,0 +1,10 @@
+
+	/*
+
+		Funzioni Javascript
+
+		iMaxel.net
+
+	*/
+
+

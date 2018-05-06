@@ -1,7 +1,6 @@
 
-# 📋 News
-#### 📅 Ultimo aggiornamento: 06 maggio 2018
-### [🔙 Torna indietro](./)
+# 📋 News e aggiornamenti
+#### [← Torna indietro](./)
 
 ---
 

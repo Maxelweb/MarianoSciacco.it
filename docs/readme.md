@@ -1,4 +1,4 @@
-## (Vai alle News e Aggiornamenti 📋)[news]
+## [Vai alle News e Aggiornamenti 📋](news)
 
 ---
 

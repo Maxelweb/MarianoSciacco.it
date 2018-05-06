@@ -1,4 +1,4 @@
-!()[https://marianosciacco.it/images/logo.png]
+![](https://marianosciacco.it/images/logo.png)
 
 
 ## Github repository

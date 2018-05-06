@@ -1,3 +1,4 @@
-name: "Mariano Sciacco - Github Repo & Projects"
-description: "Github Repo & Projects"
+title: "Mariano Sciacco - Git"
+description: "Github Repositories & Projects"
 theme: jekyll-theme-cayman
+show_downloads: false

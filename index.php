@@ -104,6 +104,12 @@
 		      <p>Pubblicazione progetto inglese <b><a href="http://src.debug.ovh">Server Remote Console for SA-MP</a></b>.</p>
 		    </div>
 		  </div>
+		  <div class="container left">
+		    <div class="content">
+		      <h2><i class="fa fa-book"></i> Maggio 2018</h2>
+		      <p>Pubblicazione tema per forum PHPBB 3.1 e 3.2 - <b><a href="http://pw.marianosciacco.it">ProfessionalWeb</a></b>.</p>
+		    </div>
+		  </div>
 		</div>
 	</div>
 </section>

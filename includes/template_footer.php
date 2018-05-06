@@ -12,7 +12,7 @@
 				</div>
 				<div class="footer-text">
 					<p>
-						Sito Web realizzato completamente da <b>Mariano Sciacco</b>. Il sorgente di questo sito web è possibile trovarlo su <a href="https://github.com/MarianoSciacco.it">Github <i class="fab fa-github"></i></a>.  
+						Sito Web realizzato completamente da <b>Mariano Sciacco</b>. Il sorgente di questo sito web è possibile trovarlo su <a href="http://this.marianosciacco.it">Github</a> <i class="fab fa-github"></i>.  
 						<br>Ultimo aggiornamento: <u>Maggio 2018</u>.
 						<a href="mailto:marianosciacco@gmail.com">Contatta il proprietario del sito.</a>
 					</p>

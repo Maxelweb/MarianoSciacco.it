@@ -1,4 +1,16 @@
-<?php include 'includes/template_header.php'; //#4B97B3 ?>
+<?php
+
+/*
+ *
+ *  Personal Web Page - MarianoSciacco.it
+ *  PHP - main index
+ *  
+ *  Developed by Maxel
+ *  Github - this.marianosciacco.it
+ *
+ */
+
+ include 'includes/template_header.php'; //#4B97B3 ?>
 
 
 <section id="name">
@@ -20,7 +32,7 @@
 				</div>
 			</div>
 			<div class="contenuto">
-				<h1>Mariano Sciacco, I'm Maxel</h1> 
+				<h1>Mariano Sciacco, Maxel</h1> 
 				<h2><strong>//</strong> <i class="fa fa-user"></i> Web Developer / Programmer</h2>
 				<p>	
 					Ciao, sono Mariano Sciacco, in arte Maxel. 
@@ -93,38 +105,6 @@
 		    </div>
 		  </div>
 		</div>
-		<!--
-		<article>
-			<div class="list-box-option clearfix">
-				
-				<div class="box-option box-about">
-					<div class="box-text">
-						<a href="#about">Chi sono</a>
-					</div>
-				</div>
-			
-				<div class="box-option box-blog">
-					<div class="box-text">
-						<a href="http://blog.imaxel.net">News</a>
-					</div>
-				</div>
-				
-				<div class="box-option box-contacts">
-					<div class="box-text">
-						<a href="#contacts">Contatti</a>
-					</div>
-				</div>
-				
-				<div class="box-option box-portfolio">
-					<div class="box-text">
-						<a href="#portfolio">Portfolio</a>
-					</div>
-				</div>
-
-			</div>
-		</article>
-		-->
-
 	</div>
 </section>
 
@@ -204,7 +184,7 @@
 			 	
 				<h2><strong>//</strong> <i class="fa fa-university"></i> Università </h2>
 				<p>
-					<strong>2016 - In Corso</strong> <br>
+					<strong>2016 - In corso</strong> <br>
 					<span>Informatica, Università degli Studi di Padova</span> <br>
 					Padova (PD)
 				</p>
@@ -252,18 +232,32 @@
 	<div class="limiter">
 		<article>
 			<div class="titolo">
-				<h2>Portfolio</h2>
-				<img src="images/icons/portfolio.png">
+				<div class="scroll-4">
+					<h2>Portfolio</h2>
+					<img src="images/icons/portfolio.png">
+				</div>
 			</div>
 			
 			<div class="contenuto">		
 				<h1>Lavori e Progetti</h1> 
+				<h2><strong>//</strong> <i class="fa fa-book"></i> Pubblicazioni</h2>
+				<p>Tutte le pubblicazioni da me rilasciate possono essere visionate al seguente indirizzo:
+					<a href="http://dev.marianosciacco.it/publications">dev.marianosciacco.it/publications</a>
+				</p>
+				<h2><strong>//</strong> <i class="fa fa-users-cog"></i> Progetti</h2>
+				<p>Tutti i progetti attivi, conclusi o abbandonati sono riassunti al seguente indirizzo:
+					<a href="http://dev.marianosciacco.it">dev.marianosciacco.it</a>
+				</p>
+				<br>
 				<h2><strong>//</strong> <i class="fa fa-link"></i> Websites</h2>
-
-				<p>Di seguito sono esposti alcuni dei principali siti che ho realizzato.</p>
+				<p>Di seguito sono esposti alcuni dei principali siti che ho realizzato. Per maggiori informazioni, <a href="http://dev.marianosciacco.it">clicca qui</a>.
+				</p>
 			</div>
 		
 		</article>
+
+		<div class="limit-4"></div>
+
 		<article>	
 			<div class="list-box-option">
 				
@@ -285,36 +279,19 @@
 					</div>				
 				</div>	
 
-
 				<div class="box-option box-lspd">
 					<div class="box-text">
 						<a href="http://dev.marianosciacco.it/acrp">LSPD (Portale)</a>
 					</div>				
 				</div>
 
-				<div class="box-option box-training">
-					<div class="box-text">
-						<a href="http://dev.marianosciacco.it/acrp">LSPD Training (UCP)</a>
-					</div>				
-				</div>	
-
-				<div class="box-option box-skillers">
-					<div class="box-text">
-						<a href="http://dev.marianosciacco.it">Skillers Gaming (Blog)</a>
-					</div>				
-				</div>				
-
-				<div class="box-option box-ext">
-					<div class="box-text">
-						<a href="http://dev.marianosciacco.it">&raquo Continua..</a>
-					</div>				
-				</div>			
-
 			</div>
 		</article>
 
 	</div>
 </section>
+
+
 
 <section id="divider">
 	<div class="limiter"></div>
@@ -325,7 +302,7 @@
 
 		<article>
 			<div class="titolo">
-				<div class="scroll-4">
+				<div class="scroll-5">
 					<h2>Contacts</h2>
 					<img src="images/icons/contacts.png">
 				</div>
@@ -340,24 +317,28 @@
 					</tr>			
 					<tr>
 						<td><i class="fab fa-twitter-square"></i> <span class="tohide">Twitter</span></td>
-						<td>@iMaxel27</td>
+						<td><a href="https://twitter.com/iMaxel27">@iMaxel27</a></td>
 					</tr>
 					<tr>
 						<td><i class="fab fa-discord"></i> <span class="tohide">Discord</span></td>
 						<td>Maxel#6107</td>
 					</tr>	
 					<tr>
+						<td><i class="fab fa-github-square"></i> <span class="tohide">Github</span></td>
+						<td><a href="http://git.marianosciacco.it">Maxelweb</a></td>
+					</tr>	
+					<tr>
 						<td><i class="fab fa-skype"></i> <span class="tohide">Skype</span></td>
 						<td>alan_west_27</td>
 					</tr>
 					<tr>
-						<td><i class="fab fa-github-square"></i> <span class="tohide">Github</span></td>
-						<td>iMaxel</td>
-					</tr>	
-					<tr>
 						<td><i class="fab fa-youtube"></i> <span class="tohide">YouTube</span></td>
 						<td>iMaxel</td>
-					</tr>													
+					</tr>
+					<tr>
+						<td><i class="fa fa-image"></i> <span class="tohide">Imgur</span></td>
+						<td><a href="https://imaxel.imgur.com/">iMaxel</a></td>
+					</tr>					
 				</table>
 
 			 	<h2><strong>//</strong> <i class="fa fa-envelope"></i> Email </h2>
@@ -371,20 +352,14 @@
 						<td>maxelweb@gmail.com</td>
 					</tr>												
 				</table>
+
 			</div>
 		</article>
 
-	<div class="limit-4"></div>
+	<div class="limit-5"></div>
 
 	</div>
 </section>
-
-<section id="divider">
-	<div class="limiter">
-	
-	</div>
-</section>
-
 
 
 <?php include 'includes/template_footer.php'; ?>

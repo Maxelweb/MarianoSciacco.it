@@ -1,3 +1,13 @@
+<!--
+ *
+ *
+ *  Personal Web Page - MarianoSciacco.it
+ *  
+ *  Developed by Maxel
+ *  Github - this.marianosciacco.it
+ *
+ *-->
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -26,21 +36,22 @@
 					<div id="navbar-header">
 							<div class="url-list">
 								<span class="dropdown">
-									<a href="#about" class="link-header">About Me <span class="caret-down"></span></a>
+									<a href="#about" class="link-header"><i class="fa fa-user"></i> About Me <span class="caret-down"></span></a>
 									<div class="dropdown-content">
-										<a href="index.php#skills">Skillset</a>
-										<a href="index.php#edu">Education</a>
-										<a href="index.php#portfolio">Portfolio</a>
+										<a href="index.php#skills"><i class="fa fa-user-cog"></i> Skillset</a>
+										<a href="index.php#edu"><i class="fa fa-graduation-cap"></i> Education</a>
+										<a href="index.php#portfolio"><i class="fa fa-copy"></i> Portfolio</a>
+										<a href="http://dev.marianosciacco.it/publications"><i class="fa fa-book"></i> Publications</a>
 									</div>
 								</span>
-								<a href="http://dev.marianosciacco.it" class="link-header">Portfolio</a>
+								<a href="http://dev.marianosciacco.it" class="link-header"><i class="fa fa-copy"></i> Portfolio</a>
 							</div>			
 					</div>
 					<div id="logo-header" class="cursor logo hide" onclick="location.replace('index.php')"></div>					
 					<div id="navbar-header">
 							<div class="url-list">
-								<a href="http://dev.marianosciacco.it/news" class="link-header">News &amp; Updates</a>
-								<a href="index.php#contacts" class="link-header">Contacts</a>
+								<a href="http://dev.marianosciacco.it/news" class="link-header"><i class="fa fa-newspaper"></i> News &amp; Updates</a>
+								<a href="index.php#contacts" class="link-header"><i class="fa fa-envelope"></i> Contacts</a>
 							</div>				
 					</div>
 
@@ -52,13 +63,14 @@
 					<a href="index">Homepage</a>
 					<a href="#" onclick="displayId('menu-mobile')">Menù ☰</a>
 					<div id="menu-mobile" class="tleft" style="display:none">
-						<a href="index.php#about">&raquo; About Me</a>
-						<a href="index.php#skills">&raquo; Skillset</a>
-						<a href="index.php#edu">&raquo; Education</a>
-						<a href="http://git.marianosciacco.it">&raquo; Portfolio</a>
-						<a href="index.php#contacts">&raquo; Contacts</a>
+						<a href="index.php#about"><i class="fa fa-user"></i> About Me</a>
+						<a href="index.php#skills"><i class="fa fa-user-cog"></i> Skillset</a>
+						<a href="index.php#edu"><i class="fa fa-graduation-cap"></i> Education</a>
+						<a href="http://dev.marianosciacco.it/publications"><i class="fa fa-book"></i> Publications</a>
+						<a href="http://dev.marianosciacco.it"><i class="fa fa-copy"></i> Portfolio</a>
+						<a href="index.php#contacts"><i class="fa fa-envelope"></i> Contacts</a>
 					</div>						
-					<a href="http://dev.marianosciacco.it/news">News &amp; Updates</a>
+					<a href="http://dev.marianosciacco.it/news"><i class="fa fa-newspaper"></i> News &amp; Updates</a>
 				</div>
 			</div>
 			

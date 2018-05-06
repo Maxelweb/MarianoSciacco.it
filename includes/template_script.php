@@ -1,11 +1,15 @@
 
 	<?php
 	
-		/*
-	
-			Script in JS
-
-		*/
+/*
+ *
+ *  Personal Web Page - MarianoSciacco.it
+ *  HTML JS - Javascripts
+ *  
+ *  Developed by Maxel
+ *  Github - this.marianosciacco.it
+ *
+ */
 	
 	?>
 
@@ -39,6 +43,7 @@
 			  $('.scroll-2').scrollToFixed({ marginTop: 10, limit: $('.limit-2').offset().top - 220 });
 			  $('.scroll-3').scrollToFixed({ marginTop: 10, limit: $('.limit-3').offset().top - 220 });
 			  $('.scroll-4').scrollToFixed({ marginTop: 10, limit: $('.limit-4').offset().top - 220 });
+			  $('.scroll-5').scrollToFixed({ marginTop: 10, limit: $('.limit-5').offset().top - 220 });
 			}
 
 		});

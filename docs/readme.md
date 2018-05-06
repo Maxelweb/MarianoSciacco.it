@@ -6,7 +6,7 @@
 
 ### Github repository
 
-Puoi trovare la maggior parte dei miei lavori pubblicati su [Github/Maxelweb](https://github.com/Maxelweb/).
+Puoi trovare alcuni dei miei lavori pubblicati su [Github/Maxelweb](https://github.com/Maxelweb/).
 
 
 ### Progetti attivi (4)
@@ -35,5 +35,9 @@ sistema avanzato di controllo per gli admin, gestione background dei personaggi 
 - **BlogFix:** Piccolo blog CMS per la pubblicazione di news.
 - **BitUpload:** sito web per il caricamento e la gestione di piccoli file in stile mega
 
+---
 
-![Logo](https://marianosciacco.it/images/favicon.png) [Torna a marianosciacco.it](https://marianosciacco.it)
+
+![Logo](https://marianosciacco.it/images/favicon.png) 
+
+[Torna a marianosciacco.it](https://marianosciacco.it)

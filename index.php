@@ -245,11 +245,80 @@
 
 
 <section id="divider">
+	<div class="limiter"></div>
+</section>
+
+<section id="portfolio">
 	<div class="limiter">
+		<article>
+			<div class="titolo">
+				<h2>Portfolio</h2>
+				<img src="images/icons/portfolio.png">
+			</div>
+			
+			<div class="contenuto">		
+				<h1>Lavori e Progetti</h1> 
+				<h2><strong>//</strong> <i class="fa fa-link"></i> Websites</h2>
+
+				<p>Di seguito sono esposti alcuni dei principali siti che ho realizzato.</p>
+			</div>
+		
+		</article>
+		<article>	
+			<div class="list-box-option">
+				
+				<div class="box-option box-atlantisbook">
+					<div class="box-text">
+						<a href="http://dev.marianosciacco.it/acrp">Social Network</a>
+					</div>				
+				</div>
+
+				<div class="box-option box-ls">
+					<div class="box-text">
+						<a href="http://dev.marianosciacco.it/acrp">Los Santos City</a>
+					</div>				
+				</div>
+
+				<div class="box-option box-sadoc">
+					<div class="box-text">
+						<a href="http://dev.marianosciacco.it/acrp">SADoC (Database)</a>
+					</div>				
+				</div>	
+
+
+				<div class="box-option box-lspd">
+					<div class="box-text">
+						<a href="http://dev.marianosciacco.it/acrp">LSPD (Portale)</a>
+					</div>				
+				</div>
+
+				<div class="box-option box-training">
+					<div class="box-text">
+						<a href="http://dev.marianosciacco.it/acrp">LSPD Training (UCP)</a>
+					</div>				
+				</div>	
+
+				<div class="box-option box-skillers">
+					<div class="box-text">
+						<a href="http://dev.marianosciacco.it">Skillers Gaming (Blog)</a>
+					</div>				
+				</div>				
+
+				<div class="box-option box-ext">
+					<div class="box-text">
+						<a href="http://dev.marianosciacco.it">&raquo Continua..</a>
+					</div>				
+				</div>			
+
+			</div>
+		</article>
 
 	</div>
 </section>
 
+<section id="divider">
+	<div class="limiter"></div>
+</section>
 
 <section id="contacts">
 	<div class="limiter">
@@ -316,72 +385,6 @@
 	</div>
 </section>
 
-<section id="portfolio">
-	<div class="limiter">
-		<article>
-			<div class="titolo">
-				<h2>Portfolio</h2>
-				<img src="images/icons/portfolio.png">
-			</div>
-			
-			<div class="contenuto">		
-				<h1>Lavori e Progetti</h1> 
-				<h2><strong>//</strong> <i class="fa fa-link"></i> Websites</h2>
 
-				<p>In questa sezione sono esposti alcuni dei principali siti che ho realizzato. Per una lista più completa e aggiornata <a href="portfolio.php">clicca qui.</a></p>
-			</div>
-		
-		</article>
-		<article>	
-			<div class="list-box-option">
-				
-				<div class="box-option box-atlantisbook">
-					<div class="box-text">
-						<a href="//atlantisbook.lscity.org">Social Network</a>
-					</div>				
-				</div>
-
-				<div class="box-option box-ls">
-					<div class="box-text">
-						<a href="//lscity.org">Los Santos City (Portale)</a>
-					</div>				
-				</div>
-
-				<div class="box-option box-sadoc">
-					<div class="box-text">
-						<a href="//sadoc.lscity.org">SADoC (Database)</a>
-					</div>				
-				</div>	
-
-
-				<div class="box-option box-lspd">
-					<div class="box-text">
-						<a href="//pd.lscity.org/site">LSPD (Portale)</a>
-					</div>				
-				</div>
-
-				<div class="box-option box-training">
-					<div class="box-text">
-						<a href="//pd.lscity.org">LSPD Training (UCP)</a>
-					</div>				
-				</div>	
-
-				<div class="box-option box-skillers">
-					<div class="box-text">
-						<a href="//skillersgaming.altervista.org">Skillers Gaming (Blog)</a>
-					</div>				
-				</div>				
-
-				<div class="box-option box-ext">
-					<div class="box-text">
-						<a href="portfolio.php">&raquo Continua..</a>
-					</div>				
-				</div>			
-
-			</div>
-		</article>
-
-	</div>
-</section>
 
 <?php include 'includes/template_footer.php'; ?>

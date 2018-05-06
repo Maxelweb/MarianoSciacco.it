@@ -33,13 +33,13 @@
 										<a href="index.php#portfolio">Portfolio</a>
 									</div>
 								</span>
-								<a href="http://git.marianosciacco.it" class="link-header">Portfolio</a>
+								<a href="http://dev.marianosciacco.it" class="link-header">Portfolio</a>
 							</div>			
 					</div>
 					<div id="logo-header" class="cursor logo hide" onclick="location.replace('index.php')"></div>					
 					<div id="navbar-header">
 							<div class="url-list">
-								<a href="http://git.marianosciacco.it/news" class="link-header">News & Updates</a>
+								<a href="http://dev.marianosciacco.it/news" class="link-header">News &amp; Updates</a>
 								<a href="index.php#contacts" class="link-header">Contacts</a>
 							</div>				
 					</div>
@@ -52,13 +52,13 @@
 					<a href="index">Homepage</a>
 					<a href="#" onclick="displayId('menu-mobile')">Menù ☰</a>
 					<div id="menu-mobile" class="tleft" style="display:none">
-						<a href="index.php#about">&raquo About Me</a>
-						<a href="index.php#skills">&raquo Skillset</a>
-						<a href="index.php#edu">&raquo Education</a>
-						<a href="http://git.marianosciacco.it">&raquo Portfolio</a>
-						<a href="index.php#contacts">&raquo Contacts</a>
+						<a href="index.php#about">&raquo; About Me</a>
+						<a href="index.php#skills">&raquo; Skillset</a>
+						<a href="index.php#edu">&raquo; Education</a>
+						<a href="http://git.marianosciacco.it">&raquo; Portfolio</a>
+						<a href="index.php#contacts">&raquo; Contacts</a>
 					</div>						
-					<a href="http://git.marianosciacco.it/news">News & Updates</a>
+					<a href="http://dev.marianosciacco.it/news">News &amp; Updates</a>
 				</div>
 			</div>
 			

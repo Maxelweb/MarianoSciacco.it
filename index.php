@@ -113,7 +113,7 @@
 		  <div class="container right">
 		    <div class="content">
 		      <h2><i class="fa fa-book"></i> Maggio 2018</h2>
-		      <p>Pubblicazione progetto universitario per il corso di Automi e Linguaggi Formali - <b><a href="http://swl.debug.ovh">SWL Parser</a></b> in collaborazione con Gianmarco Pettinato.</p>
+		      <p>Pubblicazione progetto universitario per il corso di Automi e Linguaggi Formali - <b><a href="http://swl.marianosciacco.it">SWL Parser</a></b> in collaborazione con Gianmarco Pettinato.</p>
 		    </div>
 		  </div>
 		</div>

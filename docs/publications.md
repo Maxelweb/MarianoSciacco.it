@@ -22,3 +22,9 @@
 ### 📌 [ProfessionalWeb](http://pw.marianosciacco.it) - 📅 maggio 2018
 
 > Tema per la piattaforma forum PHPBB (3.1 e 3.2), derivato di prosilver.
+
+
+### 📌 [SWL Parser](http://swl.marianosciacco.it) - 📅 maggio 2018
+
+> Simple While Language Parser - Progetto universitario di Automi e Linguaggi Formali. 
+Traduttore dal linguaggio SWL (inventato) al linguaggio C++.

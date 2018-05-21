@@ -110,6 +110,12 @@
 		      <p>Pubblicazione tema per forum PHPBB 3.1 e 3.2 - <b><a href="http://pw.marianosciacco.it">ProfessionalWeb</a></b>.</p>
 		    </div>
 		  </div>
+		  <div class="container right">
+		    <div class="content">
+		      <h2><i class="fa fa-book"></i> Maggio 2018</h2>
+		      <p>Pubblicazione progetto universitario per il corso di Automi e Linguaggi Formali - <b><a href="http://swl.debug.ovh">SWL Parser</a></b> in collaborazione con Gianmarco Pettinato.</p>
+		    </div>
+		  </div>
 		</div>
 	</div>
 </section>
@@ -315,7 +321,7 @@
 			</div>
 			<div class="contenuto">			
 				<h1>Contatti</h1> 
-			 	<h2><strong>//</strong> <i class="fa fa-link"></i> Social Networks </h2>
+			 	<h2><strong>//</strong> <i class="fa fa-link"></i> Social Network </h2>
 				<table class="contacts">
 					<tr>
 						<td><i class="fab fa-facebook-square"></i> <span class="tohide">Facebook</span></td>
@@ -323,7 +329,7 @@
 					</tr>			
 					<tr>
 						<td><i class="fab fa-twitter-square"></i> <span class="tohide">Twitter</span></td>
-						<td><a href="https://twitter.com/iMaxel27">@iMaxel27</a></td>
+						<td><a href="https://twitter.com/Maxelweb">@Maxelweb</a></td>
 					</tr>
 					<tr>
 						<td><i class="fab fa-discord"></i> <span class="tohide">Discord</span></td>
@@ -343,7 +349,7 @@
 					</tr>
 					<tr>
 						<td><i class="fa fa-image"></i> <span class="tohide">Imgur</span></td>
-						<td><a href="https://imaxel.imgur.com/">iMaxel</a></td>
+						<td><a href="https://maxelweb.imgur.com/">Maxelweb</a></td>
 					</tr>					
 				</table>
 

@@ -6,7 +6,7 @@
 
 ### 📌 [Guida al progetto di Tecnologie Web](http://public.marianosciacco.it/guida_tecweb_unipd.pdf) - 📅 marzo 2019
 
-> Guida al progetto di Tecnologie Web 
+> Sic et Simpliciter, Guida al progetto di Tecnologie Web 
 In questa guida, scritta in Latex, vengono raccolti tutti i consigli e i suggerimenti per realizzare un buon progetto di Tecnologie Web. Guida scritta interamente da Mariano Sciacco.
 
 

@@ -89,31 +89,26 @@
 		  <div class="container right">
 		    <div class="content">
 		      <h2><i class="fa fa-book"></i> Febbraio 2018</h2>
-		      <p>Pubblicazione progetto universitario per il corso di <b><a href="https://github.com/Maxelweb/qBreakDatabaseUNIPD">Base di Dati</a></b> in collaborazione con Enrico Buratto.</p>
-		    </div>
-		  </div>
-		  <div class="container left">
-		    <div class="content">
-		      <h2><i class="fa fa-users-cog"></i> Aprile 2018</h2>
-		      <p>Inizio progetto di SA-MP italia: <b><a href="https://lscity.org">LS City Roleplay</a></b>.</p>
-		    </div>
-		  </div>
-		  <div class="container right">
-		    <div class="content">
-		      <h2><i class="fa fa-book"></i> Maggio 2018</h2>
-		      <p>Pubblicazione progetto inglese <b><a href="http://src.debug.ovh">Server Remote Console for SA-MP</a></b>.</p>
+		      <p>Completamento e pubblicazione relazione progetto universitario per il corso di <b><a href="https://github.com/Maxelweb/qBreakDatabaseUNIPD">Base di Dati</a></b> in collaborazione con Enrico Buratto.</p>
 		    </div>
 		  </div>
 		  <div class="container left">
 		    <div class="content">
 		      <h2><i class="fa fa-book"></i> Maggio 2018</h2>
-		      <p>Pubblicazione tema per forum PHPBB 3.1 e 3.2 - <b><a href="http://pw.marianosciacco.it">ProfessionalWeb</a></b>.</p>
+		      <p>Primo rilascio software inglese <b><a href="http://src.debug.ovh">Server Remote Console for SA-MP</a></b> per la gestione remota di un server di gioco.</p>
 		    </div>
 		  </div>
 		  <div class="container right">
 		    <div class="content">
 		      <h2><i class="fa fa-book"></i> Maggio 2018</h2>
-		      <p>Pubblicazione progetto universitario per il corso di Automi e Linguaggi Formali - <b><a href="http://swl.marianosciacco.it">SWL Parser</a></b> in collaborazione con Gianmarco Pettinato.</p>
+		      <p>Completamento e pubblicazione del progetto universitario per il corso di Automi e Linguaggi Formali - <b><a href="http://swl.marianosciacco.it">SWL Parser</a></b> in collaborazione con Gianmarco Pettinato.</p>
+		    </div>
+		  </div>
+		  <div class="container right">
+		    <div class="content">
+		      <h2><i class="fa fa-book"></i> Marzo 2019</h2>
+		      <p>Completamento e pubblicazione relazione progetto universitario per il corso di <b><a href="http://tecweb.marianosciacco.it">Tecnologie Web</a></b> in collaborazione con Enrico Buratto, Giuseppe Vito Bitetti e Gianmarco Pettinato.</p>
+		      <p>Pubblicazione di una <b><a href="http://public.marianosciacco.it/guida_tecweb_unipd.pdf">guida al Progetto di Tecnologie Web</a></b>.</p>
 		    </div>
 		  </div>
 		</div>

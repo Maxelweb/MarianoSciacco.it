@@ -132,7 +132,7 @@
 				</div>
 			</div>
 			<div class="contenuto">	
-				<h1>Competenze Tecniche e Pratiche </h1>
+				<h1>Apprendimento da autodidatta</h1>
 			 	<h2><strong>//</strong> <i class="fa fa-code"></i> HTML5 / PHP / CSS / JS </h2>
 			 	<p>
 			 		Lavoro con l'HTML dal 2010 e gradualmente come autodidatta ho appreso le <b>basi del PHP</b>. 
@@ -146,7 +146,7 @@
 			 		Il <b>C e C++</b> l'ho sperimentato particolarmente con le librerie di <b>Pawn</b> per creare piccole <b>gamemode di SA-MP</b>, con cui creavo le mie modalità di gioco e programmavo missioni e comandi.
 			 	</p>
 			 	<p>
-			 		Successivamente mi sono avvicinato ai linguaggi <b>Javascript e Ajax</b> man mano che sviluppavo siti web e di recente ho imparato a utilizzare librerie aggiuntive quali <b>Bootstrap 3 per HTML</b>, CSS e componenti vari. 
+			 		Successivamente mi sono avvicinato al linguaggio <b>Javascript</b> man mano che sviluppavo siti web e poi ho imparato a utilizzare framework come <b>Bootstrap 3</b> per HTML, CSS e JS. 
 			 	</p>
 			 	<p>
 			 		In generale, mi ritengo un <b>purista</b> del codice, tant'è che mi piace lavorare senza framework e inoltre utilizzo prevalentemente <b>metodi procedurali</b> (e più occasionalmente quelli a oggetti).   
@@ -161,6 +161,27 @@
 			 	</p>
 			 	<p>
 			 		Per quanto riguarda <b>Raspberry e Arduino</b>, ho realizzato piccoli circuiti molto basilari, giusto per avere una piccola infarinatura di elettronica. 
+			 	</p>
+
+			 	<h1>Competenze Tecniche e Pratiche </h1>
+			 	<h2><strong>//</strong> <i class="fa fa-code"></i> Studi universitari </h2>
+			 	<p>
+			 		A seguito degli studi universitari, sono stati affinati i linguaggi di programmazione e sono stati praticati i seguenti argomenti:
+			 	</p>
+			 		<ul>
+			 			<li>C++ e Programmazione a Oggetti</li>
+			 			<li>Java</li>
+			 			<li>Linguaggi Front-end (HTML, CSS, JS)</li>
+			 			<li>Linguaggi Back-end (PHP)</li>
+			 			<li>Linguaggi per Database (MYSQL, MongoDB)</li>
+			 			<li>Bash</li>
+			 			<li>Git &amp; Github</li>
+			 			<li>Maven</li>
+			 			<li>Travis CI &amp; Jenkins</li>
+			 			<li>Ansible</li>
+			 		</ul>
+			 	<p>
+			 		Buone conoscenze di Windows e MacOs. Conoscenze basilari per Linux (Ubuntu, Manjaro). 
 			 	</p>
 		</article>
 	

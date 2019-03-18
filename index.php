@@ -104,7 +104,7 @@
 		      <p>Completamento e pubblicazione del progetto universitario per il corso di Automi e Linguaggi Formali - <b><a href="http://swl.marianosciacco.it">SWL Parser</a></b> in collaborazione con Gianmarco Pettinato.</p>
 		    </div>
 		  </div>
-		  <div class="container right">
+		  <div class="container left">
 		    <div class="content">
 		      <h2><i class="fa fa-book"></i> Marzo 2019</h2>
 		      <p>Completamento e pubblicazione relazione progetto universitario per il corso di <b><a href="http://tecweb.marianosciacco.it">Tecnologie Web</a></b> in collaborazione con Enrico Buratto, Giuseppe Vito Bitetti e Gianmarco Pettinato.</p>

@@ -247,7 +247,7 @@
 			
 			<div class="contenuto">		
 				<h1>Lavori e Progetti</h1> 
-				<h2><strong>//</strong> <i class="fa fa-book"></i> Pubblicazioni</h2>
+				<h2><strong>//</strong> <i class="fa fa-book"></i> Pubblicazioni e documenti</h2>
 				<p>Tutte le pubblicazioni da me rilasciate possono essere visionate al seguente indirizzo:
 					<a href="http://dev.marianosciacco.it/publications">dev.marianosciacco.it/publications</a>
 				</p>

@@ -1,7 +1,7 @@
 # Homepage
 
 ## [Vai alle News e Aggiornamenti 📋](news)
-## [Vai alle Pubblicazioni 📜](publications)
+## [Vai alle Pubblicazioni e Documenti 📜](publications)
 
 ---
 

@@ -88,27 +88,34 @@
 		  </div>
 		  <div class="container right">
 		    <div class="content">
-		      <h2><i class="fa fa-book"></i> Febbraio 2018</h2>
+		      <h2><i class="fa fa-user-friends"></i> Febbraio 2018</h2>
 		      <p>Completamento e pubblicazione relazione progetto universitario per il corso di <b><a href="https://github.com/Maxelweb/qBreakDatabaseUNIPD">Base di Dati</a></b> in collaborazione con Enrico Buratto.</p>
 		    </div>
 		  </div>
 		  <div class="container left">
 		    <div class="content">
-		      <h2><i class="fa fa-book"></i> Maggio 2018</h2>
+		      <h2><i class="fa fa-file-code"></i> Maggio 2018</h2>
 		      <p>Primo rilascio software inglese <b><a href="http://src.debug.ovh">Server Remote Console for SA-MP</a></b> per la gestione remota di un server di gioco.</p>
 		    </div>
 		  </div>
 		  <div class="container right">
 		    <div class="content">
-		      <h2><i class="fa fa-book"></i> Maggio 2018</h2>
+		      <h2><i class="fa fa-user-friends"></i> Maggio 2018</h2>
 		      <p>Completamento e pubblicazione del progetto universitario per il corso di Automi e Linguaggi Formali - <b><a href="http://swl.marianosciacco.it">SWL Parser</a></b> in collaborazione con Gianmarco Pettinato.</p>
 		    </div>
 		  </div>
 		  <div class="container left">
 		    <div class="content">
-		      <h2><i class="fa fa-book"></i> Marzo 2019</h2>
+		      <h2><i class="fa fa-users"></i> <i class="fa fa-book"></i> Marzo 2019</h2>
 		      <p>Completamento e pubblicazione relazione progetto universitario per il corso di <b><a href="http://tecweb.marianosciacco.it">Tecnologie Web</a></b> in collaborazione con Enrico Buratto, Giuseppe Vito Bitetti e Gianmarco Pettinato.</p>
 		      <p>Pubblicazione di una <b><a href="http://public.marianosciacco.it/guida_tecweb_unipd.pdf">guida al Progetto di Tecnologie Web</a></b>.</p>
+		    </div>
+		  </div>
+		  <div class="container right">
+		    <div class="content">
+		      <h2><i class="fa fa-atlas"></i> Aprile 2019</h2>
+		      <p>Completamento e pubblicazione del progetto universitario per il corso di <b><a href="http://public.marianosciacco.it/wim_progetto_hdblog.pdf">Web Information Management</a></b> 
+		      tenuto dal prof. <a href="https://it.wikipedia.org/wiki/Massimo_Marchiori">Massimo Marchiori</a>.</p>
 		    </div>
 		  </div>
 		</div>
@@ -348,12 +355,16 @@
 						<td><a href="https://twitter.com/Maxelweb">@Maxelweb</a></td>
 					</tr>
 					<tr>
-						<td><i class="fab fa-discord"></i> <span class="tohide">Discord</span></td>
-						<td>Maxel#6107</td>
+						<td><i class="fab fa-linkedin"></i> <span class="tohide">Linked In</span></td>
+						<td><a href="https://www.linkedin.com/in/marianosciacco/">Mariano Sciacco</a></td>
 					</tr>	
 					<tr>
 						<td><i class="fab fa-github-square"></i> <span class="tohide">Github</span></td>
 						<td><a href="http://git.marianosciacco.it">Maxelweb</a></td>
+					</tr>
+					<tr>
+						<td><i class="fab fa-discord"></i> <span class="tohide">Discord</span></td>
+						<td>Maxel#6107</td>
 					</tr>	
 					<tr>
 						<td><i class="fab fa-skype"></i> <span class="tohide">Skype</span></td>
@@ -361,7 +372,7 @@
 					</tr>
 					<tr>
 						<td><i class="fab fa-youtube"></i> <span class="tohide">YouTube</span></td>
-						<td>iMaxel</td>
+						<td>Maxelweb</td>
 					</tr>
 					<tr>
 						<td><i class="fa fa-image"></i> <span class="tohide">Imgur</span></td>

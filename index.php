@@ -113,7 +113,7 @@
 		  </div>
 		  <div class="container right">
 		    <div class="content">
-		      <h2><i class="fa fa-atlas"></i> Aprile 2019</h2>
+		      <h2><i class="fa fa-book"></i> Aprile 2019</h2>
 		      <p>Completamento e pubblicazione del progetto universitario per il corso di <b><a href="http://public.marianosciacco.it/wim_progetto_hdblog.pdf">Web Information Management</a></b> 
 		      tenuto dal prof. <a href="https://it.wikipedia.org/wiki/Massimo_Marchiori">Massimo Marchiori</a>.</p>
 		    </div>

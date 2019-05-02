@@ -4,6 +4,12 @@
 
 ---
 
+### 📌 [Guida al progetto di Tecnologie Web](http://public.marianosciacco.it/wim_progetto_hdblog.pdf) - 📅 aprile 2019
+
+> Rapporto di usabilità, HDBlog.it
+Il rapporto si compone dell'analisi del sito web (HDblog.it) in modo approfondito, in cui si fa attenta analisi alle scelte implementative del sito ai fini di usabilità dell'utente finale. Questa relazione è frutto di un progetto universitario per il corso di Web Information Management.
+
+
 ### 📌 [Guida al progetto di Tecnologie Web](http://public.marianosciacco.it/guida_tecweb_unipd.pdf) - 📅 marzo 2019
 
 > Sic et Simpliciter, Guida al progetto di Tecnologie Web 

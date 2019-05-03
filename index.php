@@ -27,7 +27,7 @@
 		<article>
 			<div class="titolo">
 				<div class="scroll-1">
-					<h2>About me</h2>
+					<h2>Chi sono</h2>
 					<img src="images/icons/about.png">
 				</div>
 			</div>
@@ -120,6 +120,7 @@
 		  </div>
 		</div>
 	</div>
+	<br><br>
 </section>
 
 <section id="divider">
@@ -210,7 +211,7 @@
 		<article>
 			<div class="titolo">
 				<div class="scroll-3">
-					<h2>Education</h2>
+					<h2>Formazione</h2>
 					<img src="images/icons/edu.png">
 				</div>
 			</div>
@@ -338,7 +339,7 @@
 		<article>
 			<div class="titolo">
 				<div class="scroll-5">
-					<h2>Contacts</h2>
+					<h2>Contatti</h2>
 					<img src="images/icons/contacts.png">
 				</div>
 			</div>

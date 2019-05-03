@@ -22,8 +22,8 @@ body{
   background-color: #E6E6E6;
 }
 
-a {color: #848484; text-decoration: none;}
-a:hover {color: #444; text-decoration: underline; }
+a {color: #848484; text-decoration: underline;}
+a:hover {color: #444; text-decoration: none; }
 
 hr {border: 0px; border-top: 1px solid #CCC; }
 p, ul {margin: 20px 0; line-height: 40px; font-size: 18px;  }

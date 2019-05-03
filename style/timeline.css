@@ -15,7 +15,7 @@
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
-  background: #e7e7e7;
+  background: #67adc5;
   border-radius: 6px;
   padding: 20px;
 }
@@ -134,6 +134,10 @@
 
 /* Make all right containers behave like the left ones */
   .right {
-    left: 0%;
+    left: -5%;
+  }
+
+  .left {
+    left: -5%;
   }
 }

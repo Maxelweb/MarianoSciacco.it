@@ -28,7 +28,8 @@
 		<div id="parent-header">
 
 			<div id="top-header">
-			Mariano Sciacco, Maxel: just <b><span id="js-morph-top">an italian, a smart, a selfish, a brilliant, an innovative, a crazy</span></b> guy playing with the Web
+			Mariano Sciacco, Maxel: just a guy playing with the Web <i class="fa fa-globe"></i>
+			<!--<b><span id="js-morph-top">an italian, a smart, a selfish, a brilliant, an innovative, a crazy</span></b>-->
 			</div>
 
 			<header id="header">
@@ -36,10 +37,10 @@
 					<div id="navbar-header">
 							<div class="url-list">
 								<span class="dropdown">
-									<a href="#about" class="link-header"><i class="fa fa-user"></i> About Me <span class="caret-down"></span></a>
+									<a href="#about" class="link-header"><i class="fa fa-user"></i> Chi Sono <span class="caret-down"></span></a>
 									<div class="dropdown-content">
 										<a href="index.php#skills"><i class="fa fa-user-cog"></i> Skillset</a>
-										<a href="index.php#edu"><i class="fa fa-graduation-cap"></i> Education</a>
+										<a href="index.php#edu"><i class="fa fa-graduation-cap"></i> Formazione</a>
 										<a href="index.php#portfolio"><i class="fa fa-copy"></i> Portfolio</a>
 										<a href="http://dev.marianosciacco.it/publications"><i class="fa fa-book"></i> Publications</a>
 									</div>
@@ -50,8 +51,8 @@
 					<div id="logo-header" class="cursor logo hide" onclick="location.replace('index.php')"></div>					
 					<div id="navbar-header">
 							<div class="url-list">
-								<a href="http://dev.marianosciacco.it/news" class="link-header"><i class="fa fa-newspaper"></i> News &amp; Updates</a>
-								<a href="index.php#contacts" class="link-header"><i class="fa fa-envelope"></i> Contacts</a>
+								<a href="http://dev.marianosciacco.it/news" class="link-header"><i class="fa fa-newspaper"></i> Novità</a>
+								<a href="index.php#contacts" class="link-header"><i class="fa fa-envelope"></i> Contatti</a>
 							</div>				
 					</div>
 
@@ -63,14 +64,14 @@
 					<a href="index">Homepage</a>
 					<a href="#" onclick="displayId('menu-mobile')">Menù ☰</a>
 					<div id="menu-mobile" class="tleft" style="display:none">
-						<a href="index.php#about"><i class="fa fa-user"></i> About Me</a>
+						<a href="index.php#about"><i class="fa fa-user"></i> Chi Sono</a>
 						<a href="index.php#skills"><i class="fa fa-user-cog"></i> Skillset</a>
-						<a href="index.php#edu"><i class="fa fa-graduation-cap"></i> Education</a>
+						<a href="index.php#edu"><i class="fa fa-graduation-cap"></i> Formazione</a>
 						<a href="http://dev.marianosciacco.it/publications"><i class="fa fa-book"></i> Publications</a>
 						<a href="http://dev.marianosciacco.it"><i class="fa fa-copy"></i> Portfolio</a>
-						<a href="index.php#contacts"><i class="fa fa-envelope"></i> Contacts</a>
+						<a href="index.php#contacts"><i class="fa fa-envelope"></i> Contatti</a>
 					</div>						
-					<a href="http://dev.marianosciacco.it/news"><i class="fa fa-newspaper"></i> News &amp; Updates</a>
+					<a href="http://dev.marianosciacco.it/news"><i class="fa fa-newspaper"></i> Novità</a>
 				</div>
 			</div>
 			

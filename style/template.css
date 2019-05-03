@@ -23,11 +23,6 @@
   text-transform: uppercase;
 }
 
-#parent-header
-{
-
-}
-
 header
 {
   width: 100%;
@@ -63,7 +58,7 @@ header .limiter
   padding: 26px;
   margin: 0 8px;
   display: inline-block;
-  color: #03477A;;
+  color: #03477A;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.8px; 
@@ -367,7 +362,8 @@ section div.box-option a:hover
 section#end, 
 section#divider
 {
-  height: 160px;
+  height: 75px;
+  background: #F3F3F3 url("../images/pattern.png") repeat scroll 0% 0%;
 }
 
 section#pageheader

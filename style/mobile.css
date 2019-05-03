@@ -42,7 +42,7 @@
 
 /*  ====================== MEDIA QUERY 2  ======================  */
 
-@media only screen and (orientation:portrait) and (min-width:321px) {
+@media only screen and (orientation:portrait) and (min-width:150px) {
     
     body {color: #000;font-size: 14px;font-style: normal;font-variant: normal;margin: 0;padding: 0;min-width: 321px; }    
     body img{ max-width: 50%;} 
@@ -67,7 +67,8 @@
     section div.box-option {width: 300px;}
     .titolo, .contenuto { float: none; width: 100%; }
     .contenuto p { text-align: justify; line-height: 35px; }
-    table td{ word-break: break-all; }
+    table td{ word-break: break-all;}
+    table.contacts td{  width: auto !important; }
     table span.tohide{ display: none; }
     article { margin: 0 auto;}
 }
@@ -99,7 +100,8 @@
     .titolo, .contenuto { float: none; width: 100%; }
     .contenuto p { text-align: justify; line-height: 35px; }
     table td{ word-break: break-all; }
-    table span.tohide{ display: none; }
+    table span.tohide{ display: block; }
+    table.contacts td{  width: auto !important; }
     article { margin: 0 auto;}
 }
 

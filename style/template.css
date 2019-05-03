@@ -151,6 +151,7 @@ header .limiter
   padding: 8px;
   margin: 0;
   display: block;
+  text-decoration: none;
 }
 
 #mobile-navbar .url-list a:hover
@@ -221,6 +222,7 @@ section#name
   padding: 50px 0;
   text-align: center;
   background: transparent url("../images/material.jpg") no-repeat 100% center / cover;
+  background-attachment: fixed;
 }
 
 
@@ -363,7 +365,7 @@ section#end,
 section#divider
 {
   height: 75px;
-  background: #F3F3F3 url("../images/pattern.png") repeat scroll 0% 0%;
+  background: #F3F3F3 url("../images/pattern.png") repeat fixed 0% 0%;
 }
 
 section#pageheader
@@ -452,7 +454,7 @@ article img
 
 footer
 {
-  background-color: #FFF;
+  background-color: #F2F2F2;
   min-height: 150px;
   color: #FCFCFC;
   padding: 60px 0;

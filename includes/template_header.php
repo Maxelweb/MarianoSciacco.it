@@ -28,7 +28,7 @@
 		<div id="parent-header">
 
 			<div id="top-header">
-			Mariano Sciacco, Maxel: just a guy playing with the Web <i class="fa fa-globe"></i>
+			<b>Mariano Sciacco, Maxel</b>: just a guy playing with the Web <i class="fa fa-globe"></i>
 			<!--<b><span id="js-morph-top">an italian, a smart, a selfish, a brilliant, an innovative, a crazy</span></b>-->
 			</div>
 
@@ -77,7 +77,7 @@
 			
 		</div>
 
-		<div class="tothetop"><a href="#top"><img src="images/icons/goup.png" name="Torna su"></span></a></div>
+		<div class="tothetop hide" id="TOP"><a href="#top"><img src="images/icons/goup.png" name="Torna su"></span></a></div>
 
 		<div id="wrapper">
 		

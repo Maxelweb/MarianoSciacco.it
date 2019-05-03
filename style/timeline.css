@@ -134,10 +134,10 @@
 
 /* Make all right containers behave like the left ones */
   .right {
-    left: -5%;
+    left: -21px;
   }
 
   .left {
-    left: -5%;
+    left: -21px;
   }
 }

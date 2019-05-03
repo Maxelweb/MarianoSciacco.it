@@ -38,6 +38,14 @@
 
 		$(document).ready(function() {
 
+			 $(window).scroll(function() {
+			    if ($(window).scrollTop() > 300) {
+			      $('#TOP').removeClass('hide');
+			    } else {
+			      $('#TOP').addClass('hide');
+			    }
+			  });
+
 			if (screen.width >= 800) {
 			  $('.scroll-1').scrollToFixed({ marginTop: 10, limit: $('.limit-1').offset().top - 220 });
 			  $('.scroll-2').scrollToFixed({ marginTop: 10, limit: $('.limit-2').offset().top - 220 });

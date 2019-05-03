@@ -286,7 +286,7 @@
 				</p>
 				<br>
 				<h2><strong>//</strong> <i class="fa fa-link"></i> Websites</h2>
-				<p>Di seguito sono esposti alcuni dei principali siti che ho realizzato. Per maggiori informazioni, <a href="http://dev.marianosciacco.it">clicca qui</a>.
+				<p>Di seguito sono esposti alcuni dei principali siti che ho realizzato. Per maggiori informazioni, visita la <a href="http://dev.marianosciacco.it">raccolta dei progetti</a>.
 				</p>
 			</div>
 		
@@ -367,10 +367,10 @@
 						<td><i class="fab fa-discord"></i> <span class="tohide">Discord</span></td>
 						<td>Maxel#6107</td>
 					</tr>	
-					<tr>
+					<!--<tr>
 						<td><i class="fab fa-skype"></i> <span class="tohide">Skype</span></td>
 						<td>alan_west_27</td>
-					</tr>
+					</tr>-->
 					<tr>
 						<td><i class="fab fa-youtube"></i> <span class="tohide">YouTube</span></td>
 						<td>Maxelweb</td>

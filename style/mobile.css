@@ -63,6 +63,7 @@
     section#name div.desc {line-height: 45px;}
     section#name div.image {width: auto;}
     section#name div.name {font-size: 23px;}
+    section#name {background-attachment: scroll;}
     section div.box-option {width: 300px;}
     .titolo, .contenuto { float: none; width: 100%; }
     .contenuto p { text-align: justify; line-height: 35px; }

@@ -221,7 +221,7 @@ section#name
   min-height: 150px;
   padding: 50px 0;
   text-align: center;
-  background: transparent url("../images/material.jpg") no-repeat 100% center / cover;
+  background: #529ebd url("../images/material.jpg") no-repeat 100% center / cover;
   background-attachment: fixed;
 }
 

@@ -4,6 +4,11 @@
 
 ---
 
+### 📌 [HTAM - HTAccess Manager](https://github.com/Maxelweb/HTAM) - 📅 maggio 2019
+
+> Web app utilizzata per la gestione delle cartelle protette tramite credenziali su una directory online.
+
+
 ### 📌 [Rapporto di usabilità, HDblog.it](http://public.marianosciacco.it/wim_progetto_hdblog.pdf) - 📅 aprile 2019
 
 > Il rapporto si compone dell'analisi del sito web (HDblog.it) in modo approfondito, in cui si fa attenta analisi alle scelte implementative del sito ai fini di usabilità dell'utente finale. Questa relazione è frutto di un progetto universitario per il corso di Web Information Management.

@@ -1,7 +1,6 @@
-# Homepage
+# Progetti
 
-## [Vai alle News e Aggiornamenti 📋](news)
-## [Vai alle Pubblicazioni e Documenti 📜](publications)
+#### [← Torna indietro](https://marianosciacco.it)
 
 ---
 

@@ -1,6 +1,7 @@
 
 # 📋 News e aggiornamenti
-#### [← Torna indietro](./)
+
+#### [← Torna indietro](https://marianosciacco.it)
 
 ---
 

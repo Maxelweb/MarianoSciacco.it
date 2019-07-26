@@ -41,17 +41,17 @@
 									<div class="dropdown-content">
 										<a href="index.php#skills"><i class="fa fa-user-cog"></i> Skillset</a>
 										<a href="index.php#edu"><i class="fa fa-graduation-cap"></i> Formazione</a>
-										<a href="index.php#portfolio"><i class="fa fa-copy"></i> Portfolio</a>
-										<a href="http://dev.marianosciacco.it/publications"><i class="fa fa-book"></i> Publications</a>
+										<a href="http://dev.marianosciacco.it/"><i class="fa fa-folder"></i> Projects</a>
+										<a href="http://dev.marianosciacco.it/news"><i class="fa fa-newspaper"></i> Novità</a>
 									</div>
 								</span>
-								<a href="http://dev.marianosciacco.it" class="link-header"><i class="fa fa-copy"></i> Portfolio</a>
+								<a href="http://dev.marianosciacco.it/publications" class="link-header"><i class="fa fa-copy"></i> Portfolio</a>
 							</div>			
 					</div>
 					<div id="logo-header" class="cursor logo hide" onclick="location.replace('index.php')"></div>					
 					<div id="navbar-header">
 							<div class="url-list">
-								<a href="http://dev.marianosciacco.it/news" class="link-header"><i class="fa fa-newspaper"></i> Novità</a>
+								<a href="http://git.marianosciacco.it/" class="link-header"><i class="fab fa-github"></i> Github</a>
 								<a href="index.php#contacts" class="link-header"><i class="fa fa-envelope"></i> Contatti</a>
 							</div>				
 					</div>
@@ -67,11 +67,12 @@
 						<a href="index.php#about"><i class="fa fa-user"></i> Chi Sono</a>
 						<a href="index.php#skills"><i class="fa fa-user-cog"></i> Skillset</a>
 						<a href="index.php#edu"><i class="fa fa-graduation-cap"></i> Formazione</a>
-						<a href="http://dev.marianosciacco.it/publications"><i class="fa fa-book"></i> Publications</a>
-						<a href="http://dev.marianosciacco.it"><i class="fa fa-copy"></i> Portfolio</a>
+						<a href="http://dev.marianosciacco.it/publications"><i class="fa fa-copy"></i> Portfolio</a>
+						<a href="http://dev.marianosciacco.it"><i class="fa fa-folder"></i> Projects</a>
+						<a href="http://dev.marianosciacco.it/news"><i class="fa fa-newspaper"></i> Novità</a>
 						<a href="index.php#contacts"><i class="fa fa-envelope"></i> Contatti</a>
 					</div>						
-					<a href="http://dev.marianosciacco.it/news"><i class="fa fa-newspaper"></i> Novità</a>
+					<a href="http://git.marianosciacco.it"><i class="fab fa-github"></i> Github</a>
 				</div>
 			</div>
 			

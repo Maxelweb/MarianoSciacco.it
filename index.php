@@ -118,6 +118,12 @@
 		      tenuto dal prof. <a href="https://it.wikipedia.org/wiki/Massimo_Marchiori">Massimo Marchiori</a>.</p>
 		    </div>
 		  </div>
+		  <div class="container left">
+		    <div class="content">
+		      <h2><i class="fa fa-laptop"></i> Luglio 2019</h2>
+		      <p>Completamento e pubblicazione del progetto universitario <b><a href="https://pao.marianosciacco.it">qCloud Manager</a></b> per il corso di Programmazione a Oggetti.</p>
+		    </div>
+		  </div>
 		</div>
 	</div>
 	<br><br>
@@ -177,14 +183,14 @@
 			 		A seguito degli studi universitari, sono stati affinati i linguaggi di programmazione e sono stati praticati i seguenti argomenti:
 			 	</p>
 			 		<ul>
-			 			<li>C++ e Programmazione a Oggetti</li>
+			 			<li>C++ e OOP</li>
 			 			<li>Java</li>
 			 			<li>Linguaggi Front-end (HTML, CSS, JS)</li>
-			 			<li>Linguaggi Back-end (PHP)</li>
+			 			<li>Linguaggi Web Back-end (PHP)</li>
 			 			<li>Linguaggi per Database (MYSQL, MongoDB)</li>
-			 			<li>Bash</li>
-			 			<li>Git &amp; Github</li>
-			 			<li>Maven</li>
+			 			<li>XML, JSON</li>
+			 			<li>Git, Github, Docker</li>
+			 			<li>Maven, Gradle</li>
 			 			<li>Travis CI &amp; Jenkins</li>
 			 			<li>Ansible</li>
 			 		</ul>

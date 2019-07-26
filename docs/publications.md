@@ -4,6 +4,12 @@
 
 ---
 
+### 📌 [qCloud Manager](https://pao.marianosciacco.it) - 📅 luglio 2019
+
+> Progetto di programmazione a oggetti basato su una applicazione con cui è possibile gestire
+server e nodi hardware in una web farm. Il progetto è stato scritto in C++ e fa uso della libreria Qt per la GUI.
+
+
 ### 📌 [HTAM - HTAccess Manager](https://github.com/Maxelweb/HTAM) - 📅 maggio 2019
 
 > Web app utilizzata per la gestione delle cartelle protette tramite credenziali su una directory online.

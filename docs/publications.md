@@ -5,6 +5,17 @@
 
 ---
 
+
+### 📌 [Ottimizzazione di una Web Farm](https://github.com/Maxelweb/RicercaOperativaUNIPD) - 📅 settembre 2019
+
+> Progetto di Ricerca Operativa basato sul progetto di qCloud Manager
+
+
+### 📌 [DiffieHellman, Merkle-Tree](https://github.com/Maxelweb/PCD_Assignments) - 📅 agosto 2019
+
+> Esercizi avanzati di Java per il corso di Programmazione Concorrente e Distribuita (P3)
+
+
 ### 📌 [qCloud Manager](https://pao.marianosciacco.it) - 📅 luglio 2019
 
 > Progetto di programmazione a oggetti basato su una applicazione con cui è possibile gestire

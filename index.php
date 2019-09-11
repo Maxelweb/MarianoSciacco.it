@@ -16,7 +16,7 @@
 <section id="name">
 	<div class="limiter">
 		<div class="name hide">Mariano Sciacco, <span>Maxel</span></div>
-		<div class="desc hide"><span id="js-morph">Web Developer, Programmer, Web Master, Web Designer</span></div>
+		<div class="desc hide"><span id="js-morph">Web Developer, Programmer, CS Student</span></div>
 	</div>
 </section>
 
@@ -122,6 +122,12 @@
 		    <div class="content">
 		      <h2><i class="fa fa-laptop"></i> Luglio 2019</h2>
 		      <p>Completamento e pubblicazione del progetto universitario <b><a href="https://pao.marianosciacco.it">qCloud Manager</a></b> per il corso di Programmazione a Oggetti.</p>
+		    </div>
+		  </div>
+		  <div class="container right">
+		    <div class="content">
+		      <h2><i class="fa fa-search"></i> Settembre 2019</h2>
+		      <p>Pubblicazione del progetto universitario <b><a href="https://github.com/Maxelweb/RicercaOperativaUNIPD">Ottimizzazione di una Web Farm</a></b> per il corso di Ricerca Operativa.</p>
 		    </div>
 		  </div>
 		</div>

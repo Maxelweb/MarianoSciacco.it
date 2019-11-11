@@ -12,14 +12,18 @@
 <html>
 	<head>
 		<title>Mariano Sciacco, Maxel</title>
-		<link rel="stylesheet" type="text/css" href="style/stylesheet.css" />
+		<link rel="stylesheet" type="text/css" href="style/stylesheet.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
-		<link rel="shortcut icon" href="images/favicon.png" />
+		<link rel="shortcut icon" href="images/favicon.png">
 		<link rel="icon" sizes="192x192" href="images/favicon.png">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 		<meta charset="UTF-8">
 		<meta name="theme-color" content="#539FBA">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="script/fadeInScroll.js"></script>
+		<script src="script/jquery-scrolltofixed.js"></script>
+		<script src="script/morphext.js"></script>
+		<script src="script/main.js" async></script>
 	</head>
 	<body>
 		
@@ -28,8 +32,7 @@
 		<div id="parent-header">
 
 			<div id="top-header">
-			<b>Mariano Sciacco, Maxel</b>: just a guy playing with the Web <i class="fa fa-globe"></i>
-			<!--<b><span id="js-morph-top">an italian, a smart, a selfish, a brilliant, an innovative, a crazy</span></b>-->
+				<strong>Mariano Sciacco, Maxel</strong>: just a guy playing with the Web <i class="fa fa-globe"></i>
 			</div>
 
 			<header id="header">

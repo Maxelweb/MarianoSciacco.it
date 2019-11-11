@@ -23,16 +23,19 @@
     #wrapper { width: 100%; min-width: 150px; margin: 0 auto; padding: 0px; }
     #wrapper img { max-width: 50%;} 
     footer{ width: 100%; padding-bottom: 20px; height: auto; }
-    footer .footer-logo, footer .footer-text{ float: none; }
+    footer .footer-logo, footer .footer-text{ float: none; width: auto; text-align: center !important; padding: 2em;}
     #navbar-footer, #info-footer, #logo-footer {width: auto;}
     #info-footer{ border: none; border-top: 4px solid #114A74; border-bottom: 4px solid #114A74;}
-    section#ads{ display: none;}
     section#name div.desc {line-height: 45px; font-size: 24px;}
     section#name div.image {width: auto;}
     section#name div.name {font-size: 40px; line-height: 50px;}
     section div.box-option {width: 250px; height: 250px; margin: 30px auto;}
-    .titolo, .contenuto { float: none !important; width: 100% !important; text-align: left !important; padding-right: auto !important; }
-    .contenuto p { text-align: justify; line-height: 35px; }
+    section.divider { background: #FFF; height: 40px; }
+    .titolo, .contenuto { float: none !important; width: 100% !important; text-align: left !important; padding-right: 0 !important; }
+    .titolo { text-align: center !important; padding: 20px 10px; padding-right: 10px; background-color: #EAEAEA; border-radius: 10px; 
+              margin: 10px 0; border-top: 1px solid #CCC;}
+    .titolo img{ max-width: 64px !important;}
+    .contenuto p {line-height: 35px; }
     table td{ word-break: break-all; }
     table span.tohide{ display: none; }
     table.contacts td{  width: auto !important; }
@@ -40,37 +43,6 @@
     .fright, .fleft{ float: none; }
 }
 
-/*  ====================== MEDIA QUERY Smartphone in portrait mode  ======================  */
-
-/*
-@media only screen and (orientation:portrait) and (min-width:150px) {
-    
-    body {color: #000;font-size: 14px;font-style: normal;font-variant: normal;margin: 0;padding: 0;min-width: 321px; }    
-    body img{ max-width: 50%;} 
-    #top-header{ min-height: 20px; height: auto; padding: 5px; width: auto;}      
-    header {width: 100%; min-width: 310px; margin: 0px auto;padding: 0px 0px;height: auto;position: relative;}
-    #navbar-header{display: none;}
-    #mobile-navbar{display: block;}
-    #logo-header { background-position: -15px 6px; }
-    .limiter{width: auto;} 
-    #wrapper { width: 100%; min-width: 310px; margin: 0 auto; padding: 0px; }
-    #wrapper img { max-width: 50%;} 
-    footer{ width: 100%; height: auto; padding-bottom: 20px; height: auto;  }
-    footer .footer-logo, footer .footer-text{ float: none;  width: auto; }
-    #navbar-footer, #info-footer, #logo-footer {width: auto;}
-    section#ads{ display: none;}
-    section#name div.desc {line-height: 45px;}
-    section#name div.image {width: auto;}
-    section#name div.name {font-size: 23px;}
-    section#name {background-attachment: scroll;}
-    section div.box-option {width: 300px;}
-    .titolo, .contenuto { float: none; width: 100%; text-align: left !important; padding-right: auto !important; }
-    .contenuto p { text-align: justify; line-height: 35px; }
-    table td{ word-break: break-all;}
-    table.contacts td{  width: auto !important; }
-    table span.tohide{ display: none; }
-    article { margin: 0 auto;}
-}*/
 
 /*  ======================  MEDIA QUERY - Tablet  ====================== */
 
@@ -88,14 +60,14 @@
     #wrapper { width: 100%; min-width: 310px; margin: 0 auto; padding: 0px; }
     #wrapper img { max-width: 50%;} 
     footer{ width: 100%; height: auto; padding-bottom: 20px; height: auto; }
-    footer .footer-logo, footer .footer-text{ float: none; }
+    footer .footer-logo, footer .footer-text{ float: none; width: auto; text-align: center !important; padding: 2em;}
     #navbar-footer, #info-footer, #logo-footer {width: auto; width: auto;}
     section#name div.desc {line-height: 45px;}
     section#name div.image {width: auto;}
     section#name div.name {font-size: 40px; line-height: 50px;}
     section div.box-option {width: 300px;}
     .titolo, .contenuto { float: none; width: 100%; }
-    .contenuto p { text-align: justify; line-height: 35px; }
+    .contenuto p {  line-height: 35px; }
     table td{ word-break: break-all; }
     table span.tohide{ display: block; }
     table.contacts td{  width: auto !important; }

@@ -3,8 +3,11 @@
 # for dev.marianosciacco.it
 #
 
-title: "Mariano Sciacco // Development"
-description: "Progetti, Software e pubblicazioni"
+title: "Development"
+description: >
+  All'interno di questa sezione sono presenti tutti i lavori sviluppati fino ad oggi, tra cui
+  progetti, siti web, software e pubblicazioni.
+
 author: Mariano Sciacco
 email: marianosciacco@gmail.com
 remote_theme: jekyll/minima

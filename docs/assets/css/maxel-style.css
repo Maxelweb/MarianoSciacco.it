@@ -1,16 +1,23 @@
 
 
 .site-header{
-	background: #529ebd url("https://marianosciacco.it/images/material.jpg") no-repeat 100% center / cover;;
-	border-bottom: 2px solid #A9AC07;
+	background: #529ebd url("https://marianosciacco.it/images/material.jpg") no-repeat 100% center / cover;
+	border-bottom: 2px solid #A9AC07 !important;
 }
 
 .site-title, 
 .site-title:visited,
 .site-nav .page-link{
-	color: #FFF;
+	color: #FFF !important;
 }
 
 .site-footer{
-	background-color: #F2F2F2;
+	background-color: #F2F2F2 !important;
+}
+
+.site-logo{
+	width: 25px;
+	float: left;
+	margin: 16px 10px 0 0;
+	height: 25px;
 }

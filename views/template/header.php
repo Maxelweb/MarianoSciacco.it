@@ -44,11 +44,11 @@
 									<div class="dropdown-content">
 										<a href="#skills"><i class="fa fa-user-cog"></i> Skillset</a>
 										<a href="#edu"><i class="fa fa-graduation-cap"></i> Formazione</a>
-										<a href="#projects"><i class="fa fa-folder"></i> Progetti</a>
+										<a href="#portfolio"><i class="fa fa-folder"></i> Portfolio</a>
 										<a href="http://dev.marianosciacco.it/news"><i class="fa fa-newspaper"></i> Novità</a>
 									</div>
-								</span>
-								<a href="http://dev.marianosciacco.it/publications" class="link-header"><i class="fa fa-copy"></i> Portfolio</a>
+								</span>																							   
+								<a href="http://dev.marianosciacco.it" class="link-header"><i class="fa fa-copy"></i> Portfolio</a>
 							</div>			
 					</div>
 					<div id="logo-header" class="cursor logo hide" onclick="location.replace('index.php')"></div>					

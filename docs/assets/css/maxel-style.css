@@ -12,10 +12,17 @@
 }
 
 .site-title, 
-.site-title:visited,
-.site-nav .page-link{
+.site-title:visited{
 	color: #FFF !important;
 }
+
+@media screen and (min-width: 600px) {
+
+	.site-nav .page-link{
+		color: #FFF !important;
+	}
+}
+
 
 .site-footer{
 	background-color: #F2F2F2 !important;
@@ -30,4 +37,12 @@
 
 .site-title-fix{
 	padding-right: 0 !important;
+	color: #CCC !important;
 }
+
+hr{
+	margin: 40px 0 35px;
+	border: none;
+	border-top: 1px solid #C5C6B3;
+}
+

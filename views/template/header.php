@@ -42,9 +42,9 @@
 								<span class="dropdown">
 									<a href="#about" class="link-header"><i class="fa fa-user"></i> Chi Sono <span class="caret-down"></span></a>
 									<div class="dropdown-content">
-										<a href="index.php#skills"><i class="fa fa-user-cog"></i> Skillset</a>
-										<a href="index.php#edu"><i class="fa fa-graduation-cap"></i> Formazione</a>
-										<a href="http://dev.marianosciacco.it/"><i class="fa fa-folder"></i> Projects</a>
+										<a href="#skills"><i class="fa fa-user-cog"></i> Skillset</a>
+										<a href="#edu"><i class="fa fa-graduation-cap"></i> Formazione</a>
+										<a href="#projects"><i class="fa fa-folder"></i> Progetti</a>
 										<a href="http://dev.marianosciacco.it/news"><i class="fa fa-newspaper"></i> Novità</a>
 									</div>
 								</span>

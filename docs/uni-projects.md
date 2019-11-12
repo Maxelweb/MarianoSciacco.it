@@ -1,5 +1,11 @@
+---
+layout: page
+title: Progetti universitari
+permalink: /projects/uni/
+---
 
-# 📜 Portfolio: pubblicazioni e documenti
+
+# 📜 Pubblicazioni
 
 #### [← Torna indietro](https://marianosciacco.it)
 

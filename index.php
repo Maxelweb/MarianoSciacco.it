@@ -10,6 +10,8 @@
  *
  */
 
+ $_version = "v2.0 (11/2019)";
+
  include 'views/template/header.php'; 
 
  include 'views/splash.html';

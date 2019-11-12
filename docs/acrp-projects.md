@@ -1,3 +1,9 @@
+---
+layout: page
+title: Atlantis Roleplay
+permalink: /projects/acrp/
+---
+
 
 # Atlantis Roleplay (2011 - 2017)
 
@@ -11,7 +17,7 @@ Per questa community ho realizzato i seguenti siti web:
 
 -   Atlantisbook, **Social Network** (simulato) di Los Santos
 -   **Database** per gli agenti del reparto penitenziario con portale accademici (SADoC)
--   **Database** per l'FBI
+-   **Database** per la Los Santos News Network (LSNN)
 -   **Database** per le officine (LSW)
 -   **Database** per la scuola guida
 -   **Database** per Emergency Medical Service (EMS)
@@ -22,8 +28,8 @@ Per questa community ho realizzato i seguenti siti web:
 -   **Portale Web + Blog** per la polizia (LSPD)
 -   **Help Desk** per l'aiuto degli utenti con i siti web
 -   **User Control Panel (UCP)** per il server training della polizia (LSPD)
--   **Rinnovo grafico** del UCP di gioco (mai pubblicato causa chiusura)
--   **Database generale** per le fazioni legali (mai pubblicato causa chiusura)
+-   **Rinnovo grafico** del UCP di gioco 
+-   **Database generale** per le fazioni legali (incompleto)
 -   Tema e bugfix del database della polizia (LSPD)
 -   Temi dei forum delle fazioni in PHPBB 3 / 3.1 (**ProfessionalWeb**)
 

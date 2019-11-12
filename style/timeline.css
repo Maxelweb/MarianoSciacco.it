@@ -1,8 +1,12 @@
 /*
-
-  Timeline taken from W3Schools.com
-
-*/
+ *
+ *  Personal Web Page - MarianoSciacco.it
+ *  CSS - Timeline
+ *  
+ *  Taken from W3school, readapted by Maxel
+ *  Github - this.marianosciacco.it
+ *
+ */
 
 
 * {
@@ -34,7 +38,7 @@
 
 /* Container around content */
 .container {
-  padding: 10px 40px;
+  padding: 10px 40px; 
   position: relative;
   background-color: inherit;
   width: 50%;
@@ -98,11 +102,19 @@
 }
 
 /* The actual content */
-.content {
-  padding: 8px 20px;
+.content {  
+  padding: 3px 15px; /*8px 20px*/
   background-color: white;
   position: relative;
   border-radius: 6px;
+}
+
+.content h2{
+  margin-bottom: 1.1em;
+}
+
+.content p{
+  line-height: 30px;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */

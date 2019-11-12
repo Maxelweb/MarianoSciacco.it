@@ -1,3 +1,10 @@
+---
+layout: page
+title: Progetti
+permalink: /projects/my/
+---
+
+
 # Progetti
 
 #### [← Torna indietro](https://marianosciacco.it)
@@ -20,7 +27,7 @@ Tra i progetti attivi attualmente ci sono:
 
 ### ♦ Progetti conclusi (22)
 
-- **[Atlantis City Roleplay:](acrp)** questo progetto a cui ho fatto parte fino al 2017 ha riguardato principalmente lo sviluppo di siti web integrati nel mondo di gioco, come ad esempio Portale web per la polizia, Database con le fedine penali e Social network. Per maggiori informazioni, clicca nel link.
+- **[Atlantis City Roleplay:](acrp)** questo progetto a cui ho fatto parte dal 2011 fino al 2017 ha riguardato principalmente lo sviluppo di siti web integrati nel mondo di gioco, come ad esempio Portale web per la polizia, Database con le fedine penali e Social network.
 - **Police Training - Gamemode:** Il police training è una gamemode pensata per gli addestramenti
 delle forze di polizia all'interno dei server roleplay di SA-MP. La versione è stata aggiornata negli anni dal 2014 fino al 2017, introducendo tuttavia poche novità. La gamemode è relativamente semplice e non munita di MYSQL. 
 - **OneUCP:** User Control Panel per server roleplay di sa-mp con sistema curriculum, sistema registrazione,

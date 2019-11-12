@@ -1,4 +1,10 @@
 
+/*
+ *	CSS per dev.marianosciacco.it
+ *	Developed by Maxel
+ *  (from jekyll/minima for Github Pages)
+*/
+
 
 .site-header{
 	background: #529ebd url("https://marianosciacco.it/images/material.jpg") no-repeat 100% center / cover;
@@ -20,4 +26,8 @@
 	float: left;
 	margin: 16px 10px 0 0;
 	height: 25px;
+}
+
+.site-title-fix{
+	padding-right: 0 !important;
 }

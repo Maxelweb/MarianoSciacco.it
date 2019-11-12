@@ -18,7 +18,7 @@ Tra i progetti attivi attualmente ci sono:
 
 ### Progetti conclusi (7)
 
-- **[Atlantis City Roleplay:](acrp)** questo progetto a cui ho fatto parte dal 2011 fino al 2017 ha riguardato principalmente lo sviluppo di siti web integrati nel mondo di gioco di SA-MP (roleplay), come ad esempio Portale web per la polizia, Database per le fedine penali, Social network e forum.
+- **[Atlantis City Roleplay:](../acrp)** questo progetto a cui ho fatto parte dal 2011 fino al 2017 ha riguardato principalmente lo sviluppo di siti web integrati nel mondo di gioco di SA-MP (roleplay), come ad esempio Portale web per la polizia, Database per le fedine penali, Social network e forum.
 - **Police Training - Gamemode:** Il police training è una gamemode scritta in PAWN e pensata per gli addestramenti
 delle forze di polizia all'interno dei server roleplay di SA-MP. La gamemode è stata sviluppata dal 2014 fino al 2017.
 - **OneUCP:** User Control Panel per server roleplay di sa-mp con sistema curriculum, sistema registrazione,

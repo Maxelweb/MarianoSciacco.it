@@ -11,7 +11,7 @@ description: >
 author: Mariano Sciacco
 email: marianosciacco@gmail.com
 remote_theme: jekyll/minima
-show_excerpts: false
+show_excerpts: true
 
 minima: 
   date_format: "%d/%m/%Y"

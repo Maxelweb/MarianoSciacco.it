@@ -1,15 +1,10 @@
 ---
 layout: page
-title: Atlantis Roleplay
+title: Progetti con Atlantis Roleplay
 permalink: /projects/acrp/
 ---
 
-
-# Atlantis Roleplay (2011 - 2017)
-
-#### Progetti / AC-RP
-
-#### [← Torna indietro](./)
+## Siti web sviluppati (2011-2017)
 
 Atlantis (City) Roleplay era una community italiana di **San Andreas Multiplayer (SA-MP)**, nota mod multiplayer non ufficiale di Grand Theft Auto: San Andreas. All'interno di questo gioco si simulava la vita reale impersonando i ruoli di una società moderna quali poliziotto, criminale, civile disoccupato, medico, pompiere, tassista e via dicendo.
 
@@ -37,7 +32,7 @@ Molti di questi siti web sono stati sviluppati e portati avanti nel tempo, in ba
 
 La peculitarità di questi siti stava nel fatto che ciascuno era sviluppato in maniera differente dall'altro, ma ognuno vantava di un comparto amministrativo e di un comparto utente per cui alcune zone o alcune azioni richiedevano necessariamente dei permessi appositi.
 
-## La struttura dei database e della maggior parte dei siti web
+## La struttura dei siti web
 
 La struttura dei siti era molto semplice. Se stilassimo una mappa del sito verrebbe nella maggior parte dei casi una cosa del genere:
 

@@ -16,6 +16,7 @@ minima:
     twitter: maxelweb
     github: maxelweb
     linkedin: marianosciacco
-  header_pages: 
-    - projects.md
-    - archive.md
+
+header_pages: 
+  - projects.md
+  - portfolio.md

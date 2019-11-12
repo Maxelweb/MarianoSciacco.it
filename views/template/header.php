@@ -44,11 +44,11 @@
 									<div class="dropdown-content">
 										<a href="#skills"><i class="fa fa-user-cog"></i> Skillset</a>
 										<a href="#edu"><i class="fa fa-graduation-cap"></i> Formazione</a>
-										<a href="#portfolio"><i class="fa fa-folder"></i> Portfolio</a>
-										<a href="http://dev.marianosciacco.it/news"><i class="fa fa-newspaper"></i> Novità</a>
+										<a href="#portfolio"><i class="fa fa-copy"></i> Portfolio</a>
+										<a href="http://cv.marianosciacco.it"><i class="far fa-file"></i> Curriculum (EN)</a>
 									</div>
 								</span>																							   
-								<a href="http://dev.marianosciacco.it" class="link-header"><i class="fa fa-copy"></i> Portfolio</a>
+								<a href="https://dev.marianosciacco.it" class="link-header"><i class="fas fa-code"></i> Sviluppo</a>
 							</div>			
 					</div>
 					<div id="logo-header" class="cursor logo hide" onclick="location.replace('index.php')"></div>					
@@ -64,18 +64,18 @@
 
 			<div id="mobile-navbar">
 				<div class="url-list">
-					<a href="index">Homepage</a>
 					<a href="#" onclick="displayId('menu-mobile')">Menù ☰</a>
 					<div id="menu-mobile" class="tleft" style="display:none">
-						<a href="index.php#about"><i class="fa fa-user"></i> Chi Sono</a>
-						<a href="index.php#skills"><i class="fa fa-user-cog"></i> Skillset</a>
-						<a href="index.php#edu"><i class="fa fa-graduation-cap"></i> Formazione</a>
-						<a href="http://dev.marianosciacco.it/publications"><i class="fa fa-copy"></i> Portfolio</a>
-						<a href="http://dev.marianosciacco.it"><i class="fa fa-folder"></i> Projects</a>
-						<a href="http://dev.marianosciacco.it/news"><i class="fa fa-newspaper"></i> Novità</a>
-						<a href="index.php#contacts"><i class="fa fa-envelope"></i> Contatti</a>
+						<a href="#about"><i class="fa fa-user"></i> Chi Sono</a>
+						<a href="#skills"><i class="fa fa-user-cog"></i> Skillset</a>
+						<a href="#edu"><i class="fa fa-graduation-cap"></i> Formazione</a>
+						<a href="#portfolio"><i class="fa fa-copy"></i> Portfolio</a>
+						<a href="http://cv.marianosciacco.it"><i class="far fa-file"></i> Curriculum (EN)</a>
+						<a href="http://git.marianosciacco.it"><i class="fab fa-github"></i> Github</a>
+						<a href="#contacts"><i class="fa fa-envelope"></i> Contatti</a>
 					</div>						
-					<a href="http://git.marianosciacco.it"><i class="fab fa-github"></i> Github</a>
+					<a href="https://dev.marianosciacco.it"><i class="fas fa-code"></i> Sviluppo</a>
+					
 				</div>
 			</div>
 			

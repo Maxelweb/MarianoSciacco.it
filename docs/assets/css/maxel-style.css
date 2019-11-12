@@ -41,7 +41,7 @@
 }
 
 hr{
-	margin: 40px 0 35px;
+	margin: 40px 0 35px !important;
 	border: none;
 	border-top: 1px solid #C5C6B3;
 }

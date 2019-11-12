@@ -29,6 +29,8 @@
     section#name div.desc {line-height: 45px; font-size: 24px;}
     section#name div.image {width: auto;}
     section#name div.name {font-size: 40px; line-height: 50px;}
+    section div.list-box-option{ display: none; }
+    article {min-height: 0;}
     section div.box-option {width: 250px; height: 250px; margin: 30px auto;}
     section.divider { background: #FFF; height: 40px; }
     .titolo, .contenuto { float: none !important; width: 100% !important; text-align: left !important; padding-right: 0 !important; }

@@ -205,7 +205,7 @@ p.false{
 
 .box-atlantisbook{
   background-image: url("../images/portfolio/atlantisbook.png");
-  background-color: #6E8FC3 !important;
+  background-color: #567AC2 !important;
 }
 
 .box-training{
@@ -223,6 +223,11 @@ p.false{
   background-color: #0F4A11 !important;
 }
 
+.box-qcloud{
+  background-image: url("../images/portfolio/qcloud.png");
+  background-color: #EAEAEA !important;
+}
+
 .box-lspd{
   background-image: url("../images/portfolio/lspd.png");
   background-color: #667480 !important;
@@ -230,7 +235,7 @@ p.false{
 
 .box-ls{
   background-image: url("../images/portfolio/ls.png");
-  background-color: #E8E8E8 !important;
+  background-color: #EADFC2 !important;
 }
 
 .box-ext{

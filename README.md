@@ -16,7 +16,7 @@
 
 Homepage personale sviluppata in HTML5, CSS e JS. 
 
-La versione corrente fa parte di un restyle di versioni precedenti e riadattate nel tempo.
+La versione corrente fa parte di un restyle di versioni precedenti e riadattate nel tempo (#backintime).
 
 
 ### Licenza

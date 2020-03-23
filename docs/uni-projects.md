@@ -4,6 +4,11 @@ title: Progetti universitari
 permalink: /projects/uni/
 ---
 
+#### 📌 [Project ThiReMa - Red Round Robin](https://github.com/RedRoundRobin) - 📅 oggi
+
+> Progetto di Ingegneria del Software in collaborazione con SanMarco Informatica per lo sviluppo
+di una archittetura per gestire dispositivi IoT di natura eterogenea.
+
 
 #### 📌 [Ottimizzazione di una Web Farm](https://github.com/Maxelweb/RicercaOperativaUNIPD) - 📅 settembre 2019
 

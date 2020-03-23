@@ -12,7 +12,7 @@ Buona parte dei miei lavori archiviati possono essere visionati online in versio
 
 ### Atlantis Roleplay (Online Gaming Community)
 
-- [AtlantisBook v1](http://archive.marianosciacco.it/atlantisbook1), social network sviluppato a fine 2010-11 in HTML, CSS, JS e PHP senza uso di framework particolari.
+- [AtlantisBook v1](http://archive.marianosciacco.it/atlantisbook1), social network sviluppato in HTML, CSS, JS e PHP senza uso di framework particolari.
 
 - [Portale - LSPD](http://archive.marianosciacco.it/pd_site), portale LSPD sviluppato in HTML, CSS, JS e PHP.
 

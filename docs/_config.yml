@@ -10,7 +10,7 @@ description: >
 
 author: Mariano Sciacco
 email: marianosciacco@gmail.com
-remote_theme: jekyll/minima
+remote_theme: jekyll/minima@2.5-stable
 show_excerpts: true
 
 minima: 

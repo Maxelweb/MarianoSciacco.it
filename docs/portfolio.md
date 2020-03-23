@@ -10,9 +10,9 @@ Buona parte dei miei lavori archiviati possono essere visionati online in versio
 > **Nota:** i siti web sono attivi solo in lettura. Le credenziali di accesso sono già state impostate, è sufficiente cliccare il bottone di invio del form per accedere.
 
 
-## Atlantis Roleplay (Online Gaming Community)
+### Atlantis Roleplay (Online Gaming Community)
 
-- [Atlantisbook v1](http://archive.marianosciacco.it/atlantisbook1), social network sviluppato a fine 2010-11 in HTML, CSS, JS e PHP senza uso di framework particolari. Usato principalmente per una community di gioco online.
+- [AtlantisBook v1](http://archive.marianosciacco.it/atlantisbook1), social network sviluppato a fine 2010-11 in HTML, CSS, JS e PHP senza uso di framework particolari.
 
 - [Portale - LSPD](http://archive.marianosciacco.it/pd_site), portale LSPD sviluppato in HTML, CSS, JS e PHP.
 
@@ -27,7 +27,7 @@ Buona parte dei miei lavori archiviati possono essere visionati online in versio
 - [Database - Scuola Guida](http://archive.marianosciacco.it/scuolaguida), database per la scuola guida sviluppato in HTML, CSS e PHP.
 
 
-## Altro
+### Altro
 
 - [Sito web personale](http://archive.marianosciacco.it/imaxel), sviluppato in HTML, CSS, JS e PHP.
 

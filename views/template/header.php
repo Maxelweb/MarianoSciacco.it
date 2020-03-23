@@ -72,6 +72,7 @@
 						<a href="#edu"><i class="fa fa-graduation-cap"></i> Formazione</a>
 						<a href="#portfolio"><i class="fa fa-copy"></i> Portfolio</a>
 						<a href="http://cv.marianosciacco.it"><i class="far fa-file"></i> Curriculum (EN)</a>
+						<a href="http://cvit.marianosciacco.it"><i class="far fa-file"></i> Curriculum (IT)</a>
 						<a href="http://git.marianosciacco.it"><i class="fab fa-github"></i> Github</a>
 						<a href="#contacts"><i class="fa fa-envelope"></i> Contatti</a>
 					</div>						

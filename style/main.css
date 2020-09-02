@@ -239,6 +239,11 @@ p.false{
   background-color: #EADFC2 !important;
 }
 
+.box-riot{
+  background-image: url("../images/portfolio/riot.png");
+  background-color: #4C4E59 !important;
+}
+
 .box-ext{
   background-image: url("../images/portfolio/link.png");
   background-color: #FFF !important;

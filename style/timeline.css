@@ -44,6 +44,10 @@
   width: 50%;
 }
 
+.container .content img{
+  max-width: 75% !important;
+}
+
 /* The circles on the timeline */
 .container::after {
   content: '';

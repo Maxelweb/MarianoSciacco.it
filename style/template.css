@@ -32,7 +32,7 @@ header
   right: 0px;
   left: 0px;
   /*border-bottom: 1px solid #10466E;*/
-  background-color: #FFF; /* #025390 */
+  background-color: #fcfdfe; /* #025390 */
 }
 
 header#header .limiter{ width: 96%; }
@@ -180,6 +180,24 @@ section .limiter
   background-color: #FFF;
   /*box-shadow: 0px 2px 6px rgba(100, 100, 100, 0.3);*/
 }
+
+
+section#skills {
+  background-color: #469699;
+}
+
+section#edu {
+  background-color: #bda57e;
+}
+
+section#portfolio {
+  background-color: #84a85d;
+}
+
+section#contacts {
+  background-color: #9b5151;
+}
+
 
 /* == Eccezioni */
 
@@ -370,8 +388,10 @@ section div.box-option a:hover
 section#end, 
 section.divider
 {
-  height: 75px;
+  height: 10px;
+  /*height: 75px;
   background: #F3F3F3 url("../images/pattern.png") repeat fixed 0% 0%;
+  */
 }
 
 section#pageheader
@@ -460,7 +480,7 @@ article img
 
 footer
 {
-  background-color: #F2F2F2;
+  background-color: #FFF /*#F2F2F2*/;
   min-height: 150px;
   color: #FCFCFC;
   padding: 60px 0;

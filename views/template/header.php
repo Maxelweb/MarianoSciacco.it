@@ -11,7 +11,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Mariano Sciacco, Maxel</title>
+		<title>Mariano Sciacco, Maxelweb</title>
 		<link rel="stylesheet" type="text/css" href="style/stylesheet.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 		<link rel="shortcut icon" href="images/favicon.png">
@@ -32,7 +32,7 @@
 		<div id="parent-header">
 
 			<div id="top-header">
-				<strong>Mariano Sciacco, Maxel</strong>: just a guy playing with the Web <i class="fa fa-globe"></i>
+				<strong>Mariano Sciacco, Maxelweb</strong>: just a guy playing with the Web <i class="fa fa-globe"></i>
 			</div>
 
 			<header id="header">

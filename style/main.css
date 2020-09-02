@@ -42,11 +42,12 @@ h2{
 
 h1 
 {
-  font-size: 24px; 
+  font-size: 24px;
   display: inline-block;
-  border: 2px solid rgb(199, 205, 20) /*rgba(3, 71, 122, 0.34)*/;
-  border-radius: 2px;
-  padding: 12px;
+  border-bottom: 2px solid rgb(199, 205, 20); /*rgba(3, 71, 122, 0.34)*/
+  border-radius: 0px;
+  padding: 10px 2px;
+  font-weight: bold;
 }
 
 h2 {font-size: 20px; color: #025390; }

@@ -435,13 +435,13 @@ article
 section#edu p
 {
   border-left: 2px solid #CCC;
-  padding: 10px 20px;
-  margin: 20px;
+  padding: 5px 20px;
+  margin: 1.2em 0.5em;
 }
 
 section#edu span
 {
-  font-size: 24px;
+  font-size: 1.1em;
   color: #8B5808;
   font-weight: bold;
 }

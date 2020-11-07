@@ -2,7 +2,7 @@
 layout: post
 title: "Pre-annuncio - BitCrumble.com"
 categories: news
-author: "Maxel"
+author: "Maxelweb"
 ---
 
 In questi mesi è in via di sviluppo un nuovo progetto molto singolare che andrà a mirare sulla gestione e archiviazione di grosse quantità di dati. 

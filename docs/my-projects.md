@@ -5,20 +5,17 @@ permalink: /projects/my/
 ---
 
 
-### Progetti attivi (4)
+### Progetti attivi (3)
 
 Tra i progetti attivi attualmente ci sono:
 
 
-- **[covid19-italy](https://github.com/Maxelweb/covid19-italy):** progetto sviluppato in PHP e JS per il monitoraggio dei dati del corona virus in Italia, usando come fonte i dati messi a disposizione dal Dipartimento di Protezione Civile. I dati vengono usati per realizzare grafici giornalieri degli ultimi andamenti e delle ultime varianze per ogni tipologia di informazione disponibile. 
+- **[CovItaly.it](https://covitaly.it)** - **[covid19-italy](https://github.com/Maxelweb/covid19-italy):** progetto sviluppato in PHP e JS per il monitoraggio dei dati del virus Covid-19 in Italia, usando come fonte i dati messi a disposizione dal Dipartimento di Protezione Civile. I dati vengono usati per realizzare grafici giornalieri degli ultimi andamenti e delle ultime varianze per ogni tipologia di informazione disponibile. 
 
 - **[workflow-tracker](https://github.com/Maxelweb/covid):** progetto sviluppato in PHP e JS per il monitoraggio dei branch di sviluppo in una o più repository di Github. Viene fatto uso dei webhook per tenere traccia delle ultime modifiche pushate da parte dei collaboratori. 
 
 
 - **[Server Monitoring System](https://github.com/Maxelweb/ServerMonitoringSystem):** progetto di domotica iniziato a luglio 2019 realizzato con arduino e raspberry per il controllo remoto di una stanza server, con aggiornamento automatico e in tempo reale di temperatura e umidità, wake on lan dei dispositivi connessi e relativo status.
-
-- **BitCrumble.com:** iniziato a giugno 2018, riguarda un sito web pubblico simile a pastebin il cui intento è quello di condividere porzioni di codice di programmazione (chiamati **Crumb**) di cui è possibile eseguirne il fork, il download o il confronto. I Crumb sono di vario tipo e sono condivisibile tramite link o QR Code. Dietro questo progetto, verrà sviluppata una parte utente nelle versioni successive e verrà fatta una integrazione con MongoDB per l'elaborazione dati.
-
 
 
 ### Progetti conclusi (8)
@@ -35,6 +32,10 @@ di gioco, per la registrazione via curriculum e per molte altre features.
 - **[Server Remote Console:](http://src.debug.ovh)** Web software sviluppato in inglese e utilizzato per la gestione di un server SA-MP e per la pubblicazione di bolletini in merito allo status del server (maggio 2018).
 - **Development Board:** La development board è un sito utilizzato come journal per le changelog e per lo sviluppo di progetti di qualsiasi genere. E' possibile collaborare con altre persone creando account di due tipi: developer e beta tester. Il primo è focalizzato nel gestire l'intero progetto, monitorandone l'avanzamento e verificandone i bug, i tester invece segnalano bugs o problemi in ciascuna feature. A breve verrà fatto un rilascio pubblico di questa board.
 
+
+### Progetti sospesi (1)
+
+- **BitCrumble.com:** iniziato a giugno 2018, riguarda un sito web pubblico simile a pastebin il cui intento è quello di condividere porzioni di codice di programmazione (chiamati **Crumb**) di cui è possibile eseguirne il fork, il download o il confronto. I Crumb sono di vario tipo e sono condivisibile tramite link o QR Code. Dietro questo progetto, verrà sviluppata una parte utente nelle versioni successive e verrà fatta una integrazione con MongoDB per l'elaborazione dati.
 
 
 ### Progetti inattivi / abbandonati (3)

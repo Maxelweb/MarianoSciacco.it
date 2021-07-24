@@ -10,9 +10,9 @@
  *
  */
 
- $_version = "v2.2 (09/2020)";
+ $_version = "v2.2.1 (07/2021)";
  $_it_cv_update = "04/2020";
- $_en_cv_update = "04/2020";
+ $_en_cv_update = "07/2021";
 
  include 'views/template/header.php'; 
 

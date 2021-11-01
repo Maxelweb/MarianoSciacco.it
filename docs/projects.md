@@ -4,7 +4,7 @@ title: Progetti
 permalink: /projects/
 ---
 
-[../](&larr; Indietro)
+[&larr; Indietro](../)
 
 - [Progetti Personali](my/)
 - [Progetti Universitari e Pubblicazioni](uni/)

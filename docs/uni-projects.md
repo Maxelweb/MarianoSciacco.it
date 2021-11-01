@@ -4,7 +4,7 @@ title: Progetti Universitari
 permalink: /projects/uni/
 ---
 
-[../](&larr; Indietro)
+[&larr; Indietro](../)
 
 
 #### 📌 [Analysis on "Nested, but Separate: Isolating Unrelated Critical Sections in Real-Time Nested Locking"](https://github.com/Maxelweb/RTOS) - 📅 luglio 2021 - oggi

@@ -4,7 +4,7 @@ title: Progetti Personali
 permalink: /projects/my/
 ---
 
-[../](&larr; Indietro)
+[&larr; Indietro](../)
 
 ### Progetti attivi (5)
 

@@ -1,18 +1,17 @@
 ---
 layout: page
-title: I miei progetti
+title: Progetti Personali
 permalink: /projects/my/
 ---
 
+[../](&larr; Indietro)
 
 ### Progetti attivi (5)
-
-Tra i progetti attivi attualmente ci sono:
 
 
 - **[BitCrumble.com](https://bitcrumble.com):** iniziato a giugno 2018, il progetto riguarda un sito web pubblico simile all'omonimo _pastebin_ il cui intento è quello di condividere porzioni di codice di programmazione (chiamati **Crumb**) di cui è possibile eseguirne il fork, il download o il confronto. I Crumb sono di diverse tipologie e sono condivisibile tramite link o QR Code. Per questo progetto verrà sviluppata una parte utente nelle versioni successive e verrà fatta una integrazione con MongoDB per l'elaborazione dati. Attualmente il progetto è attivo in beta ed è accessibile solo come visitatori con funzioni limitate alla condivisione.
 
-- **[CovItaly.it](https://covitaly.it)** - **[covid19-italy](https://github.com/Maxelweb/covid19-italy):** progetto sviluppato in PHP e JS per il monitoraggio dei dati del virus Covid-19 in Italia, usando come fonte i dati messi a disposizione dal Dipartimento di Protezione Civile. I dati vengono usati per realizzare grafici giornalieri degli ultimi andamenti e delle ultime varianze per ogni tipologia di informazione disponibile. 
+- **[CovItaly.it](https://covitaly.it)** - **[maxelweb/covid19-italy](https://github.com/Maxelweb/covid19-italy):** progetto sviluppato in PHP e JS per il monitoraggio dei dati del virus Covid-19 in Italia, usando come fonte i dati messi a disposizione dal Dipartimento di Protezione Civile. I dati vengono usati per realizzare grafici giornalieri degli ultimi andamenti e delle ultime varianze per ogni tipologia di informazione disponibile. 
 
 - **[workflow-tracker](https://github.com/Maxelweb/workflow-tracker):** progetto sviluppato in PHP e JS per il monitoraggio dei branch di sviluppo in una o più repository di Github. Viene fatto uso dei webhook per tenere traccia delle ultime modifiche inviate da parte dei collaboratori. 
 

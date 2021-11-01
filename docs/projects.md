@@ -4,12 +4,8 @@ title: Progetti
 permalink: /projects/
 ---
 
+[../](&larr; Indietro)
 
-- [I miei progetti](my/)
-- [Progetti universitari](uni/)
-- [Progetti con Atlantis Roleplay](acrp/)
-
-
-### Github
-
-Puoi trovare altri dei miei lavori pubblicati su [Github.com/Maxelweb](https://github.com/Maxelweb/).
+- [Progetti Personali](my/)
+- [Progetti Universitari e Pubblicazioni](uni/)
+- [Profilo di Github](https://github.com/Maxelweb/)

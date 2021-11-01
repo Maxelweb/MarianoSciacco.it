@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Progetti universitari
+title: Progetti Universitari
 permalink: /projects/uni/
 ---
+
+[../](&larr; Indietro)
 
 
 #### 📌 [Analysis on "Nested, but Separate: Isolating Unrelated Critical Sections in Real-Time Nested Locking"](https://github.com/Maxelweb/RTOS) - 📅 luglio 2021 - oggi
@@ -95,12 +97,3 @@ Traduttore dal linguaggio SWL (inventato) al linguaggio C++.
 #### 📌 [Impatto tecnologico e informatico nelle società moderne](http://public.marianosciacco.it/tesina_superiori.pdf) - 📅 giugno 2016
 
 > Tesina di Scuola Superiore
-
-
-
-
-
-
-
-
-

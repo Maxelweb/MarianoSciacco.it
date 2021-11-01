@@ -5,8 +5,7 @@
 
 title: "Development"
 description: >
-  All'interno di questa sezione sono presenti tutti i lavori sviluppati fino ad oggi, tra cui
-  progetti, siti web, software e pubblicazioni.
+  Raccolta di tutti i lavori pubblici sviluppati fino ad oggi, tra cui progetti, siti web, software, relazioni tecniche e pubblicazioni. Tutti i diritti riservati al relativo autore.
 
 author: Mariano Sciacco
 email: marianosciacco@gmail.com
@@ -21,5 +20,6 @@ minima:
     linkedin: marianosciacco
 
 header_pages: 
-  - projects.md
+  - my-projects.md
+  - uni-projects.md
   - portfolio.md

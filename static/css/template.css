@@ -1,0 +1,511 @@
+/*
+ *
+ *  Personal Web Page - MarianoSciacco.it
+ *  CSS - Template
+ *  
+ *  Developed by Maxel
+ *  Github - this.marianosciacco.it
+ *
+ */
+
+
+#top-header
+{
+  height: 30px;
+  padding: 6px 0 4px;
+  width: 100%; 
+  background-color: #03477A; /*#ADCFE9; #03477A;*/
+  text-align: center;
+  color: #9AB7CE;
+  font-size: 9px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+header
+{
+  width: 100%;
+  height: 130px;
+  margin: 0 auto;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  /*border-bottom: 1px solid #10466E;*/
+  background-color: #fcfdfe; /* #025390 */
+}
+
+header#header .limiter{ width: 96%; }
+
+header .limiter
+{
+  text-align: center;
+}
+
+#navbar-header
+{
+  margin: 40px auto 0;
+}
+
+#navbar-header .url-list
+{
+  text-align: left;
+  margin: -11px 0 0;
+}
+
+#navbar-header .url-list a.link-header
+{
+  padding: 26px;
+  margin: 0 8px;
+  display: inline-block;
+  color: #03477A;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.8px; 
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.3s; 
+  font-size: 16px;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+#navbar-header .url-list a.link-header:hover
+{
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+
+
+.dropdown-content 
+{
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  min-width: 185px;
+  margin: 0px 45px;
+  transition: 0.3s;
+}
+
+.dropdown-content a 
+{ 
+  padding: 15px;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s;
+  cursor: pointer;
+  color: #03477A;
+  text-transform: uppercase;
+  border-radius: 4px;
+  margin: 10px 0;
+  background-color: #FFF;
+  font-size: 15;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.dropdown-content a:hover {background-color: #A9C0D2; transition: 0.3s;}
+
+.dropdown:hover .dropdown-content{ transition: 0.3s; display: block; }
+
+
+
+#navbar-header,
+#logo-header
+{
+  display: inline-block;
+  vertical-align: top;
+}
+
+#logo-header
+{
+  width: 300px;
+  height: 150px;
+  background-size: 100%;
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-image: url("../images/logo.png");
+  -webkit-transition: background-image 0.2s ease-in-out;
+  transition: background-image 0.2s ease-in-out;
+}
+
+
+#mobile-navbar
+{
+  background-color: #025390;
+  color: #FFF;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: auto;
+  text-align: center;
+  display: none;
+}
+
+#mobile-navbar .url-list a
+{
+  color: #FFF;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: 2px solid #03477A;
+  padding: 8px;
+  margin: 0;
+  display: block;
+  text-decoration: none;
+}
+
+#mobile-navbar .url-list a:hover
+{
+  text-decoration: none;
+  color: #CCC;
+  background-color: #073354;
+}
+
+#wrapper
+{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+section
+{
+  /*background: #E6E6E6 url("../images/pattern.png") repeat scroll 0% 0%;*/
+  background-color: #FFF;
+}
+
+section .limiter
+{
+  padding: 20px;
+  background-color: #FFF;
+  /*box-shadow: 0px 2px 6px rgba(100, 100, 100, 0.3);*/
+}
+
+
+section#skills {
+  background-color: #469699;
+}
+
+section#edu {
+  background-color: #bda57e;
+}
+
+section#portfolio {
+  background-color: #84a85d;
+}
+
+section#contacts {
+  background-color: #9b5151;
+}
+
+
+/* == Eccezioni */
+
+section#skip .limiter,
+section#name .limiter,
+section.divider .limiter
+{
+  box-shadow: none;
+  background-color: transparent;
+}
+
+/* ============ */
+
+section#skip
+{
+  background-color: #03477A;
+  height: 30px;
+  border-bottom: 1px solid #002038;
+}
+
+section#skip .limiter
+{
+  padding: 2px;
+  min-height: 0;
+  text-align: center;  
+  color: #FFF;
+  font-weight: bold;
+  padding: 5px 0 0;
+}
+
+section#skip a,
+section#skip a:hover
+{
+  color: #FFF;
+}
+
+section#name
+{
+  min-height: 150px;
+  padding: 50px 0;
+  text-align: center;
+  background: #529ebd url("../images/material.jpg") no-repeat 100% center / cover;
+  background-attachment: fixed;
+}
+
+
+section#name div.name,
+section#name div.desc,
+section.divider div.title
+{
+  padding: 20px;
+  font-size: 32px;
+  letter-spacing: 4.0px;
+  margin: 20px auto;
+  text-transform: uppercase;
+  color: #FFF;
+ /* background-color: rgba(26, 85, 128, 0.1); */
+  padding: 20px;
+}
+
+section#name div.name
+{
+  background-color: transparent;
+}
+
+
+section#name div.image
+{
+  border-bottom: 2px solid #FFF;
+  margin: auto;
+  width: 400px;
+}
+
+section#name span
+{
+  font-weight: bold;
+}
+
+section#description
+{
+  min-height: 300px;
+}
+
+section div.titolo,
+section div.contenuto
+{
+  float: left;
+  min-height: 100px;
+}
+
+section div.titolo
+{
+  width: 35%;
+  text-transform: uppercase;
+  text-align: right;
+  padding-right: 5em;
+}
+
+section div.titolo h2
+{
+  font-size: 32px;
+}
+
+section#skills div.titolo h2
+{
+  color: #03767A;
+}
+
+section#edu div.titolo h2
+{
+  color: #8B5808;
+}
+
+section#contacts div.titolo h2
+{
+  color: #9E0B0F;
+}
+
+
+section#portfolio div.titolo h2
+{
+  color: #418207;
+}
+
+section div.titolo img
+{
+  max-width: 64px;
+}
+
+section div.contenuto
+{
+  width: 65%;
+}
+
+section div.list-box-option
+{
+  width: auto; 
+  margin: 30px auto 10px;
+}
+
+section div.box-option
+{
+  width: 20%;
+  display: inline-block;
+  height: 250px;
+  margin: 2%;
+  background-color: #FFF;
+  background-repeat: no-repeat; 
+  background-size: 85%;
+  background-position: center;
+ /* border: 1px solid rgba(3, 71, 122, 0.51);*/
+  border-radius: 4px;
+  position: relative;
+ /* box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); */
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  /*cursor: pointer;*/  
+}
+
+/*
+section div.box-option:hover
+{
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+*/
+
+
+section div.box-option div.box-text
+{
+  margin: 260px auto;
+  text-align: center;
+  padding: 10px 0; 
+  font-style: italic;
+}  
+
+section div.box-option a
+{
+  color: #025390;
+  font-size: 24px;
+  transition: 0.3s;
+  font-weight: lighter;
+}
+
+section div.box-option a:hover
+{
+  text-decoration: none;
+}
+
+section#end, 
+section.divider
+{
+  height: 0px;
+  /*height: 75px;
+  background: #F3F3F3 url("../images/pattern.png") repeat fixed 0% 0%;
+  */
+}
+
+section#pageheader
+{
+  background: transparent url("../images/material.jpg") no-repeat  100% center / cover;
+  height: 160px;
+}
+
+section#pageheader div.title
+{
+  letter-spacing: 2px;
+  font-size: 24px;
+  padding: 10px;
+  line-height: 35px;
+}
+
+section#end h1
+{
+  color: #FFF;
+  background-color: rgba(26, 85, 128, 0.1);
+  padding: 8px 12px;
+  text-align: center;
+}
+
+section#end input[type="text"],
+section#end input[type="submit"]
+{
+  border: none;
+  font-size: 30px;
+  color: #FFF;
+  background-color: rgba(30, 120, 146, 0.83);
+}
+
+section#end input[type="text"]
+{
+  width: 250px;
+  background-color: transparent;
+}
+
+section#end form
+{
+  display: inline;
+}
+
+
+article
+{
+  width: auto;
+  min-height: 200px;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  font-weight: normal;
+  line-height: 140%;
+  margin: 25px 25px 25px 0;
+  text-align: left;
+  vertical-align: top;
+  padding: 5px 10px;
+  overflow: hidden;
+}
+
+section#edu p
+{
+  border-left: 2px solid #CCC;
+  padding: 5px 20px;
+  margin: 1.2em 0.5em;
+}
+
+section#edu span
+{
+  font-size: 1.1em;
+  color: #8B5808;
+  font-weight: bold;
+}
+
+section#ads article
+{
+  min-height: 0;
+  height: 115px;
+}
+
+article img
+{
+  max-width: 450px;
+  margin: 10px;
+}
+
+footer
+{
+  background-color: #FFF /*#F2F2F2*/;
+  min-height: 150px;
+  color: #FCFCFC;
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+footer p
+{
+  margin: 0;
+  font-size: 12px;
+  line-height: 20px;
+  color: #000;
+}
+
+footer .footer-logo
+{
+  float: left; 
+  text-align: right;
+  width: 35%;
+  padding-right: 5em;
+}
+
+footer .footer-text
+{
+  float: left; 
+  width: 65%;
+  padding: 0.5em;
+}

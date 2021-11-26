@@ -46,3 +46,9 @@ hr{
 	border-top: 1px solid #C5C6B3;
 }
 
+.post-content h4 {
+    font-size: 20px;
+    margin-bottom: 6px !important;
+    margin-top: 18px !important;
+}
+

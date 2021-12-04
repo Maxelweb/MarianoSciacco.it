@@ -119,12 +119,9 @@ header .limiter
 {
   width: 300px;
   height: 150px;
-  background-size: 100%;
-  background-position: 0px 0px;
+  background-position: center !important;
   background-repeat: no-repeat;
-  background-image: url("../images/logo.png");
-  -webkit-transition: background-image 0.2s ease-in-out;
-  transition: background-image 0.2s ease-in-out;
+  background-image: url("../images/favicon.png");
 }
 
 

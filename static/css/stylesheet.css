@@ -1,16 +1,13 @@
 /*
  *
  *  Personal Web Page - MarianoSciacco.it
- *  CSS - Version 2.0
+ *  CSS - Version 3.0
  *  
  *  Developed by Maxel
  *  Github - this.marianosciacco.it
  *
  */
 
-@import url("main.css");
-@import url("template.css");
-@import url("mobile.css");
-@import url("morphext.css");
-@import url("animate.css");
+@import url("general.css");
 @import url("timeline.css");
+@import url("termynal.css");

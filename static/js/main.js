@@ -44,13 +44,13 @@
 		
 		// Offsets for side icons
 
-		if (screen.width >= 900) {
-		  $('.scroll-1').scrollToFixed({ marginTop: 10, limit: $('.limit-1').offset().top - 220 });
-		  $('.scroll-2').scrollToFixed({ marginTop: 10, limit: $('.limit-2').offset().top - 220 });
-		  $('.scroll-3').scrollToFixed({ marginTop: 10, limit: $('.limit-3').offset().top - 220 });
-		  $('.scroll-4').scrollToFixed({ marginTop: 10, limit: $('.limit-4').offset().top - 220 });
-		  $('.scroll-5').scrollToFixed({ marginTop: 10, limit: $('.limit-5').offset().top - 220 });
-		}
+		// if (screen.width >= 900) {
+		//   $('.scroll-1').scrollToFixed({ marginTop: 10, limit: $('.limit-1').offset().top - 220 });
+		//   $('.scroll-2').scrollToFixed({ marginTop: 10, limit: $('.limit-2').offset().top - 220 });
+		//   $('.scroll-3').scrollToFixed({ marginTop: 10, limit: $('.limit-3').offset().top - 220 });
+		//   $('.scroll-4').scrollToFixed({ marginTop: 10, limit: $('.limit-4').offset().top - 220 });
+		//   $('.scroll-5').scrollToFixed({ marginTop: 10, limit: $('.limit-5').offset().top - 220 });
+		// }
 
 
 		// Add smooth scrolling to all links
@@ -73,14 +73,6 @@
 	});
 
 
-			
-	// Title animations
-
-	$("#js-morph").Morphext({
-	    animation: "jackInTheBox",
-	    separator: ",",
-	    speed: 3000,
-	    complete: function () {}
-	});
+	var termynal = new Termynal('#termynal');
 
 

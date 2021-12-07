@@ -370,15 +370,14 @@ section div.box-option div.box-text
   margin: 260px auto;
   text-align: center;
   padding: 10px 0; 
-  font-style: italic;
+  /* font-style: italic; */
 }  
 
 section div.box-option a
 {
   color: #025390;
-  font-size: 24px;
-  transition: 0.3s;
-  font-weight: lighter;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 section div.box-option a:hover

@@ -14,9 +14,11 @@
   height: 30px;
   padding: 6px 0 4px;
   width: 100%; 
-  background-color: #03477A; /*#ADCFE9; #03477A;*/
+  /* background-color: #03477A; #ADCFE9; #03477A; */
+  background-color: #3c87a7;
   text-align: center;
-  color: #9AB7CE;
+  /* color: #9AB7CE; */
+  color: #FFF;
   font-size: 9px;
   font-weight: bold;
   letter-spacing: 1px;

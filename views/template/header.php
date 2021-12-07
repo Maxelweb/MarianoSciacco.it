@@ -11,7 +11,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Mariano Sciacco, Maxelweb</title>
+		<title>Mariano Sciacco, Maxelweb - Computer Scientist</title>
 		<link rel="stylesheet" type="text/css" href="style/stylesheet.css?v=<?=$_version_n;?>">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 		<link rel="shortcut icon" href="images/favicon.png">

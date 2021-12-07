@@ -171,7 +171,7 @@ header .limiter
 section
 {
   /*background: #E6E6E6 url("../images/pattern.png") repeat scroll 0% 0%;*/
-  background-color: #FFF;
+  background-color: #c5c5c5;
 }
 
 section .limiter
@@ -387,7 +387,7 @@ section div.box-option a:hover
 section#end, 
 section.divider
 {
-  height: 0px;
+  height: 20px;
   /*height: 75px;
   background: #F3F3F3 url("../images/pattern.png") repeat fixed 0% 0%;
   */
@@ -479,7 +479,7 @@ article img
 
 footer
 {
-  background-color: #ebebeb /*#F2F2F2*/;
+  background-color: #FFF /*#F2F2F2*/;
   min-height: 150px;
   color: #FCFCFC;
   padding: 60px 0;

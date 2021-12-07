@@ -12,7 +12,7 @@
 <html>
 	<head>
 		<title>Mariano Sciacco, Maxelweb</title>
-		<link rel="stylesheet" type="text/css" href="style/stylesheet.css">
+		<link rel="stylesheet" type="text/css" href="style/stylesheet.css?v=<?=$_version_n;?>">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 		<link rel="shortcut icon" href="images/favicon.png">
 		<link rel="icon" sizes="192x192" href="images/favicon.png">
@@ -32,7 +32,7 @@
 		<div id="parent-header">
 
 			<div id="top-header">
-				<strong>Mariano Sciacco, Maxelweb</strong>: just a guy playing with the Web <i class="fa fa-globe"></i>
+				<strong>Mariano Sciacco, Maxelweb</strong>: just a guy exploring the Web <i class="fa fa-coffee"></i>
 			</div>
 
 			<header id="header">

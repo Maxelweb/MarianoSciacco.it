@@ -9,8 +9,8 @@
  *  Github - this.marianosciacco.it
  *
  */
-
- $_version = "v2.2.1 (07/2021)";
+ $_version_n = "2.2.2";
+ $_version = "v".$_version_n." (12/2021)";
  $_it_cv_update = "11/2021";
  $_en_cv_update = "07/2021";
 

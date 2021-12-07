@@ -26,6 +26,7 @@
     footer .footer-logo, footer .footer-text{ float: none; width: auto; text-align: center !important; padding: 2em;}
     #navbar-footer, #info-footer, #logo-footer {width: auto;}
     #info-footer{ border: none; border-top: 4px solid #114A74; border-bottom: 4px solid #114A74;}
+    section#name {background-attachment: scroll;}
     section#name div.desc {line-height: 45px; font-size: 24px;}
     section#name div.image {width: auto;}
     section#name div.name {font-size: 40px; line-height: 50px;}
@@ -64,6 +65,7 @@
     footer{ width: 100%; height: auto; padding-bottom: 20px; height: auto; }
     footer .footer-logo, footer .footer-text{ float: none; width: auto; text-align: center !important; padding: 2em;}
     #navbar-footer, #info-footer, #logo-footer {width: auto; width: auto;}
+    section#name {background-attachment: scroll;}
     section#name div.desc {line-height: 45px;}
     section#name div.image {width: auto;}
     section#name div.name {font-size: 40px; line-height: 50px;}

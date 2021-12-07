@@ -229,6 +229,16 @@ p.false{
   background-color: #EAEAEA !important;
 }
 
+.box-covitaly{
+  background-image: url("../images/portfolio/covitaly.png");
+  background-color: #303030 !important;
+}
+
+.box-bitcrumble{
+  background-image: url("../images/portfolio/bitcrumble.png");
+  background-color: #667480 !important;
+}
+
 .box-lspd{
   background-image: url("../images/portfolio/lspd.png");
   background-color: #667480 !important;

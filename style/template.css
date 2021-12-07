@@ -183,19 +183,19 @@ section .limiter
 
 
 section#skills {
-  background-color: #469699;
+  /* background-color: #469699; */
 }
 
 section#edu {
-  background-color: #bda57e;
+  /* background-color: #bda57e; */
 }
 
 section#portfolio {
-  background-color: #84a85d;
+  /* background-color: #84a85d; */
 }
 
 section#contacts {
-  background-color: #9b5151;
+  /* background-color: #9b5151; */
 }
 
 
@@ -257,6 +257,7 @@ section.divider div.title
  /* background-color: rgba(26, 85, 128, 0.1); */
   padding: 20px;
 }
+
 
 section#name div.name
 {

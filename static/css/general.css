@@ -30,7 +30,7 @@ body {
   background-color: #fff;
 }
 
-a {
+/* a {
   color: #67adc5;
   text-decoration: underline;
 }
@@ -39,19 +39,13 @@ a:visited {
 }
 a:hover {
   text-decoration: none;
-}
+} */
 
 hr {
   border: 0px;
   border-top: 1px solid #ccc;
 }
 
-p,
-ul {
-  margin: 20px 0;
-  line-height: 40px;
-  font-size: 18px;
-}
 
 h1,
 h2 {
@@ -66,8 +60,8 @@ h1 {
   /* font-size: 24px;
   display: inline-block;
   border-bottom: 1px solid rgb(55, 33, 182); */
-  border-radius: 0px;
-  padding: 10px 2px;
+  /* border-radius: 0px;
+  padding: 10px 2px; */
   font-weight: bold;
 }
 
@@ -144,9 +138,18 @@ p.false {
 
 /* ========== Template ========== */
 
+.pre-fixed-header{
+  height: 56px;
+}
+
+.ml-auto{
+  margin-left: auto !important;
+}
+
 .top-header {
   height: 30px;
   padding: 6px 0 4px;
+  margin-top: 56px;
   width: 100%;
   background-color: #13185a;
   text-align: center;
@@ -155,6 +158,45 @@ p.false {
   font-weight: bold;
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+
+header{
+  min-height: 100vh;
+  height: auto;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-image: url("/images/background.jpg");
+  color: white;
+  display: block;
+}
+
+.inner-header {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: 0;
+  width: 50%;
+  background-color: rgb(0 0 0 / 50%);
+  left: 25%;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.inner-header .my-portrait {
+  width: 15%;
+  margin: 20px auto 0;
+  border: 2px solid #CCC;
+}
+
+
+.inner-header h1,
+.inner-header h2{
+  color: white;
+  padding: 20px 0;
+  margin: 0;
 }
 
 .header {
@@ -178,12 +220,20 @@ p.false {
   border-top-right-radius: 4px;
 }
 
-.side-container .my-portrait {
+.my-portrait {
   max-width: 80%;
   border-radius: 5000px;
   display: block;
   margin: auto;
 }
+
+
+.bg-dark-green{
+  background-color: #242c26;
+  color: #FFF;
+}
+
+
 
 footer {
   background-color: #fff /*#F2F2F2*/;

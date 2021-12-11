@@ -37,26 +37,26 @@
     </div> -->
 
     <div id="parent-header">
-        <div class="top-header">
+        <!-- <div class="top-header">
             <strong>Mariano Sciacco, Maxelweb</strong>: just a guy exploring with
             the Web <i class="fas fa-coffee"></i>
-        </div>
+        </div> -->
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light header d-flex">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light header fixed-top">
             <div class="container">
-                <div class="col-md-3 side-header"><a class="navbar-brand" href="#">
+                <div class="col-lg-3 side-header"><a class="navbar-brand" href="#">
                         <span class="fancy-font">Mariano Sciacco</span></a></div>
-                <div class="col-md-9">
+                <div class="col-lg-9">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
-                        <div class="navbar-nav">
+                        <div class="navbar-nav ml-auto">
                             <a class="nav-link active" href="/">Home</a>
-                            <a class="nav-link" href="about">Chi Sono</a>
-                            <a class="nav-link" href="portfolio">Portfolio</a>
-                            <a class="nav-link" href="contacts">Contatti</a>
+                            <a class="nav-link" href="/about">About me</a>
+                            <a class="nav-link" href="/portfolio">Portfolio</a>
+                            <a class="nav-link" href="/contacts">Contacts</a>
                             </ul>
                         </div>
                     </div>
@@ -90,20 +90,8 @@
     </div>
 
 
+    {{ block "main" . }} {{ end }}
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-                <div class="side-container text-center">
-                    <img class="my-portrait" src="/images/my-portrait.jpeg">
-                    <hr>
-                    Computer Scientist
-                    <hr>
-                </div>
-            </div>
-            <div class="col-md-9">{{ block "main" . }} {{ end }}</div>
-        </div>
-    </div>
 
     <footer id="footer">
         <div class="limiter">

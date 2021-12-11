@@ -10,36 +10,61 @@
 
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Mariano Sciacco, Maxelweb</title>
-        <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="/css/stylesheet.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
-        <link rel="shortcut icon" href="images/favicon.png">
-        <link rel="icon" sizes="192x192" href="images/favicon.png">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-        <meta charset="UTF-8">
-        <meta name="theme-color" content="#539FBA">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-        <script src="/js/bootstrap.min.js" async></script>
-        <script src="/js/fadeInScroll.js"></script>
-        <script src="/js/jquery-scrolltofixed.js"></script>
-        <script src="/js/termynal.js" async></script>
-        <script src="/js/main.js" async></script>
-        
-        
-    </head>
-    <body>
-        
-        <div id="top"></div>
 
-        <div id="parent-header">
+<head>
+    <title>Mariano Sciacco, Maxelweb</title>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="/css/fontawesome/css/all.min.css" />
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <link rel="icon" sizes="192x192" href="images/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta name="theme-color" content="#539FBA" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js" async></script>
+    <script src="/js/fadeInScroll.js"></script>
+    <script src="/js/jquery-scrolltofixed.js"></script>
+    <script src="/js/termynal.js" async></script>
+    <script src="/js/main.js" async></script>
+</head>
 
-            <div id="top-header">
-                <strong>Mariano Sciacco, Maxelweb</strong>: just a guy playing with the Web <i class="fa fa-globe"></i>
+<body>
+    <div id="top"></div>
+
+    <!-- <div class="tothetop hide" id="TOP">
+        <a href="#top"><img src="images/icons/goup.png" name="Torna su" /></a>
+    </div> -->
+
+    <div id="parent-header">
+        <div class="top-header">
+            <strong>Mariano Sciacco, Maxelweb</strong>: just a guy exploring with
+            the Web <i class="fas fa-coffee"></i>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light header d-flex">
+            <div class="container">
+                <div class="col-md-3 side-header"><a class="navbar-brand" href="#">
+                        <span class="fancy-font">Mariano Sciacco</span></a></div>
+                <div class="col-md-9">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" href="/">Home</a>
+                            <a class="nav-link" href="about">Chi Sono</a>
+                            <a class="nav-link" href="portfolio">Portfolio</a>
+                            <a class="nav-link" href="contacts">Contatti</a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </nav>
 
-            <header id="header">
+        <!-- <header id="header">
                 <div class="limiter">
                     <div id="logo-header" class="cursor logo hide" onclick="location.replace('./')"></div>
                     <div id="navbar-header">
@@ -61,32 +86,44 @@
                     </div>
 
                 </div>
-            </header>
-            
-        </div>
-
-    <div class="tothetop hide" id="TOP"><a href="#top"><img src="images/icons/goup.png" name="Torna su"></span></a></div>
-
-    <div id="wrapper">
-        {{ block "main" . }}
-
-        {{ end }}
+            </header> -->
     </div>
-			
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="side-container text-center">
+                    <img class="my-portrait" src="/images/my-portrait.jpeg">
+                    <hr>
+                    Computer Scientist
+                    <hr>
+                </div>
+            </div>
+            <div class="col-md-9">{{ block "main" . }} {{ end }}</div>
+        </div>
+    </div>
+
     <footer id="footer">
         <div class="limiter">
-        <div class="footer-logo">
-            <img src="images/favicon.png">
+            <div class="footer-logo">
+                <img src="images/favicon.png" />
+            </div>
+            <div class="footer-text">
+                <p>
+                    Sito Web realizzato completamente da <b>Mariano Sciacco</b>. Il
+                    sorgente di questo sito web è possibile trovarlo su
+                    <a href="http://this.marianosciacco.it">Github</a>
+                    <i class="fab fa-github"></i>. <br />Ultimo aggiornamento:
+                    <u>v3-development</u>.
+                    <a href="mailto:marianosciacco@gmail.com">Contatta il proprietario del sito.</a>
+                </p>
+                <br /><img alt="Licenza Creative Commons" style="border-width: 0; margin: 0px"
+                    src="https://i.creativecommons.org/l/by-nd/4.0/80x15.png" />
+            </div>
         </div>
-        <div class="footer-text">
-            <p>
-            Sito Web realizzato completamente da <b>Mariano Sciacco</b>. Il sorgente di questo sito web è possibile trovarlo su <a href="http://this.marianosciacco.it">Github</a> <i class="fab fa-github"></i>.  
-            <br>Ultimo aggiornamento: <u>v3-development</u>.
-            <a href="mailto:marianosciacco@gmail.com">Contatta il proprietario del sito.</a>
-            </p>
-            <br><img alt="Licenza Creative Commons" style="border-width:0; margin: 0px;" src="https://i.creativecommons.org/l/by-nd/4.0/80x15.png">
-        </div>
-        </div>						
     </footer>
 </body>
+
 </html>

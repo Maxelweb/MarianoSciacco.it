@@ -1,5 +1,5 @@
 {{ define "main" }}
-<!-- Here the section refers to content/section/_index.html --> 
+<!-- Here the section refers to content/section/post-custom-name.md --> 
 <div class="pre-fixed-header"></div>
 <div class="container">
     <div class="row">
@@ -12,7 +12,7 @@
             </div>
         </div>
         <div class="col-md-9">
-            {{.Content}}
+            {{ partial "timeline.html" . }}
         </div>
     </div>
 </div>

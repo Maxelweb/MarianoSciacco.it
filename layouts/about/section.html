@@ -1,5 +1,4 @@
 {{ define "main" }}
-<!-- Here the section refers to content/section/_index.html --> 
 <div class="pre-fixed-header"></div>
 <div class="container">
     <div class="row">
@@ -7,12 +6,12 @@
             <div class="side-container text-center">
                 <img class="my-portrait" src="/images/my-portrait.jpeg">
                 <hr>
-                Computer Scientist
+                Computer Scientistbbbbaaaa
                 <hr>
             </div>
         </div>
         <div class="col-md-9">
-            {{.Content}}
+            {{ partial "timeline.html" . }}
         </div>
     </div>
 </div>

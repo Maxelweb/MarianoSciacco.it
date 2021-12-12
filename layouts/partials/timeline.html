@@ -1,0 +1,16 @@
+<div class="timeline">
+    {{ range .Pages }}
+    <div class="container-box right">
+        <div class="content">
+            <h2>
+                <i class="fa fa-book"></i>
+                <i class="fa fa-chart-line"></i> Ottobre 2021
+            </h2>
+            <p>
+                {{ .Title }}
+                {{ .Content }}
+            </p>
+        </div>
+    </div>
+    {{ end }}
+</div>

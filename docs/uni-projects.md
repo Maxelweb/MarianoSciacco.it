@@ -8,9 +8,20 @@ permalink: /projects/uni/
 
 ### Laurea Informatica - Magistrale
 
+
+#### [FuzzQR - QR Code Fuzzing Toolkit for Android & iOS](https://github.com/Maxelweb/FuzzQR) - 📅 dicembre 2021 - febbraio 2022
+
+Progetto di Advanced Topics in Computer & Network Security in collaborazione Federico Carboni. Realizzazione di un toolkit utilizzato per eseguire test di QR-code multipli su applicazioni Android e iOS.
+
+
+#### [Formal Methods for Cyberphysical Systems - Invariant Verification Analysis](https://github.com/Maxelweb/CyberPhysicalSystemsLabs) - 📅 ottobre 2021 - gennaio 2022
+
+Progetto di Formal Methods for Cyberphysical Systems. Esercizi e analisi per la verifica degli invarianti in sistemi a componenti ibridi sfruttando la libreria NuSMV su Python. Il progetto è stato fatto in collaborazione con Federico Carboni e Giuseppe Rossano.
+
+
 #### [Analysis on "Nested, but Separate: Isolating Unrelated Critical Sections in Real-Time Nested Locking"](https://github.com/Maxelweb/RTOS) - 📅 luglio 2021 - oggi
 
-Progetto di Real-time Kernels and Systems basato sull'analisi del paper _Nested, but Separate: Isolating Unrelated Critical Sections in Real-Time Nested Locking_ di B. B. Brandenburg e J. Robb. Il progetto è ancora in sviluppo in collaborazione con Giuseppe Rossano.
+Progetto di Real-time Kernels and Systems basato sull'analisi del paper _Nested, but Separate: Isolating Unrelated Critical Sections in Real-Time Nested Locking_ di B. B. Brandenburg e J. Robb. Il progetto è stato fatto in collaborazione con Giuseppe Rossano.
 
 
 #### [ArduTracker - Hardware-based Contact Tracing](#) - 📅 dicemebre 2020 - oggi

@@ -12,7 +12,7 @@
  $_version_n = "2.2.3";
  $_version = "v".$_version_n." (12/2021)";
  $_it_cv_update = "11/2021";
- $_en_cv_update = "07/2021";
+ $_en_cv_update = "12/2021";
 
  include 'views/template/header.php'; 
 

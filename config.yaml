@@ -1,0 +1,64 @@
+baseURL: 'http://localhost/'
+title: 'Mariano Sciacco, Maxelweb'
+theme: 
+  - "maxelweb-theme"
+defaultContentLanguage: en
+disableKinds:
+- taxonomy
+- term
+
+languages: 
+  it: 
+    languageName: Italiano
+    languageCode: 'it-IT'
+    title: 'Homepage'
+    params:
+      short: ITA
+      flag: /img/lang/ita.png
+    weight: 1
+    contentDir: "content/italian"
+    menu:
+      main:
+      - id: home
+        weight: 1
+        name: Home
+        url: "/" 
+      - id: about
+        weight: 2
+        name: Chi sono
+        url: "/about/" 
+      - id: portfolio
+        weight: 3
+        name: Portfolio
+        url: "/portfolio/" 
+      - id: contacts
+        weight: 4
+        name: Contatti
+        url: "/contacts/"
+  en: 
+    languageName: English
+    languageCode: 'en-US'
+    title: 'Homepage'
+    params:
+      short: ENG
+      flag: /img/lang/eng.png
+    weight: 2
+    contentDir: "content/english"
+    menu:
+      main:
+      - id: home
+        weight: 1
+        name: Home
+        url: "/" 
+      - id: about
+        weight: 2
+        name: About me
+        url: "/about/" 
+      - id: portfolio
+        weight: 3
+        name: Portfolio
+        url: "/portfolio/" 
+      - id: contacts
+        weight: 4
+        name: Contacts
+        url: "/contacts/"

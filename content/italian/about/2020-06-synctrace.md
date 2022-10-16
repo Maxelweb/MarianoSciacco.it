@@ -1,7 +1,7 @@
 ---
 title: Tirocinio curricolare, Sync Lab 
 customDate: Giugno 2020
-fa-icon: briefcase
+faIcon: briefcase
 tags: [university,unipd,computer-science,synctrace]
 date: 2020-06-01
 draft: false

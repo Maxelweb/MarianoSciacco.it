@@ -1,7 +1,7 @@
 ---
 title: Inizio Università
 customDate: Aprile 2015
-fa-icon: university
+faIcon: university
 tags: [university,unipd,computer-science]
 date: 2016-10-01
 draft: false

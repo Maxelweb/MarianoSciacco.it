@@ -7,20 +7,7 @@
         </div>
         <div class="col-md-10">
             {{ .Content }}
-            <div class="timeline">
-                {{ range .Pages }}
-                <div class="container-box right">
-                    <div class="content">
-                        <h2>
-                            <i class="fa fa-{{ .Params.faIcon }}"></i> {{ .Params.customDate }}
-                        </h2>
-                        <p>
-                            {{ .Content }}
-                        </p>
-                    </div>
-                </div>
-                {{ end }}
-            </div>
+            {{ partial "timeline.html" . }}
         </div>
     </div>
 </div>

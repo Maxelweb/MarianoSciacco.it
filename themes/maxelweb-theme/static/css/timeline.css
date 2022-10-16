@@ -13,6 +13,10 @@
   box-sizing: border-box;
 }
 
+h2.tml-title {
+  font-size: 20px !important;
+  text-transform: capitalize;
+}
 
 /* The actual timeline (the vertical ruler) */
 .timeline {
@@ -145,7 +149,8 @@
 
 /* Make sure all circles are at the same spot */
   .left::after, .right::after {
-    left: 15px;
+    /* left: 15px; */
+    left: 19px;
   }
 
 /* Make all right container-boxs behave like the left ones */

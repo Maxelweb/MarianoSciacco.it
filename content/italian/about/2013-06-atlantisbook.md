@@ -1,7 +1,7 @@
 ---
 title: AtlantisBook, online social network
 customDate: Giugno 2013
-fa-icon: book
+faIcon: book
 tags: [atlantisbook, social-network]
 date: 2013-06-01
 draft: false

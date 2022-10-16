@@ -1,7 +1,7 @@
 ---
 title: Covitaly
 customDate: Novembre 2020
-fa-icon: chart-line
+faIcon: chart-line
 tags: [university,unipd,computer-science,covitaly]
 date: 2020-11-01
 draft: false

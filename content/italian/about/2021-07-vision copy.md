@@ -1,7 +1,7 @@
 ---
 title: Progetto universitario di Real-Times Kernels and Systems
 customDate: Ottobre 2021
-fa-icon: user-friends
+faIcon: user-friends
 tags: [university,unipd,computer-science,rts,real-times]
 date: 2021-10-01
 draft: false

@@ -1,7 +1,6 @@
 ---
-layout: page
 title: Progetti Personali
-permalink: /projects/my/
+layout: _default
 ---
 
 [&larr; Indietro](../)

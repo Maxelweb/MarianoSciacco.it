@@ -1,7 +1,7 @@
 ---
 title: Progetto universitario di Ricerca Operativa
 customDate: Luglio 2019
-fa-icon: search
+faIcon: search
 tags: [university,unipd,computer-science]
 date: 2019-07-01
 draft: false

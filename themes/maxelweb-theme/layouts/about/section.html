@@ -2,12 +2,25 @@
 <div class="pre-fixed-header"></div>
 <div class="container">
     <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-2">
             {{ partial "sidebar.html" . }}
         </div>
-        <div class="col-md-9">
+        <div class="col-md-10">
             {{ .Content }}
-            {{ partial "timeline.html" . }}
+            <div class="timeline">
+                {{ range .Pages }}
+                <div class="container-box right">
+                    <div class="content">
+                        <h2>
+                            <i class="fa fa-{{ .Params.faIcon }}"></i> {{ .Params.customDate }}
+                        </h2>
+                        <p>
+                            {{ .Content }}
+                        </p>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
         </div>
     </div>
 </div>

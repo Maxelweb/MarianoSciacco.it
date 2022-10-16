@@ -1,7 +1,7 @@
 ---
 title: Progetto universitario di Tecnologie Web
 customDate: Marzo 2019
-fa-icon: users
+faIcon: users
 tags: [university,unipd,computer-science,techweb,web-technologies]
 date: 2019-03-01
 draft: false

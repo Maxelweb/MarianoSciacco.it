@@ -154,7 +154,7 @@ p.false {
   text-transform: uppercase;
 }
 
-header {
+/* header {
   min-height: 100vh;
   height: auto;
   position: relative;
@@ -163,7 +163,7 @@ header {
   background-image: url("/images/background.jpg");
   color: white;
   display: block;
-}
+} */
 
 .inner-header {
   position: absolute;

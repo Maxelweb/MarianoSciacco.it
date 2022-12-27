@@ -9,5 +9,6 @@
  */
 
 @import url("general.css");
+@import url("template.css");
 @import url("timeline.css");
 @import url("termynal.css");

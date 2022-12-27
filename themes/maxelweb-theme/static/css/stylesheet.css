@@ -8,7 +8,13 @@
  *
  */
 
-@import url("general.css");
-@import url("template.css");
-@import url("timeline.css");
-@import url("termynal.css");
+@import url("ms-theme/general.css");
+@import url("ms-theme/template.css");
+@import url("ms-theme/timeline.css");
+@import url("ms-theme/termynal.css");
+@import url("ms-theme/mobile.css");
+
+@font-face {
+    font-family: Comfortaa, cursive;
+    src: url(font/Comfortaa.ttf);
+}

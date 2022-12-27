@@ -9,7 +9,7 @@
  */
 
 
- #top-header
+ .top-header
  {
    height: 30px;
    padding: 6px 0 4px;
@@ -35,25 +35,25 @@
    background-color: #fcfdfe; /* #025390 */
  }
  
- header#header .limiter{ width: 96%; }
+ header.ms-header .limiter{ width: 96%; }
  
  header .limiter
  {
    text-align: center;
  }
  
- #navbar-header
+ .ms-navbar
  {
    margin: 40px auto 0;
  }
  
- #navbar-header .url-list
+ .ms-navbar .url-list
  {
    text-align: left;
    margin: -11px 0 0;
  }
  
- #navbar-header .url-list a.link-header
+ .ms-navbar .url-list a.link-header
  {
    padding: 26px;
    margin: 0 8px;
@@ -69,11 +69,10 @@
    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
  }
  
- #navbar-header .url-list a.link-header:hover
+ .ms-navbar .url-list a.link-header:hover
  {
    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
  }
- 
  
  
  .dropdown-content 
@@ -108,7 +107,7 @@
  
  
  
- #navbar-header,
+ .ms-navbar,
  #logo-header
  {
    display: inline-block;
@@ -122,7 +121,7 @@
    background-size: 100%;
    background-position: 0px 0px;
    background-repeat: no-repeat;
-   background-image: url("../images/logo.png");
+   background-image: url("../../images/logo.png");
    -webkit-transition: background-image 0.2s ease-in-out;
    transition: background-image 0.2s ease-in-out;
  }
@@ -161,7 +160,7 @@
    background-color: #073354;
  }
  
- #wrapper
+ .wrapper
  {
    width: 100%;
    padding: 0;
@@ -181,6 +180,13 @@
    /*box-shadow: 0px 2px 6px rgba(100, 100, 100, 0.3);*/
  }
  
+ .limiter{
+  /*width: 80%;*/
+  width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
  
  section#skills {
    background-color: #469699;
@@ -239,7 +245,7 @@
    min-height: 150px;
    padding: 50px 0;
    text-align: center;
-   background: #529ebd url("../images/background.jpg") no-repeat 100% center / cover;
+   background: #529ebd url("../../images/background.jpg") no-repeat 100% center / cover;
    background-attachment: fixed;
  }
  

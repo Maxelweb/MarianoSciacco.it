@@ -8,11 +8,6 @@
  *
  */
 
-@font-face {
-  font-family: Comfortaa, cursive;
-  src: url(font/Comfortaa.ttf);
-}
-
 .fancy-font {
   font-family: Comfortaa, Arial, Helvetica, sans-serif;
 }
@@ -140,7 +135,7 @@ p.false {
   margin-left: auto !important;
 }
 
-.top-header {
+/* .top-header {
   height: 30px;
   padding: 6px 0 4px;
   margin-top: 56px;
@@ -152,7 +147,7 @@ p.false {
   font-weight: bold;
   letter-spacing: 1px;
   text-transform: uppercase;
-}
+} */
 
 /* header {
   min-height: 100vh;

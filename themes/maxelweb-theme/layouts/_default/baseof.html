@@ -36,94 +36,57 @@
         <a href="#top"><img src="images/icons/goup.png" name="Torna su" /></a>
     </div> -->
 
-    <div id="parent-header">
-        <header class="ms-header">
-            <div class="limiter">
-                <div class="logo-header cursor logo hide" onclick="location.replace('index.php')"></div>
-                <div class="ms-navbar">
-                    <div class="url-list">
-                        <span class="dropdown">
-                            <a href="#about" class="link-header"><i class="fa fa-user"></i> Chi Sono <span class="caret-down"></span></a>
-                            <div class="dropdown-content">
-                                <a href="#skills"><i class="fa fa-user-cog"></i> Skillset</a>
-                                <a href="#edu"><i class="fa fa-graduation-cap"></i> Formazione</a>
-                                <a href="#portfolio"><i class="fa fa-copy"></i> Portfolio</a>
-                                <a href="http://cv.marianosciacco.it"><i class="far fa-file"></i> Curriculum (EN)</a>
-                                <a href="http://cvit.marianosciacco.it"><i class="far fa-file"></i> Curriculum (IT)</a>
-                            </div>
-                        </span>					
-                        <a href="https://dev.marianosciacco.it" class="link-header"><i class="fas fa-code"></i> Sviluppo</a>
-                        <a href="http://git.marianosciacco.it/" class="link-header"><i class="fab fa-github"></i> Github</a>
-                        <a href="index.php#contacts" class="link-header"><i class="fa fa-envelope"></i> Contatti</a>
-                    </div>				
+    <header class="ms-header">
+        <div class="ms-limiter">
+            <div class="logo-header cursor logo hide" onclick="location.replace('/')"></div>
+            <div class="ms-navbar">
+                <div class="ms-url-list">
+                    <span class="ms-dropdown">
+                        <a href="#about" class="link-header"><i class="fa fa-user"></i> Chi Sono <span
+                                class="caret-down"></span></a>
+                        <div class="ms-dropdown-content">
+                            <a href="#skills"><i class="fa fa-user-cog"></i> Skillset</a>
+                            <a href="#edu"><i class="fa fa-graduation-cap"></i> Formazione</a>
+                            <a href="#portfolio"><i class="fa fa-copy"></i> Portfolio</a>
+                            <a href="http://cv.marianosciacco.it"><i class="far fa-file"></i> Curriculum (EN)</a>
+                            <a href="http://cvit.marianosciacco.it"><i class="far fa-file"></i> Curriculum (IT)</a>
+                        </div>
+                    </span>
+                    <a href="https://dev.marianosciacco.it" class="link-header"><i class="fas fa-code"></i> Sviluppo</a>
+                    <a href="http://git.marianosciacco.it/" class="link-header"><i class="fab fa-github"></i> Github</a>
+                    <a href="index.php#contacts" class="link-header"><i class="fa fa-envelope"></i> Contatti</a>
                 </div>
-
             </div>
-        </header>
 
-        <div id="mobile-navbar">
-            <div class="url-list">
-                <a href="#" onclick="displayId('menu-mobile')">Menù ☰</a>
-                <div id="menu-mobile" class="tleft" style="display:none">
-                    <a href="#about"><i class="fa fa-user"></i> Chi Sono</a>
-                    <a href="#skills"><i class="fa fa-user-cog"></i> Skillset</a>
-                    <a href="#edu"><i class="fa fa-graduation-cap"></i> Formazione</a>
-                    <a href="#portfolio"><i class="fa fa-copy"></i> Portfolio</a>
-                    <a href="http://cv.marianosciacco.it"><i class="far fa-file"></i> Curriculum (EN)</a>
-                    <a href="http://cvit.marianosciacco.it"><i class="far fa-file"></i> Curriculum (IT)</a>
-                    <a href="http://git.marianosciacco.it"><i class="fab fa-github"></i> Github</a>
-                    <a href="#contacts"><i class="fa fa-envelope"></i> Contatti</a>
-                </div>						
-                <a href="https://dev.marianosciacco.it"><i class="fas fa-code"></i> Sviluppo</a>
-                
-            </div>
         </div>
-        <div class="top-header">
-            <strong>Mariano Sciacco, Maxelweb</strong>: just a guy playing with the Web <i class="fa fa-globe"></i>
-        </div>        
+    </header>
+
+    <div class="ms-navbar-mobile">
+        <div class="ms-url-list">
+            <a href="#" onclick="displayId('menu-mobile')">Menù ☰</a>
+            <div id="menu-mobile" class="tleft" style="display:none">
+                <a href="#about"><i class="fa fa-user"></i> Chi Sono</a>
+                <a href="#skills"><i class="fa fa-user-cog"></i> Skillset</a>
+                <a href="#edu"><i class="fa fa-graduation-cap"></i> Formazione</a>
+                <a href="#portfolio"><i class="fa fa-copy"></i> Portfolio</a>
+                <a href="http://cv.marianosciacco.it"><i class="far fa-file"></i> Curriculum (EN)</a>
+                <a href="http://cvit.marianosciacco.it"><i class="far fa-file"></i> Curriculum (IT)</a>
+                <a href="http://git.marianosciacco.it"><i class="fab fa-github"></i> Github</a>
+                <a href="#contacts"><i class="fa fa-envelope"></i> Contatti</a>
+            </div>
+            <a href="https://dev.marianosciacco.it"><i class="fas fa-code"></i> Sviluppo</a>
+
+        </div>
+    </div>
+    <div class="bottom-header">
+        <strong>Mariano Sciacco, Maxelweb</strong>: just a guy playing with the Web <i class="fa fa-globe"></i>
     </div>
 
-    <div class="wrapper">
+    <div class="ms-wrapper">
 
-    
-<!-- 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light header fixed-top">
-            <div class="container">
-                <div class="col-lg-3 side-header"><a class="navbar-brand" href="/">
-                        <span class="fancy-font">Mariano Sciacco</span></a></div>
-                <div class="col-lg-9">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <div class="navbar-nav ml-auto">
-                            <a class="nav-link active" href="/">Home</a>
-                            <a class="nav-link" href="/about">About me</a>
-                            <a class="nav-link" href="/projects">Projects</a>
-                            <a class="nav-link" href="/portfolio">Portfolio</a>
-                            <a class="nav-link" href="/contacts">Contacts</a>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </nav> -->
+        {{ block "main" . }} {{ end }}
 
-
-    <section id="name">
-        <div class="limiter">
-            <div class="name hide">Mariano Sciacco, <span>Maxelweb</span></div>
-            <div class="desc hide"><span id="js-morph">Web Developer, Programmer, Computer Scientist</span></div>
-        </div>
-    </section>
-        
-
-
-
-    {{ block "main" . }} {{ end }}
-    
-</div>
+    </div>
 
     <footer id="footer">
         <div class="container">

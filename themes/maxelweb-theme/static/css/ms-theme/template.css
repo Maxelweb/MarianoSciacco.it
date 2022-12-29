@@ -3,13 +3,15 @@
  *  Personal Web Page - MarianoSciacco.it
  *  CSS - Template
  *  
- *  Developed by Maxel
+ *  Developed by Maxelweb
  *  Github - this.marianosciacco.it
  *
  */
 
 
-.top-header {
+/* ========== Header ========== */
+
+.bottom-header {
   height: 30px;
   padding: 6px 0 4px;
   width: 100%;
@@ -29,16 +31,11 @@ header {
   top: 0px;
   right: 0px;
   left: 0px;
-  /*border-bottom: 1px solid #10466E;*/
   background-color: #fcfdfe;
-  /* #025390 */
 }
 
-header.ms-header .limiter {
+header.ms-header .ms-limiter {
   width: 96%;
-}
-
-header .limiter {
   text-align: center;
 }
 
@@ -46,12 +43,12 @@ header .limiter {
   margin: 40px auto 0;
 }
 
-.ms-navbar .url-list {
+.ms-navbar .ms-url-list {
   text-align: left;
   margin: -11px 0 0 20px;
 }
 
-.ms-navbar .url-list a.link-header {
+.ms-navbar .ms-url-list a.link-header {
   padding: 26px;
   margin: 0 8px;
   display: inline-block;
@@ -73,12 +70,12 @@ a.link-header i.fab {
   color: #0479c4;
 }
 
-.ms-navbar .url-list a.link-header:hover {
+.ms-navbar .ms-url-list a.link-header:hover {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 
-.dropdown-content {
+.ms-navbar .ms-dropdown-content {
   display: none;
   position: absolute;
   background-color: transparent;
@@ -87,7 +84,7 @@ a.link-header i.fab {
   transition: 0.3s;
 }
 
-.dropdown-content a {
+.ms-navbar .ms-dropdown-content a {
   padding: 15px;
   text-decoration: none;
   display: block;
@@ -102,17 +99,15 @@ a.link-header i.fab {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
-.dropdown-content a:hover {
+.ms-navbar .ms-dropdown-content a:hover {
   background-color: #A9C0D2;
   transition: 0.3s;
 }
 
-.dropdown:hover .dropdown-content {
+.ms-navbar .ms-dropdown:hover .ms-dropdown-content {
   transition: 0.3s;
   display: block;
 }
-
-
 
 .ms-navbar,
 .logo-header {
@@ -132,7 +127,7 @@ a.link-header i.fab {
 }
 
 
-#mobile-navbar {
+.ms-navbar-mobile {
   background-color: #025390;
   color: #FFF;
   width: 100%;
@@ -143,7 +138,7 @@ a.link-header i.fab {
   display: none;
 }
 
-#mobile-navbar .url-list a {
+.ms-navbar-mobile .ms-url-list a {
   color: #FFF;
   font-weight: bold;
   letter-spacing: 0.8px;
@@ -156,86 +151,41 @@ a.link-header i.fab {
   text-decoration: none;
 }
 
-#mobile-navbar .url-list a:hover {
+.ms-navbar-mobile .ms-url-list a:hover {
   text-decoration: none;
   color: #CCC;
   background-color: #073354;
 }
 
-.wrapper {
+/* ========== Body Content  ========== */
+
+.ms-wrapper {
   width: 100%;
   padding: 0;
   margin: 0;
 }
 
 section {
-  /*background: #E6E6E6 url("../images/pattern.png") repeat scroll 0% 0%;*/
   background-color: #FFF;
 }
 
-section .limiter {
+section .ms-limiter {
   padding: 20px;
   background-color: #FFF;
-  /*box-shadow: 0px 2px 6px rgba(100, 100, 100, 0.3);*/
 }
 
-.limiter {
-  /*width: 80%;*/
+.ms-limiter {
   width: 1200px;
   padding: 0 20px;
   margin: 0 auto;
 }
 
-
-section#skills {
-  background-color: #469699;
-}
-
-section#edu {
-  background-color: #bda57e;
-}
-
-section#portfolio {
-  background-color: #84a85d;
-}
-
-section#contacts {
-  background-color: #9b5151;
-}
-
-
-/* == Eccezioni */
-
-section#skip .limiter,
-section#name .limiter,
-section.divider .limiter {
+.ms-section-splash .ms-limiter {
   box-shadow: none;
   background-color: transparent;
 }
 
-/* ============ */
-
-section#skip {
-  background-color: #03477A;
-  height: 30px;
-  border-bottom: 1px solid #002038;
-}
-
-section#skip .limiter {
-  padding: 2px;
-  min-height: 0;
-  text-align: center;
-  color: #FFF;
-  font-weight: bold;
-  padding: 5px 0 0;
-}
-
-section#skip a,
-section#skip a:hover {
-  color: #FFF;
-}
-
-section#name {
+section.ms-section-splash {
   min-height: 150px;
   padding: 50px 0;
   text-align: center;
@@ -244,8 +194,8 @@ section#name {
 }
 
 
-section#name div.name,
-section#name div.desc,
+.ms-section-splash div.name,
+.ms-section-splash div.desc,
 section.divider div.title {
   padding: 20px;
   font-size: 32px;
@@ -253,22 +203,21 @@ section.divider div.title {
   margin: 20px auto;
   text-transform: uppercase;
   color: #FFF;
-  /* background-color: rgba(26, 85, 128, 0.1); */
   padding: 20px;
 }
 
-section#name div.name {
+.ms-section-splash div.name {
   background-color: transparent;
 }
 
 
-section#name div.image {
+.ms-section-splash div.image {
   border-bottom: 2px solid #FFF;
   margin: auto;
   width: 400px;
 }
 
-section#name span {
+.ms-section-splash span {
   font-weight: bold;
 }
 
@@ -332,12 +281,9 @@ section div.box-option {
   background-repeat: no-repeat;
   background-size: 85%;
   background-position: center;
-  /* border: 1px solid rgba(3, 71, 122, 0.51);*/
   border-radius: 4px;
   position: relative;
-  /* box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); */
   transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
-  /*cursor: pointer;*/
 }
 
 /*
@@ -369,9 +315,6 @@ section div.box-option a:hover {
 section#end,
 section.divider {
   height: 0px;
-  /*height: 75px;
-   background: #F3F3F3 url("../images/pattern.png") repeat fixed 0% 0%;
-   */
 }
 
 section#pageheader {
@@ -446,6 +389,8 @@ article img {
   max-width: 450px;
   margin: 10px;
 }
+
+/* ========== Footer ========== */
 
 footer {
   background-color: #FFF

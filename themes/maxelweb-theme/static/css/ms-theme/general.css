@@ -3,7 +3,7 @@
  *  Personal Web Page - MarianoSciacco.it
  *  CSS - Main
  *  
- *  Developed by Maxel
+ *  Developed by Maxelweb
  *  Github - this.marianosciacco.it
  *
  */
@@ -19,10 +19,9 @@ body {
 }
 
 body {
-  color: #212121;
+  color: #141414;
   padding: 0;
   margin: 0;
-  /* line-height: 125%; */
   background-color: #fff;
 }
 
@@ -225,30 +224,4 @@ p.false {
 .bg-dark-green {
   background-color: #242c26;
   color: #fff;
-}
-
-footer {
-  background-color: #fff /*#F2F2F2*/;
-  min-height: 150px;
-  color: #fcfcfc;
-  padding: 60px 0;
-  overflow: hidden;
-}
-
-footer p {
-  margin: 0;
-  color: #000;
-}
-
-footer .footer-logo {
-  float: left;
-  text-align: right;
-  width: 35%;
-  padding-right: 5em;
-}
-
-footer .footer-text {
-  float: left;
-  width: 65%;
-  padding: 0.5em;
 }

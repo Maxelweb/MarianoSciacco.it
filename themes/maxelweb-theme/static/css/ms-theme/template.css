@@ -196,7 +196,7 @@ section .ms-limiter {
   min-height: 500px;
   padding: 50px 0;
   text-align: center;
-  background: #529ebd url("../../images/background.jpg") no-repeat 100% center / cover;
+  background: #529ebd url("../../images/background.jpg") no-repeat 100% bottom / cover;
   background-attachment: fixed;
 }
 
@@ -206,7 +206,7 @@ section .ms-limiter {
   position: absolute;
   left: 0;
   width: 100%;
-  height: 180px;
+  height: 500px;
   background: #ffffff;
   transform-origin: bottom left;
   margin: 160px 0;
@@ -219,9 +219,10 @@ section .ms-limiter {
 .ms-section-splash div.name,
 .ms-section-splash div.desc,
 section.divider div.title {
+  font-family: Comfortaa, Arial, Helvetica, sans-serif;
   padding: 20px;
   font-size: 32px;
-  letter-spacing: 4.0px;
+  letter-spacing: 2.0px;
   margin: 20px auto;
   text-transform: uppercase;
   color: #FFF;
@@ -231,7 +232,6 @@ section.divider div.title {
 .ms-section-splash div.name {
   background-color: transparent;
 }
-
 
 .ms-section-splash div.image {
   border-bottom: 2px solid #FFF;

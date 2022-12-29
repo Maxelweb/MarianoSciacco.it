@@ -106,13 +106,14 @@
         font-size: 24px;
     }
 
-    .ms-section-splash div.image {
-        width: auto;
-    }
-
     .ms-section-splash div.name {
         font-size: 40px;
         line-height: 50px;
+    }
+    
+    .ms-portrait {
+        position: relative;
+        max-width: 100px;
     }
 
     section div.list-box-option {
@@ -247,6 +248,11 @@
 
     .ms-wrapper img {
         max-width: 50%;
+    }
+
+    .ms-portrait {
+        position: relative;
+        max-width: 100px;
     }
 
     footer {

@@ -8,6 +8,11 @@
  *
  */
 
+@font-face {
+  font-family: Comfortaa;
+  src: url(font/Comfortaa.ttf);
+}
+
 .fancy-font {
   font-family: Comfortaa, Arial, Helvetica, sans-serif;
 }
@@ -214,11 +219,19 @@ p.false {
   border-top-right-radius: 4px; */
 }
 
-.my-portrait {
-  max-width: 80%;
+.ms-portrait {
+  max-width: 150px;
   border-radius: 5000px;
-  display: block;
-  margin: auto;
+  display: inline-block;
+  position: absolute;
+  margin: -20px auto;
+  left: 0;
+  right: 0;
+  border-bottom: 4px solid #0479c4;
+  border-left: 4px solid #01681e;
+  border-right: 4px solid #0479c4;
+  border-top: 4px solid #01681e;
+  /* FIXME: keep it or not? */
 }
 
 .bg-dark-green {

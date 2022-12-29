@@ -169,16 +169,16 @@ section {
   background-color: #FFF;
 }
 
+section .ms-limiter {
+  padding: 20px;
+  background-color: inherit;
+}
+
 .ms-section-after-splash {
-  margin: -15px 0 0;
+  margin: 15px 0 0;
   z-index: 2;
   position: relative;
   background-color: transparent;
-}
-
-section .ms-limiter {
-  padding: 20px;
-  background-color: #FFF;
 }
 
 .ms-limiter {
@@ -212,6 +212,8 @@ section .ms-limiter {
   margin: 160px 0;
   transform: skewY(357deg);
   transition: transform .15s linear;
+  border-top: 30px solid #0479c4; 
+  /* FIXME: keep it or not? */
 }
 
 .ms-section-splash div.name,

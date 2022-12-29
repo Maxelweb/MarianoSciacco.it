@@ -96,6 +96,11 @@
         border-bottom: 4px solid #114A74;
     }
 
+    .ms-section-splash::after {
+        height: 0;
+        border-top: 0px;
+    }
+
     .ms-section-splash div.desc {
         line-height: 45px;
         font-size: 24px;
@@ -233,14 +238,14 @@
         width: auto;
     }
 
-    #wrapper {
+    .ms-wrapper {
         width: 100%;
         min-width: 310px;
         margin: 0 auto;
         padding: 0px;
     }
 
-    #wrapper img {
+    .ms-wrapper img {
         max-width: 50%;
     }
 
@@ -264,6 +269,11 @@
     #logo-footer {
         width: auto;
         width: auto;
+    }
+
+    .ms-section-splash::after {
+        height: 0;
+        border-top: 0px;
     }
 
     .ms-section-splash div.desc {

@@ -169,6 +169,13 @@ section {
   background-color: #FFF;
 }
 
+.ms-section-after-splash {
+  margin: -15px 0 0;
+  z-index: 2;
+  position: relative;
+  background-color: transparent;
+}
+
 section .ms-limiter {
   padding: 20px;
   background-color: #FFF;
@@ -185,14 +192,27 @@ section .ms-limiter {
   background-color: transparent;
 }
 
-section.ms-section-splash {
-  min-height: 150px;
+.ms-section-splash {
+  min-height: 500px;
   padding: 50px 0;
   text-align: center;
   background: #529ebd url("../../images/background.jpg") no-repeat 100% center / cover;
   background-attachment: fixed;
 }
 
+.ms-section-splash::after {
+  content: "";
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 180px;
+  background: #ffffff;
+  transform-origin: bottom left;
+  margin: 160px 0;
+  transform: skewY(357deg);
+  transition: transform .15s linear;
+}
 
 .ms-section-splash div.name,
 .ms-section-splash div.desc,

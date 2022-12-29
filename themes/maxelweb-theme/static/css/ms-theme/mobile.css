@@ -3,7 +3,7 @@
  *  Personal Web Page - MarianoSciacco.it
  *  CSS - Mobile style
  *  
- *  Developed by Maxel
+ *  Developed by Maxelweb
  *  Github - this.marianosciacco.it
  *
  */
@@ -26,7 +26,7 @@
         max-width: 50%;
     }
 
-    .top-header {
+    .bottom-header {
         min-height: 20px;
         height: auto;
         padding: 5px;
@@ -46,7 +46,7 @@
         display: none;
     }
 
-    #mobile-navbar {
+    .ms-navbar-mobile {
         display: block;
     }
 
@@ -54,19 +54,19 @@
         background-position: -3px 6px;
     }
 
-    .limiter {
+    .ms-limiter {
         width: auto;
         padding: 0 !important;
     }
 
-    #wrapper {
+    .ms-wrapper {
         width: 100%;
         min-width: 150px;
         margin: 0 auto;
         padding: 0px;
     }
 
-    #wrapper img {
+    .ms-wrapper img {
         max-width: 50%;
     }
 
@@ -96,16 +96,16 @@
         border-bottom: 4px solid #114A74;
     }
 
-    section#name div.desc {
+    .ms-section-splash div.desc {
         line-height: 45px;
         font-size: 24px;
     }
 
-    section#name div.image {
+    .ms-section-splash div.image {
         width: auto;
     }
 
-    section#name div.name {
+    .ms-section-splash div.name {
         font-size: 40px;
         line-height: 50px;
     }
@@ -196,7 +196,7 @@
         max-width: 50%;
     }
 
-    .top-header {
+    .bottom-header {
         min-height: 20px;
         height: auto;
         padding: 5px;
@@ -217,11 +217,11 @@
         padding: 15px !important;
     }
 
-    .url-list {
+    .ms-url-list {
         margin: 7px 0 0 !important;
     }
 
-    header.ms-header .limiter {
+    header.ms-header .ms-limiter {
         width: 96%;
     }
 
@@ -229,7 +229,7 @@
         background-position: -15px 6px;
     }
 
-    .limiter {
+    .ms-limiter {
         width: auto;
     }
 
@@ -266,15 +266,15 @@
         width: auto;
     }
 
-    section#name div.desc {
+    .ms-section-splash div.desc {
         line-height: 45px;
     }
 
-    section#name div.image {
+    .ms-section-splash div.image {
         width: auto;
     }
 
-    section#name div.name {
+    .ms-section-splash div.name {
         font-size: 40px;
         line-height: 50px;
     }
@@ -326,7 +326,7 @@
 
 @media (min-width: 1280px) {
 
-    /* .ms-navbar .url-list a.link-header {
+    /* .ms-navbar .ms-url-list a.link-header {
         margin: 0 20px 0 20px;
     } */
 }

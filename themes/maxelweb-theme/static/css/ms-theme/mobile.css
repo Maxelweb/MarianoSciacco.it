@@ -27,6 +27,7 @@
     }
 
     .bottom-header {
+        background-color: #141414;
         min-height: 20px;
         height: auto;
         padding: 5px;
@@ -101,12 +102,12 @@
         border-top: 0px;
     }
 
-    .ms-section-splash div.desc {
+    .ms-section-splash div.splash-desc {
         line-height: 45px;
         font-size: 24px;
     }
 
-    .ms-section-splash div.name {
+    .ms-section-splash div.splash-name {
         font-size: 40px;
         line-height: 50px;
     }
@@ -114,6 +115,11 @@
     .ms-portrait {
         position: relative;
         max-width: 100px;
+    }
+
+    .ms-section-header {
+        border-color: transparent;
+        margin: 25px 0 0;
     }
 
     section div.list-box-option {
@@ -282,15 +288,11 @@
         border-top: 0px;
     }
 
-    .ms-section-splash div.desc {
+    .ms-section-splash .splash-desc {
         line-height: 45px;
     }
 
-    .ms-section-splash div.image {
-        width: auto;
-    }
-
-    .ms-section-splash div.name {
+    .ms-section-splash .splash-name {
         font-size: 40px;
         line-height: 50px;
     }

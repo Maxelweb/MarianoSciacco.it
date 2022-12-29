@@ -41,8 +41,7 @@
             <div class="ms-navbar">
                 <div class="ms-url-list">
                     <span class="ms-dropdown">
-                        <a href="#about" class="link-header"><i class="fa fa-user"></i> Chi Sono <span
-                                class="caret-down"></span></a>
+                        <a href="#about" class="link-header"><i class="fa fa-user"></i> Chi Sono <span class="caret-down"></span></a>
                         <div class="ms-dropdown-content">
                             <a href="#skills"><i class="fa fa-user-cog"></i> Skillset</a>
                             <a href="#edu"><i class="fa fa-graduation-cap"></i> Formazione</a>
@@ -62,8 +61,8 @@
 
     <div class="ms-navbar-mobile">
         <div class="ms-url-list">
-            <a href="#" onclick="displayId('menu-mobile')">Menù ☰</a>
-            <div id="menu-mobile" class="tleft" style="display:none">
+            <a href="#" class="primary" onclick="displayId('menu-mobile')">Menù ☰</a>
+            <div id="menu-mobile" class="tleft hide">
                 <a href="#about"><i class="fa fa-user"></i> Chi Sono</a>
                 <a href="#skills"><i class="fa fa-user-cog"></i> Skillset</a>
                 <a href="#edu"><i class="fa fa-graduation-cap"></i> Formazione</a>
@@ -77,10 +76,6 @@
 
         </div>
     </div>
-    <div class="bottom-header">
-        <strong>Mariano Sciacco, Maxelweb</strong>: just a guy playing with the Web <i class="fa fa-globe"></i>
-    </div>
-
     <div class="ms-wrapper">
 
         {{ block "main" . }} {{ end }}

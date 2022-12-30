@@ -15,7 +15,7 @@
   height: 30px;
   padding: 6px 0 4px;
   width: 100%;
-  background-color: #01681e;
+  background-color: var(--ms-secondary);
   text-align: center;
   color: #f1f1f1;
   font-size: 9pt;
@@ -31,7 +31,7 @@ header {
   top: 0px;
   right: 0px;
   left: 0px;
-  background-color: #fcfdfe;
+  background-color: var(--ms-light);
 }
 
 header.ms-header .ms-limiter {
@@ -52,7 +52,7 @@ header.ms-header .ms-limiter {
   padding: 26px;
   margin: 0 8px;
   display: inline-block;
-  color: #141414;
+  color: var(--ms-dark);
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
@@ -65,7 +65,7 @@ header.ms-header .ms-limiter {
 }
 
 .ms-navbar .ms-url-list i {
-  color: #0479c4;
+  color: var(--ms-primary);
 }
 
 .ms-navbar .ms-url-list a.link-header:hover {
@@ -88,14 +88,14 @@ header.ms-header .ms-limiter {
   min-width: 185px;
   margin: 0px 45px;
   transition: 0.3s;
-  background-color: #0479c4;
+  background-color: var(--ms-primary);
   padding: 20px;
   border-radius: 6px;
 }
 
 .ms-navbar .ms-dropdown-content a {
-  color: #141414;
-  background-color: #FFF;
+  color: var(--ms-dark);
+  background-color: var(--ms-light);
   display: block;
   transition: 0.3s;
   cursor: pointer;
@@ -131,13 +131,13 @@ header.ms-header .ms-limiter {
   background-size: 100%;
   background-position: 0px 0px;
   background-repeat: no-repeat;
-  background-image: url("../../images/logo-v3.png");
+  background-image: var(--ms-logo);
   -webkit-transition: background-image 0.2s ease-in-out;
   transition: background-image 0.2s ease-in-out;
 }
 
 .ms-navbar-mobile {
-  color: #FFF;
+  color: var(--ms-light);
   width: 100%;
   padding: 0;
   margin: 0;
@@ -147,21 +147,21 @@ header.ms-header .ms-limiter {
 }
 
 .ms-navbar-mobile .ms-url-list i {
-  color: #141414;
+  color: var(--ms-dark);
 }
 
 .ms-navbar-mobile .ms-url-list a.primary {
-  background-color: #01681e;
+  background-color: var(--ms-secondary);
 }
 
 .ms-navbar-mobile .ms-url-list a {
-  background-color: #0479c4;
-  color: #FFF;
+  background-color: var(--ms-primary);
+  color: var(--ms-light);
   font-weight: bold;
   letter-spacing: 0.8px;
   font-size: 12pt;
   text-transform: uppercase;
-  border-bottom: 2px solid #FFF;
+  border-bottom: 2px solid var(--ms-light);
   padding: 8px;
   margin: 0;
   display: block;
@@ -171,7 +171,7 @@ header.ms-header .ms-limiter {
 .ms-navbar-mobile .ms-url-list a:hover {
   text-decoration: none;
   color: #CCC;
-  background-color: #073354;
+  background-color: var(--ms-primary-hover);
 }
 
 /* ========== Splash Screen  ========== */
@@ -183,12 +183,16 @@ header.ms-header .ms-limiter {
 }
 
 section {
-  background-color: #FFF;
+  background-color: var(--ms-light);
 }
 
 section .ms-limiter {
   padding: 20px;
   background-color: inherit;
+}
+
+section.ms-section .ms-limiter{
+  max-width: 970px;
 }
 
 .ms-section-after-splash {
@@ -213,7 +217,7 @@ section .ms-limiter {
   min-height: 500px;
   padding: 50px 0;
   text-align: center;
-  background: #529ebd url("../../images/background.jpg") no-repeat 100% bottom / cover;
+  background: var(--ms-light) var(--ms-splash) no-repeat 100% bottom / cover;
   background-attachment: fixed;
 }
 
@@ -224,12 +228,12 @@ section .ms-limiter {
   left: 0;
   width: 100%;
   height: 500px;
-  background: #ffffff;
+  background: var(--ms-light);
   transform-origin: bottom left;
   margin: 160px 0;
   transform: skewY(357deg);
   transition: transform .15s linear;
-  border-top: 30px solid #0479c4; 
+  border-top: 30px solid var(--ms-primary); 
   /* FIXME: keep it or not? */
 }
 
@@ -241,7 +245,7 @@ section .ms-limiter {
   letter-spacing: 2.0px;
   margin: 20px auto;
   text-transform: uppercase;
-  color: #FFF;
+  color: var(--ms-white);
   padding: 20px;
 }
 
@@ -271,45 +275,45 @@ section#description {
   min-height: 300px;
 }
 
-section div.titolo,
-section div.contenuto {
+section div.ms-section-title,
+section div.ms-section-content {
   float: left;
   min-height: 100px;
 }
 
-section div.titolo {
+section div.ms-section-title {
   width: 35%;
   text-transform: uppercase;
   text-align: right;
   padding-right: 5em;
 }
 
-section div.titolo h2 {
+section div.ms-section-title h2 {
   font-size: 32px;
 }
 
-section#skills div.titolo h2 {
+section#skills div.ms-section-title h2 {
   color: #03767A;
 }
 
-section#edu div.titolo h2 {
+section#edu div.ms-section-title h2 {
   color: #8B5808;
 }
 
-section#contacts div.titolo h2 {
+section#contacts div.ms-section-title h2 {
   color: #9E0B0F;
 }
 
 
-section#portfolio div.titolo h2 {
+section#portfolio div.ms-section-title h2 {
   color: #418207;
 }
 
-section div.titolo img {
+section div.ms-section-title img {
   max-width: 64px;
 }
 
-section div.contenuto {
+section div.ms-section-content {
   width: 65%;
 }
 
@@ -323,7 +327,7 @@ section div.box-option {
   display: inline-block;
   height: 250px;
   margin: 2%;
-  background-color: #FFF;
+  background-color: var(--ms-light);
   background-repeat: no-repeat;
   background-size: 85%;
   background-position: center;
@@ -376,7 +380,7 @@ section#pageheader div.title {
 }
 
 section#end h1 {
-  color: #FFF;
+  color: var(--ms-light);
   background-color: rgba(26, 85, 128, 0.1);
   padding: 8px 12px;
   text-align: center;
@@ -386,7 +390,7 @@ section#end input[type="text"],
 section#end input[type="submit"] {
   border: none;
   font-size: 30px;
-  color: #FFF;
+  color: var(--ms-light);
   background-color: rgba(30, 120, 146, 0.83);
 }
 
@@ -399,7 +403,7 @@ section#end form {
   display: inline;
 }
 
-article {
+section.ms-section {
   width: auto;
   min-height: 200px;
   font-size: 16px;
@@ -425,12 +429,7 @@ section#edu span {
   font-weight: bold;
 }
 
-section#ads article {
-  min-height: 0;
-  height: 115px;
-}
-
-article img {
+section.ms-section img {
   max-width: 450px;
   margin: 10px;
 }
@@ -438,7 +437,7 @@ article img {
 /* ========== Footer ========== */
 
 footer {
-  background-color: #FFF
+  background-color: rgb(53, 53, 53)
     /*#F2F2F2*/
   ;
   min-height: 150px;
@@ -449,19 +448,16 @@ footer {
 
 footer p {
   margin: 0;
-  font-size: 12px;
-  line-height: 20px;
-  color: #000;
 }
 
-footer .footer-logo {
+footer .ms-footer-logo {
   float: left;
   text-align: right;
   width: 35%;
   padding-right: 5em;
 }
 
-footer .footer-text {
+footer .ms-footer-text {
   float: left;
   width: 65%;
   padding: 0.5em;

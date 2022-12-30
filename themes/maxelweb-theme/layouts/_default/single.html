@@ -1,19 +1,14 @@
 {{ define "main" }}
 <!-- Here the section refers to content/section/post-custom-name.md --> 
-<div class="ms-section-header"></div>
-<div class="container">
-    <div class="row">
-        <div class="col-md-3">
-            <div class="side-container text-center">
-                <!-- <img class="my-portrait" src="/images/my-portrait.jpeg"> -->
-                <hr>
-                Computer Scientist [SINGLE]
-                <hr>
-            </div>
+<div class="ms-wrapper-header"></div>
+<section class="ms-section">
+    <div class="ms-limiter">
+        <div class="ms-section-title">
+            <h1>{{ .Title }}</h1>
         </div>
-        <div class="col-md-9">
+        <div class="ms-section-content">
             {{ .Content }}
         </div>
     </div>
-</div>
+</section>
 {{ end }}

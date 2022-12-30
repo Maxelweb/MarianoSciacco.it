@@ -29,7 +29,7 @@ a:hover {
 }
 
 p {
-  font-size: 1.35rem;
+  font-size: 1.275rem;
   line-height: 135%;
 }
 
@@ -39,25 +39,27 @@ hr {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: Comfortaa, Arial, Helvetica, sans-serif;
   font-weight: normal;
   color: #03477a;
   text-decoration: none;
-  margin: 12px 0 24px;
+  margin: 0.5rem 0;
 }
 
 h1 {
-  /* font-size: 24px;
-  display: inline-block;
-  border-bottom: 1px solid rgb(55, 33, 182); */
-  /* border-radius: 0px;
-  padding: 10px 2px; */
   font-weight: bold;
+  margin-bottom: 2rem;
 }
 
 h2 {
   color: #025390;
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  margin: 2.5rem 0 1.5rem;
 }
 
 article strong {
@@ -289,6 +291,7 @@ p.false {
 
 .ms-portrait {
   max-width: 150px;
+  width: auto;
   border-radius: 5000px;
   display: inline-block;
   position: absolute;

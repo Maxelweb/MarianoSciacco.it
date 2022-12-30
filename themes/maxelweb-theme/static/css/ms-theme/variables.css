@@ -10,6 +10,9 @@
 
 
 :root{
+    /* ========== Text and Icons ========== */
+
+    --ms-slogan: "just a guy playing with the Web";
 
     /* ========== Colors ========== */
 
@@ -31,5 +34,6 @@
     /* ========== Background-images ========== */
 
     --ms-logo: url("../../images/logo-v3.png");
+    --ms-logo-light: url("../../images/logo-v3-light.png");
     --ms-splash: url("../../images/background.jpg");
 }

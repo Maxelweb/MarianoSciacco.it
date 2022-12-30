@@ -192,7 +192,7 @@ section .ms-limiter {
 }
 
 section.ms-section .ms-limiter{
-  max-width: 970px;
+  max-width: 720px;
 }
 
 .ms-section-after-splash {
@@ -277,7 +277,7 @@ section#description {
 
 section div.ms-section-title,
 section div.ms-section-content {
-  float: left;
+  /* float: left; */
   min-height: 100px;
 }
 
@@ -313,9 +313,9 @@ section div.ms-section-title img {
   max-width: 64px;
 }
 
-section div.ms-section-content {
+/* section div.ms-section-content {
   width: 65%;
-}
+} */
 
 section div.list-box-option {
   width: auto;

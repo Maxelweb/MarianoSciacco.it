@@ -8,32 +8,24 @@
  *
  */
 
-@font-face {
-  font-family: Comfortaa;
-  src: url(font/Comfortaa.ttf);
-}
-
-.fancy-font {
-  font-family: Comfortaa, Arial, Helvetica, sans-serif;
-}
-
-
 html,
 body {
   text-rendering: optimizelegibility;
 }
 
 body {
-  color: #141414;
+  color: var(--ms-dark);
   padding: 0;
   margin: 0;
-  background-color: #fff;
+  background-color: var(--ms-light);
 }
 
-@media (min-width: 1200px) {
-  .container {
-    max-width: 970px;
-  }
+a {
+  color: var(--ms-primary);
+}
+
+a:visited {
+  color: var(--ms-secondary);
 }
 
 hr {
@@ -75,10 +67,12 @@ article strong {
 .show {
   display: block;
 }
+
 .disabled,
 .hide {
   display: none;
 }
+
 .inline-block {
   display: inline-block;
 }
@@ -87,14 +81,17 @@ article strong {
   padding: 4px;
   margin: 10px 20px;
 }
+
 .red {
   background-color: #ffb2b2;
   color: #c41717;
 }
+
 .blue {
   background-color: #b3d1ff;
   color: #1757c4;
 }
+
 .green {
   background-color: #d4ffb3;
   color: #4ec518;
@@ -103,7 +100,7 @@ article strong {
 p.true,
 p.false {
   width: auto;
-  background-color: #fff;
+  background-color: var(--ms-light);
   margin: 20px auto;
   border-radius: 4px;
   padding: 8px;
@@ -129,7 +126,8 @@ p.false {
   text-transform: lowercase;
 }
 
-.caret-up, .caret-down{
+.caret-up,
+.caret-down {
   display: inline-block;
   width: 0px;
   height: 0px;
@@ -137,10 +135,10 @@ p.false {
   vertical-align: middle;
   border-bottom: 2px solid;
   border-right: 4px solid transparent;
-  border-left: 4px solid transparent;  
+  border-left: 4px solid transparent;
 }
 
-.caret-down{
+.caret-down {
   border-bottom: none;
   border-top: 6px solid;
 }
@@ -150,31 +148,6 @@ p.false {
 .ml-auto {
   margin-left: auto !important;
 }
-
-/* .top-header {
-  height: 30px;
-  padding: 6px 0 4px;
-  margin-top: 56px;
-  width: 100%;
-  background-color: #13185a;
-  text-align: center;
-  color: #d6bcda;
-  font-size: 9px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-} */
-
-/* header {
-  min-height: 100vh;
-  height: auto;
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  background-image: url("/images/background.jpg");
-  color: white;
-  display: block;
-} */
 
 .inner-header {
   position: absolute;
@@ -205,7 +178,7 @@ p.false {
 
 .header {
   transition: box-shadow 0.3s ease;
-  background-color: #fff !important;
+  background-color: var(--ms-light) !important;
   box-shadow: 0 0 1.5rem 0 rgb(0 0 0 / 10%);
 }
 
@@ -248,5 +221,5 @@ p.false {
 
 .bg-dark-green {
   background-color: #242c26;
-  color: #fff;
+  color: var(--ms-light);
 }

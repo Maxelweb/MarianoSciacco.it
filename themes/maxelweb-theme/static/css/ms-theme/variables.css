@@ -1,0 +1,28 @@
+/*
+ *
+ *  Personal Web Page - MarianoSciacco.it
+ *  CSS - Variables
+ *  
+ *  Developed by Maxelweb
+ *  Github - this.marianosciacco.it
+ *
+ */
+
+
+:root{
+
+    /* ========== Colors ========== */
+
+    --ms-primary: #0479c4;
+    --ms-primary-hover: #073354;
+    --ms-secondary: #01681e; 
+    --ms-dark: #141414;
+    --ms-light: #fcfdfe;
+    --ms-white: #fff;
+    --ms-error: #c41717;
+
+    /* ========== Background-images ========== */
+
+    --ms-logo: url("../../images/logo-v3.png");
+    --ms-splash: url("../../images/background.jpg");
+}

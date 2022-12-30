@@ -73,6 +73,6 @@
 	});
 
 
-	var termynal = new Termynal('#termynal');
+	// var termynal = new Termynal('#termynal');
 
 

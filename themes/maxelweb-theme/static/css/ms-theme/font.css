@@ -1,0 +1,20 @@
+/*
+ *
+ *  Personal Web Page - MarianoSciacco.it
+ *  CSS - Font import
+ *  
+ *  Developed by Maxelweb
+ *  Github - this.marianosciacco.it
+ *
+ */
+
+
+@font-face {
+    font-family: Comfortaa;
+    src: url(font/Comfortaa.ttf);
+}
+
+.fancy-font {
+    font-family: Comfortaa, Arial, Helvetica, sans-serif;
+}
+  

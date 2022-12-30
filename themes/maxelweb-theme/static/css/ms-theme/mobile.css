@@ -77,8 +77,8 @@
         height: auto;
     }
 
-    footer .footer-logo,
-    footer .footer-text {
+    footer .ms-footer-logo,
+    footer .ms-footer-text {
         float: none;
         width: auto;
         text-align: center !important;
@@ -126,7 +126,7 @@
         display: none;
     }
 
-    article {
+    section.ms-section {
         min-height: 0;
     }
 
@@ -141,15 +141,15 @@
         height: 40px;
     }
 
-    .titolo,
-    .contenuto {
+    .ms-section-title,
+    .ms-section-content {
         float: none !important;
         width: 100% !important;
         text-align: left !important;
         padding-right: 0 !important;
     }
 
-    .titolo {
+    .ms-section-title {
         text-align: center !important;
         padding: 20px 10px;
         padding-right: 10px;
@@ -159,11 +159,11 @@
         border-top: 1px solid #CCC;
     }
 
-    .titolo img {
+    .ms-section-title img {
         max-width: 64px !important;
     }
 
-    .contenuto p {
+    .ms-section-content p {
         line-height: 35px;
     }
 
@@ -179,7 +179,7 @@
         width: auto !important;
     }
 
-    article {
+    section.ms-section {
         margin: 0 auto;
     }
 
@@ -268,8 +268,8 @@
         height: auto;
     }
 
-    footer .footer-logo,
-    footer .footer-text {
+    footer .ms-footer-logo,
+    footer .ms-footer-text {
         float: none;
         width: auto;
         text-align: center !important;
@@ -340,7 +340,7 @@
     }
 }
 
-/*  ======================  MEDIA QUERY Big Screens ====================== */
+/*  ======================  FIXME: MEDIA QUERY Big Screens ====================== */
 
 @media (min-width: 1280px) {
 
@@ -348,3 +348,10 @@
         margin: 0 20px 0 20px;
     } */
 }
+
+@media (min-width: 1200px) {
+    .container {
+      max-width: 970px;
+    }
+  }
+  

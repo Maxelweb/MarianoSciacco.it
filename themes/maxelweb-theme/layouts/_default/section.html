@@ -1,19 +1,31 @@
 {{ define "main" }}
 <!-- Here the section refers to content/section/_index.html --> 
-<div class="ms-section-header"></div>
-<div class="container">
+<div class="ms-wrapper-header"></div>
+
+<section class="ms-section ms-section-after-splash">
+    <div class="ms-limiter">
+        <div class="ms-section-title">
+            <h1>{{ .Title }}</h1>
+        </div>
+        <div class="ms-section-content">
+            {{ .Content }}
+        </div>
+    </div>
+</section>
+
+<!-- <div class="container">
     <div class="row">
         <div class="col-md-3">
             <div class="side-container text-center">
-                <!-- <img class="my-portrait" src="/images/my-portrait.jpeg"> -->
+                <img class="my-portrait" src="/images/my-portrait.jpeg">
                 <hr>
                 Computer Scientist [SECTION]
                 <hr>
             </div>
         </div>
         <div class="col-md-9">
-            {{ .Content }}
+            
         </div>
     </div>
-</div>
+</div> -->
 {{ end }}

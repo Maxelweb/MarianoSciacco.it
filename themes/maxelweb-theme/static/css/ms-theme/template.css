@@ -8,6 +8,20 @@
  *
  */
 
+/* ========== General ========== */
+
+.ms-limiter {
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.ms-navbar,
+.logo-header,
+.logo-footer {
+  display: inline-block;
+  vertical-align: top;
+}
 
 /* ========== Header ========== */
 
@@ -24,6 +38,10 @@
   text-transform: uppercase;
 }
 
+.bottom-header-text {
+  display: none;
+}
+
 header {
   width: 100%;
   height: 130px;
@@ -35,7 +53,7 @@ header {
 }
 
 header.ms-header .ms-limiter {
-  width: 96%;
+  /* width: 96%; */
   text-align: center;
 }
 
@@ -119,11 +137,7 @@ header.ms-header .ms-limiter {
   display: block;
 }
 
-.ms-navbar,
-.logo-header {
-  display: inline-block;
-  vertical-align: top;
-}
+
 
 .logo-header {
   width: 130px;
@@ -174,7 +188,7 @@ header.ms-header .ms-limiter {
   background-color: var(--ms-primary-hover);
 }
 
-/* ========== Splash Screen  ========== */
+/* ========== Body Content  ========== */
 
 .ms-wrapper {
   width: 100%;
@@ -182,31 +196,65 @@ header.ms-header .ms-limiter {
   margin: 0;
 }
 
+.ms-wrapper-header {
+  transform-origin: bottom left;
+  margin: 4.5% 0 2%;
+  transform: skewY(357deg);
+  transition: transform .15s linear;
+  border-top: 30px solid #0479c4;
+  text-transform: uppercase;
+  text-align: right;
+  font-weight: bold;
+  padding-right: 10%;
+  color: var(--ms-dark);
+}
+
+.ms-wrapper-header::after {
+  content: var(--ms-slogan);
+}
+
+
 section {
   background-color: var(--ms-light);
 }
 
 section .ms-limiter {
-  padding: 20px;
   background-color: inherit;
+  padding: 2rem 0 2rem;
 }
 
 section.ms-section .ms-limiter{
   max-width: 720px;
 }
 
-.ms-section-after-splash {
-  margin: -10px 0 0;
-  z-index: 2;
-  position: relative;
-  background-color: transparent;
+section.ms-section-large .ms-limiter {
+  max-width: 1020px;
 }
 
-.ms-limiter {
-  width: 1200px;
-  padding: 0 20px;
-  margin: 0 auto;
+.ms-section {
+  min-height: 200px;
+  margin: 0;
+  text-align: justify;
+  vertical-align: top;
+  padding: 5px 10px;
 }
+
+.ms-section .ms-section-title {
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.ms-section .ms-section-content {
+  min-height: 100px;
+  text-align: left;
+}
+
+.ms-section img {
+  max-width: 450px;
+  margin: 10px;
+}
+
+/* ========== Splash Screen  ========== */
 
 .ms-section-splash .ms-limiter {
   box-shadow: none;
@@ -222,7 +270,7 @@ section.ms-section .ms-limiter{
 }
 
 .ms-section-splash::after {
-  content: "";
+  content: var(--ms-slogan);
   z-index: 1;
   position: absolute;
   left: 0;
@@ -234,6 +282,11 @@ section.ms-section .ms-limiter{
   transform: skewY(357deg);
   transition: transform .15s linear;
   border-top: 30px solid var(--ms-primary); 
+  text-transform: uppercase;
+  text-align: right;
+  font-weight: bold;
+  padding-right: 10%;
+  color: var(--ms-dark);
   /* FIXME: keep it or not? */
 }
 
@@ -257,61 +310,18 @@ section.ms-section .ms-limiter{
   font-weight: bold;
 }
 
-
-/* ========== Body Content  ========== */
-
-.ms-section-header {
-  transform-origin: bottom left;
-  margin: 4.5% 0 2%;
-  transform: skewY(357deg);
-  transition: transform .15s linear;
-  border-top: 30px solid #0479c4;
+.ms-section-after-splash {
+  margin: -10px 0 0;
+  z-index: 2;
+  position: relative;
+  background-color: transparent;
 }
+
+/* ========== Specific sections and Single Page  ========== */
 
 
 /* ========== FIXME: refactor the following parts  ========== */
 
-section#description {
-  min-height: 300px;
-}
-
-section div.ms-section-title,
-section div.ms-section-content {
-  /* float: left; */
-  min-height: 100px;
-}
-
-section div.ms-section-title {
-  width: 35%;
-  text-transform: uppercase;
-  text-align: right;
-  padding-right: 5em;
-}
-
-section div.ms-section-title h2 {
-  font-size: 32px;
-}
-
-section#skills div.ms-section-title h2 {
-  color: #03767A;
-}
-
-section#edu div.ms-section-title h2 {
-  color: #8B5808;
-}
-
-section#contacts div.ms-section-title h2 {
-  color: #9E0B0F;
-}
-
-
-section#portfolio div.ms-section-title h2 {
-  color: #418207;
-}
-
-section div.ms-section-title img {
-  max-width: 64px;
-}
 
 /* section div.ms-section-content {
   width: 65%;
@@ -403,19 +413,7 @@ section#end form {
   display: inline;
 }
 
-section.ms-section {
-  width: auto;
-  min-height: 200px;
-  font-size: 16px;
-  letter-spacing: 0.4px;
-  font-weight: normal;
-  line-height: 140%;
-  margin: 25px 25px 25px 0;
-  text-align: left;
-  vertical-align: top;
-  padding: 5px 10px;
-  overflow: hidden;
-}
+
 
 section#edu p {
   border-left: 2px solid #CCC;
@@ -429,10 +427,6 @@ section#edu span {
   font-weight: bold;
 }
 
-section.ms-section img {
-  max-width: 450px;
-  margin: 10px;
-}
 
 /* ========== Footer ========== */
 
@@ -442,23 +436,28 @@ footer {
   ;
   min-height: 150px;
   color: #FCFCFC;
-  padding: 60px 0;
+  padding: 1.5rem 0;
   overflow: hidden;
-}
-
-footer p {
-  margin: 0;
 }
 
 footer .ms-footer-logo {
   float: left;
-  text-align: right;
-  width: 35%;
+  width: 50%;
   padding-right: 5em;
+  text-align: right;
+}
+
+.logo-footer {
+  width: 200px;
+  height: 200px;
+  background-size: 100%;
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-image: var(--ms-logo-light);
 }
 
 footer .ms-footer-text {
   float: left;
-  width: 65%;
-  padding: 0.5em;
+  width: 50%;
+  padding: 2rem 0.5rem 1rem;
 }

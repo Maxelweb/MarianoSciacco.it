@@ -1,14 +1,14 @@
 {{ define "main" }}
-<div class="pre-fixed-header"></div>
-<div class="container">
-    <div class="row">
-        <div class="col-md-2">
-            {{ partial "sidebar.html" . }}
+<div class="ms-wrapper-header"></div>
+<section class="ms-section ms-section-large">
+    <div class="ms-limiter">
+        <div class="ms-section-title">
+            <h1>{{ .Title }}</h1>
         </div>
-        <div class="col-md-10">
+        <div class="ms-section-content">
             {{ .Content }}
             {{ partial "timeline.html" . }}
         </div>
     </div>
-</div>
+</section>
 {{ end }}

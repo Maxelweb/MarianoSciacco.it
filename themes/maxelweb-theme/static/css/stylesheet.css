@@ -8,6 +8,7 @@
  *
  */
 
+@import url("ms-theme/reboot.css"); 
 @import url("ms-theme/font.css"); 
 @import url("ms-theme/variables-light.css"); 
 @import url("ms-theme/general.css");

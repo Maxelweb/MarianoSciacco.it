@@ -12,8 +12,8 @@
 <html>
 
 <head>
-    <title>Mariano Sciacco, Maxelweb - Computer Scientist</title>
-    <link rel="stylesheet" type="text/css" href="/css/bootstrap/bootstrap.min.css" />
+    <title>Mariano Sciacco, Maxelweb</title>
+    {{/*  <link rel="stylesheet" type="text/css" href="/css/bootstrap/bootstrap.min.css" />  */}}
     <link rel="stylesheet" type="text/css" href="/css/stylesheet.css" />
     <link disabled rel="preload" id="ms-theme-style" onload="this.onload=null;this.rel='stylesheet'" href="/css/ms-theme/variables-dark.css" type="text/css" as="style">
     <link rel="stylesheet" type="text/css" href="/css/fontawesome/lib/all.min.css" />
@@ -23,7 +23,7 @@
     <meta charset="UTF-8" />
     <meta name="theme-color" content="#539FBA" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="/js/bootstrap/bootstrap.min.js" async></script>
+    {{/*  <script src="/js/bootstrap/bootstrap.min.js" async></script>  */}}
     <script src="/js/fadeInScroll.js"></script>
     <script src="/js/jquery-scrolltofixed.js"></script>
     <script src="/js/main.js" async></script>
@@ -61,12 +61,10 @@
                     {{ end }}
                 </div>
             </div>
-
         </div>
     </header>
 
     <div class="ms-navbar-mobile">
-
         <input type="checkbox" id="ms_menu_icon" class="ms-icon-menu-checkbox" onclick="msToggle('#menu-mobile')">
         <label for="ms_menu_icon" class="ms-icon-menu-label">
             <div></div>
@@ -94,16 +92,6 @@
                     {{ end }}
                 {{ end }}
             </div>
-                {{/*  <a href="#about"><i class="fa fa-user"></i> Chi Sono</a>
-                <a href="#skills"><i class="fa fa-user-cog"></i> Skillset</a>
-                <a href="#edu"><i class="fa fa-graduation-cap"></i> Formazione</a>
-                <a href="#portfolio"><i class="fa fa-copy"></i> Portfolio</a>
-                <a href="http://cv.marianosciacco.it"><i class="far fa-file"></i> Curriculum (EN)</a>
-                <a href="http://cvit.marianosciacco.it"><i class="far fa-file"></i> Curriculum (IT)</a>
-                <a href="http://git.marianosciacco.it"><i class="fab fa-github"></i> Github</a>
-                <a href="#contacts"><i class="fa fa-envelope"></i> Contatti</a>
-            </div>
-            <a href="https://dev.marianosciacco.it"><i class="fas fa-code"></i> Sviluppo</a>  */}}
         </div>
     </div>
     <div class="ms-wrapper">
@@ -111,7 +99,6 @@
         {{ block "main" . }} {{ end }}
 
     </div>
-
     <footer class="ms-footer">
         <div class="ms-limiter">
             <div class="ms-footer-logo">

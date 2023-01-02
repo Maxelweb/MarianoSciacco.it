@@ -26,7 +26,7 @@
 .ms-settings-box {
   position: absolute;
   top: -10px;
-  right: 10px;
+  right: 15px;
   color: #999;
   z-index: 1;
   font-size: 2rem;
@@ -332,7 +332,7 @@ section {
 
 section .ms-limiter {
   background-color: inherit;
-  padding: 2rem 0 2rem;
+  padding: 1rem 0;
 }
 
 section.ms-section .ms-limiter{
@@ -387,7 +387,7 @@ section.ms-section-large .ms-limiter {
   position: absolute;
   left: 0;
   width: 100%;
-  height: 500px;
+  height: 300px;
   background: var(--ms-light);
   transform-origin: bottom left;
   margin: 160px 0;
@@ -423,7 +423,7 @@ section.ms-section-large .ms-limiter {
 }
 
 .ms-section-after-splash {
-  margin: -10px 0 0;
+  margin: 15px 0 10px;
   z-index: 2;
   position: relative;
   background-color: transparent;

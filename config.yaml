@@ -78,7 +78,7 @@ languages:
       main:
       - identifier: about
         weight: 1
-        name: Chi sono
+        name: About me
         url: "/about/"
         pre: "far fa-user"
         post: "fas fa-user-astronaut"
@@ -103,13 +103,13 @@ languages:
       - identifier: portfolio-publications
         parent: portfolio
         weight: 1
-        name: Pubblicazioni
+        name: Publications
         url: "/publications/"
         pre: "fas fa-file-alt"
       - identifier: portfolio-projects
         parent: portfolio
         weight: 2
-        name: Progetti
+        name: Projects
         url: "/projects/"
         pre: "fas fa-project-diagram"
       - identifier: github
@@ -119,6 +119,6 @@ languages:
         pre: "fab fa-github-alt"
       - identifier: contacts
         weight: 4
-        name: Contatti
+        name: Contacts
         url: "/contacts/"
         pre: "far fa-envelope"

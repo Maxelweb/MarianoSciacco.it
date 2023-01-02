@@ -26,6 +26,7 @@ h2.tml-title {
   background-color: var(--ms-gray);
   border-radius: 6px;
   padding: 20px;
+  margin: 0.5rem 0 2rem;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -64,6 +65,10 @@ h2.tml-title {
   top: 15px;
   border-radius: 50%;
   z-index: 1;
+}
+
+.timeline .right::after {
+  border-color: var(--ms-secondary);
 }
 
 /* Place the container-box to the left */

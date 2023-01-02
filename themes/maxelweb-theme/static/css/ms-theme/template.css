@@ -310,7 +310,7 @@ label.ms-icon-menu-label div:nth-child(2) {
 
 .ms-wrapper-header {
   transform-origin: bottom left;
-  margin: 4.5% 0 2%;
+  margin: 4.5% 0 0;
   transform: skewY(357deg);
   transition: transform .15s linear;
   border-top: 30px solid #0479c4;
@@ -359,6 +359,11 @@ section.ms-section-large .ms-limiter {
 .ms-section .ms-section-content {
   min-height: 100px;
   text-align: left;
+}
+
+.ms-section-title > h1,
+.ms-section-content > h1{
+  margin-top: 0.25rem;
 }
 
 .ms-section img {

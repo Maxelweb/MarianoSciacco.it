@@ -3,7 +3,7 @@ title: Chi Sono
 ---
 
 
-## Skills
+## Skillset
 
 ### Ad oggi
 
@@ -38,6 +38,3 @@ Successivamente mi sono avvicinato al linguaggio **Javascript** man mano che svi
 Ho avuto modo di operare sulle distro **Debian** per la gestione server e **Raspbian** (ARM) per lavorare con i raspberry.
 
 Per quanto riguarda **Raspberry e Arduino**, ho realizzato piccoli circuiti molto basilari, giusto per avere una piccola infarinatura di elettronica.
-
-
-### Timeline

@@ -15,6 +15,7 @@
     <title>Mariano Sciacco, Maxelweb - Computer Scientist</title>
     <link rel="stylesheet" type="text/css" href="/css/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="/css/stylesheet.css" />
+    <link disabled rel="preload" id="ms-theme-style" onload="this.onload=null;this.rel='stylesheet'" href="/css/ms-theme/variables-dark.css" type="text/css" as="style">
     <link rel="stylesheet" type="text/css" href="/css/fontawesome/lib/all.min.css" />
     <link rel="shortcut icon" href="/images/favicon.png" />
     <link rel="icon" sizes="192x192" href="/images/favicon.png" />
@@ -29,12 +30,13 @@
 </head>
 
 <body>
-    <div id="top"></div>
-
-    <!-- <div class="tothetop hide" id="TOP">
-        <a href="#top"><img src="images/icons/goup.png" name="Torna su" /></a>
-    </div> -->
-
+    <div class="ms-settings-box">
+        <div class="ms-theme-switcher">
+            <a id="ms-theme-toggle" aria-label="ms-theme-toggle" alt="Theme Switch" title="Theme Switch">
+                <i></i>
+            </a>
+        </div>
+    </div>
     <header class="ms-header">
         <div class="ms-limiter">
             <div class="logo-header cursor logo hide" onclick="location.replace('/')"></div>
@@ -65,16 +67,13 @@
 
     <div class="ms-navbar-mobile">
 
-        <input type="checkbox" id="ms_menu_icon" class="ms-icon-menu-checkbox" onclick="msToggle('#menu-mobile')" checked="f">
+        <input type="checkbox" id="ms_menu_icon" class="ms-icon-menu-checkbox" onclick="msToggle('#menu-mobile')">
         <label for="ms_menu_icon" class="ms-icon-menu-label">
             <div></div>
             <div></div>
             <div></div>
         </label>
-
-        {{/*  <a href="#" onclick="displayId('menu-mobile')" class="ms-menu-icon"><i class="fas fa-bars"></i></a>  */}}
         <div class="ms-url-list">
-            {{/*  <a href="#" class="primary" onclick="displayId('menu-mobile')">Menù <i class="fas fa-bars ms-text-secondary"></i></a>  */}}
             <div id="menu-mobile" class="tleft" style="display: none;">
                 {{ range .Site.Menus.main }}
                 {{ $menu_item_url := .URL | relLangURL }}

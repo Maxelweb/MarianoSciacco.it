@@ -9,7 +9,7 @@
  */
 
 @import url("ms-theme/font.css"); 
-@import url("ms-theme/variables.css"); 
+@import url("ms-theme/variables-light.css"); 
 @import url("ms-theme/general.css");
 @import url("ms-theme/template.css");
 @import url("ms-theme/timeline.css");

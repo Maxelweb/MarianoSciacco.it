@@ -365,6 +365,11 @@ section.ms-section-large .ms-limiter {
   padding: 5px 10px;
 }
 
+.ms-section-light {
+  background-color: var(--ms-box-light);
+  color: var(--ms-light);
+}
+
 .ms-section .ms-section-title {
   text-transform: uppercase;
   text-align: left;
@@ -373,6 +378,10 @@ section.ms-section-large .ms-limiter {
 .ms-section .ms-section-content {
   min-height: 100px;
   text-align: left;
+}
+
+.ms-section .ms-no-limits {
+  min-height: auto;
 }
 
 .ms-section-title > h1,
@@ -384,6 +393,29 @@ section.ms-section-large .ms-limiter {
   max-width: 450px;
   margin: 10px;
 }
+
+/* ========== Index Screen  ========== */
+
+.ms-logos-container {
+  display: block;
+  text-align: center;
+}
+
+.ms-logos-container img {
+  display: inline-flex;
+  max-width: 8% !important;
+  min-width: 32px !important;
+  filter: saturate(0.75);
+  border-radius: 6px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.ms-logos-container img:hover {
+  opacity: 1.0;
+  transition: 0.3s;
+}
+
 
 /* ========== Splash Screen  ========== */
 

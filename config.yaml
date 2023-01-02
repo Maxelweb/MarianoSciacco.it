@@ -27,15 +27,15 @@ languages:
         post: "fas fa-user-astronaut"
       - identifier: about-background
         parent: about
-        weight: 1
+        weight: 2
         name: Background
         url: "/about/#background"
         pre: "fas fa-user-graduate"
       - identifier: about-skills
         parent: about
-        weight: 2
-        name: Skills
-        url: "/about/#skills"
+        weight: 1
+        name: Skillset
+        url: "/about/#skillset"
         pre: "fas fa-user-tie"
       - identifier: portfolio
         weight: 2

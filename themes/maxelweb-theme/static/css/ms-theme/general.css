@@ -36,7 +36,7 @@ p,.ms-section-content {
 
 hr {
   border: 0px;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid var(--ms-neutral);
 }
 
 h1,
@@ -104,99 +104,6 @@ h4::before {
 
 .inline-block {
   display: inline-block;
-}
-
-/* ========== Utilities ========== */
-
-.ms-text-light {
-  color: var(--ms-light) !important;
-}
-
-.ms-text-dark {
-  color: var(--ms-dark) !important;
-}
-
-.ms-text-primary {
-  color: var(--ms-primary) !important;
-}
-
-.ms-text-secondary {
-  color: var(--ms-secondary) !important;
-}
-
-.ms-text-white {
-  color: var(--ms-white) !important;
-}
-
-.ms-text-black {
-  color: var(--ms-black) !important;
-}
-
-.ms-text-error {
-  color: var(--ms-error) !important;
-}
-
-.ms-bg-light {
-  background-color: var(--ms-light) !important;
-}
-
-.ms-bg-dark {
-  background-color: var(--ms-dark) !important;
-}
-
-.ms-bg-primary {
-  background-color: var(--ms-primary) !important;
-}
-
-.ms-bg-secondary {
-  background-color: var(--ms-secondary) !important;
-}
-
-.ms-bg-white {
-  background-color: var(--ms-white) !important;
-}
-
-.ms-bg-black {
-  background-color: var(--ms-black) !important;
-}
-
-.ms-bg-error {
-  background-color: var(--ms-error) !important;
-}
-
-.ms-box-light {
-  color: var(--ms-black) !important;
-  background-color: var(--ms-light-darker) !important;
-}
-
-.ms-box-dark {
-  color: var(--ms-dark-lighter) !important;
-  background-color: var(--ms-dark) !important;
-}
-
-.ms-box-primary {
-  color: var(--ms-primary) !important;
-  background-color: var(--ms-primary-lighter) !important;
-}
-
-.ms-box-secondary {
-  color: var(--ms-secondary) !important;
-  background-color: var(--ms-secondary-lighter) !important;
-}
-
-.ms-box-white {
-  color: var(--ms-black) !important;
-  background-color: var(--ms-white) !important;
-}
-
-.ms-box-black {
-  color: var(--ms-white) !important;
-  background-color: var(--ms-black) !important;
-}
-
-.ms-box-error {
-  color: var(--ms-error) !important;
-  background-color: var(--ms-error-lighter) !important;
 }
 
 .box {
@@ -286,8 +193,8 @@ p.false {
 /* ========== Special Elements ========== */
 
 .ms-portrait {
-  max-width: 150px;
-  width: auto;
+  max-width: 150px !important;
+  width: auto !important;
   border-radius: 5000px;
   display: inline-block;
   position: absolute;

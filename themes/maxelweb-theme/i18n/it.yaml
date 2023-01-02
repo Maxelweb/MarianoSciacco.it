@@ -3,4 +3,13 @@
 
 - id: see-more
   translation: "Mostra di più"
-
+- id: cv
+  translation: "Curriculum"
+- id: format-normal
+  translation: "Formato normale"
+- id: format-europass
+  translation: "Formato Europass"
+- id: lang-ita
+  translation: "Italiano"
+- id: lang-eng
+  translation: "Inglese"

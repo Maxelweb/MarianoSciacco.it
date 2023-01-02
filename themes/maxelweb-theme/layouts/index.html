@@ -18,7 +18,7 @@
 <section class="ms-section-splash">
     <div class="ms-limiter">
         <div class="splash-name">Mariano Sciacco, <span>Maxelweb</span></div>
-        <div class="splash-desc"><img class="ms-portrait" src="/images/my-portrait.jpeg"></div>
+        <div class="splash-desc"><img class="ms-portrait" src="/images/my-portrait.jpeg" alt="Mariano Sciacco"></div>
     </div>
 </section>
 
@@ -32,7 +32,7 @@
         </div> -->
         <div class="ms-section-content">
             <h1>Mariano Sciacco, Maxelweb</h1>
-            <h2><i class="fa fa-user"></i> Web Developer / Programmer</h2>
+            <h2><i class="fas fa-user"></i> Web Developer / Programmer</h2>
             <p>
                 Ciao, sono Mariano Sciacco, in arte Maxelweb.
                 Sono del '97 e attualmente vivo a Padova.
@@ -47,16 +47,32 @@
             </p>
 
             <p>
-                <a href="http://cvit.marianosciacco.it" class="btn ms-box-primary"><i class="far fa-file"></i> Curriculum (Italiano)</a>
-                <a href="https://public.marianosciacco.it/cv_eu_marianosciacco_it.pdf" class="btn ms-box-light mx-2"><i
+                <a href="http://cvit.marianosciacco.it" class="ms-btn ms-box-primary"><i class="far fa-file"></i> Curriculum (Italiano)</a>
+                <a href="https://public.marianosciacco.it/cv_eu_marianosciacco_it.pdf" class="ms-btn ms-btn-large ms-box-light mx-2"><i
                         class="far fa-file"></i> Curriculum (Italiano - EuroPass)</a>
-                <a href="http://cv.marianosciacco.it" class="btn ms-box-secondary"> <i class="far fa-file"></i> Curriculum (English)</a>
+                <a href="http://cv.marianosciacco.it" class="ms-btn ms-btn-block ms-box-secondary"> <i class="far fa-file"></i> Curriculum (English)</a>
+                <a href="#ultime-novita" class="ms-btn ms-btn-block ms-box-secondary"> <i class="far fa-file"></i> Curriculum (English)</a>
                 <!-- &raquo; <i class="far fa-file"></i> <a href="http://cvit.marianosciacco.it">Download curriculum (IT)</a> &nbsp;<small><span title="Ultimo aggiornamento" class="fa fa-history"></span> <?=$_it_cv_update;?></small> -->
             </p>
         </div>
     </div>
 </section>
 
+<section class="ms-section ms-section-large">
+    <div class="ms-limiter">
+        <div class="ms-section-content">
+            <h1>Ultime novità</h1>
+            <h2><i class="fas fa-thumbtack"></i> Timeline</h2>
+            <div class="timeline">
+                {{ range first 6 (where .Site.RegularPages "Section" "about") }}
+                    {{ partial "timeline_containers.html" . }}
+                {{ end }}
+            <a class="timeline-see-more" href="about/#background">
+                {{ T "see-more" }}
+            </a>
+        </div>
+    </div>
+</section>
 
 <!-- <section class="bg-light text-center py-4">
     <div class="container">

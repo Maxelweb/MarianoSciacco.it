@@ -18,6 +18,19 @@ h2.tml-title {
   text-transform: capitalize;
 }
 
+a.timeline-see-more {
+  display: block;
+  text-align: center;
+  background-color: var(--ms-primary);
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+  border-radius: 6px;
+  margin: 2em 40px 1em;
+  font-weight: bold;
+  color: var(--ms-dark);
+}
+
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;

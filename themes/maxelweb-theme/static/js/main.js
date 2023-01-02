@@ -21,18 +21,33 @@
     }  
 
 
+	function msToggle(id)
+    {
+		if($(id).css('display') == 'none')
+		{
+			$(id).show('fast', 'swing');
+		} else { 
+			$(id).hide('fast', 'linear'); 
+		}
+    }  
+
+
     // DOCUMENT READY
 
 	$(document).ready(function() 
 	{
 
-		
+		// Uncheck menu
+
+		$("#ms_menu_icon").removeAttr("checked");
+
+
 		// Loading splash
 
 		$(".splash-name").hide();
 		$(".splash-desc").hide();
-	 	$(".splash-name").fadeIn(2000);
-	 	$(".splash-desc").fadeIn(3000);	
+	 	$(".splash-name").fadeIn(1200);
+	 	$(".splash-desc").fadeIn(2000);	
 
 
 	 	// To the top button

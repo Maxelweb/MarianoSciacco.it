@@ -13,7 +13,6 @@
 @media only screen and (min-width:150px) and (max-width:899px) {
 
     body {
-        color: #000;
         font-size: 14px;
         font-style: normal;
         font-variant: normal;
@@ -27,7 +26,8 @@
     }
 
     .bottom-header {
-        background-color: #141414;
+        background-color: var(--ms-dark);
+        color: var(--ms-light);
         min-height: 20px;
         height: auto;
         padding: 5px;
@@ -107,6 +107,7 @@
     .ms-wrapper-header {
         border-color: transparent;
         margin: 25px 0 0;
+        display: none;
     }
 
     .ms-wrapper-header::after {
@@ -128,7 +129,7 @@
     }
 
     section.divider {
-        background: #FFF;
+        background: var(--ms-gray);
         height: 40px;
     }
 
@@ -177,8 +178,6 @@
 @media only screen and (max-width: 1175px) and (min-width: 900px) {
 
     body {
-        color: #000;
-        font-size: 14px;
         font-style: normal;
         font-variant: normal;
         margin: 0;
@@ -191,6 +190,8 @@
     }
 
     .bottom-header {
+        background-color: var(--ms-dark);
+        color: var(--ms-light);
         min-height: 20px;
         height: auto;
         padding: 5px;

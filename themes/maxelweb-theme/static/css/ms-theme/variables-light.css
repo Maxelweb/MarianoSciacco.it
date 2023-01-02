@@ -22,19 +22,27 @@
     --ms-secondary-hover: #013f12; 
     --ms-dark: #141414;
     --ms-light: #fcfdfe;
-    --ms-error: #c41717;
-    --ms-white: #fff;
-    --ms-black: #111;
 
-    --ms-primary-lighter: #cae4f5;
+    --ms-primary-lighter: #a3ceeb;
     --ms-secondary-lighter: #a9dbb7; 
     --ms-dark-lighter: #CCC;
     --ms-light-darker: #f1f1f1;
     --ms-error-lighter: #ffb2b2;
 
+    --ms-box-shadow-12: rgba(0, 0, 0, 0.12);
+    --ms-box-shadow-24: rgba(0, 0, 0, 0.24);
+
+    /* ========== Fixed Colors ========== */
+
+    --ms-error: #c41717;
+    --ms-white: #fff;
+    --ms-black: #111;
+    --ms-gray: #353535;
+
     /* ========== Background-images ========== */
 
     --ms-logo: url("../../images/logo-v3.png");
     --ms-logo-light: url("../../images/logo-v3-light.png");
+    --ms-logo-white: url("../../images/logo-v3-light.png");
     --ms-splash: url("../../images/background.jpg");
 }

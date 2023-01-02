@@ -24,45 +24,73 @@
 
 <section class="ms-section ms-section-after-splash">
     <div class="ms-limiter">
-        <!-- <div class="ms-section-title">
-            <div class="scroll-1">
-                <h2>Chi sono</h2>
-                <img src="images/icons/about.png">
-            </div>
-        </div> -->
         <div class="ms-section-content">
             <h1>Mariano Sciacco, Maxelweb</h1>
-            <h2><i class="fas fa-user"></i> Web Developer / Programmer</h2>
+            <h2><i class="fas fa-user-astronaut"></i> Computer Scientist</h2>
             <p>
-                Ciao, sono Mariano Sciacco, in arte Maxelweb.
-                Sono del '97 e attualmente vivo a Padova.
+                Ciao, sono Mariano Sciacco, conosciuto anche come Maxelweb.
+            </p>
+            <p>    
+                Sono del 1997 e vivo a Padova (Italia).
             </p>
             <p>
-                Mi ritengo un grande appassionato di tecnologie informatiche e soprattutto mi interesso molto alla
-                progettazione, sviluppo e gestione dei siti web.
+                Sono un grande appassionato di tecnologie informatiche e mi interesso molto alla progettazione, sviluppo e gestione di tecnologie web. Sono nel campo da molti anni e sono stato partecipe di molti progetti online per interesse e studio personale.
             </p>
-            <p>
-                Sono nel campo da molti anni e sono stato partecipe di molti progetti online per puro interesse e
-                studio personale.
-            </p>
-
-            <p>
-                <a href="http://cvit.marianosciacco.it" class="ms-btn ms-box-primary"><i class="far fa-file"></i> Curriculum (Italiano)</a>
-                <a href="https://public.marianosciacco.it/cv_eu_marianosciacco_it.pdf" class="ms-btn ms-btn-large ms-box-light mx-2"><i
-                        class="far fa-file"></i> Curriculum (Italiano - EuroPass)</a>
-                <a href="http://cv.marianosciacco.it" class="ms-btn ms-btn-block ms-box-secondary"> <i class="far fa-file"></i> Curriculum (English)</a>
-                <a href="#ultime-novita" class="ms-btn ms-btn-block ms-box-secondary"> <i class="far fa-file"></i> Curriculum (English)</a>
-                <!-- &raquo; <i class="far fa-file"></i> <a href="http://cvit.marianosciacco.it">Download curriculum (IT)</a> &nbsp;<small><span title="Ultimo aggiornamento" class="fa fa-history"></span> <?=$_it_cv_update;?></small> -->
-            </p>
+            <p>Ad oggi, lavoro principalmente in ambito Cloud & IoT e mi occupo di Ricerca e Sviluppo.</p>
         </div>
+    </div>
+</section>
+
+<section class="ms-section ms-section-light">
+    <div class="ms-limiter">
+        <div class="ms-section-content">
+            <h2 class="ms-my2"><i class="fas fa-file-alt"></i> {{ T "cv" }} </h2>
+            <h3>Download</h3>
+            <a href="http://cvit.marianosciacco.it" class="ms-btn ms-box-light ms-my1">
+                <i class="fas fa-file-download"></i> {{ T "lang-ita" }} - {{ T "format-normal" }}
+            </a>
+            <a href="https://public.marianosciacco.it/cv_eu_marianosciacco_it.pdf" class="ms-btn ms-box-light ms-my1">
+                <i class="fas fa-file-download"></i> {{ T "lang-ita" }} - {{ T "format-europass" }}
+            </a>
+            <a href="http://cv.marianosciacco.it" class="ms-btn ms-box-gray ms-my1">
+                <i class="fas fa-file-download"></i> {{ T "lang-eng" }} - {{ T "format-normal" }}
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="ms-section">
+    <div class="ms-limiter">
+        <div class="ms-section-content">
+            <h2><i class="fas fa-code"></i>Tecnologie</h2>
+            <p>
+                Di seguito alcune delle principali tecnologie con cui ho lavorato di recente.
+            </p>
+            <h3>Cloud</h3>
+        </div>
+    </div>
+    <div class="ms-logos-container">
+        {{ $data := .Site.Data.technologies }}
+        {{ range $data.cloud }}
+            <img src="{{ $data.image_folder }}{{ .image }}" alt="{{ .alt }}" title="{{ .alt }}"/>
+        {{ end }}
+    </div>
+    <div class="ms-limiter">
+        <div class="ms-section-content ms-no-limits">
+            <h3>Internet of Things (IoT)</h3>
+        </div>
+    </div>
+    <div class="ms-logos-container">
+        {{ range $data.iot }}
+            <img src="{{ $data.image_folder }}{{ .image }}" alt="{{ .alt }}" title="{{ .alt }}"/>
+        {{ end }}
     </div>
 </section>
 
 <section class="ms-section ms-section-large">
     <div class="ms-limiter">
         <div class="ms-section-content">
-            <h1>Ultime novità</h1>
-            <h2><i class="fas fa-thumbtack"></i> Timeline</h2>
+            <h2><i class="fas fa-stream"></i> Timeline</h2>
             <div class="timeline">
                 {{ range first 6 (where .Site.RegularPages "Section" "about") }}
                     {{ partial "timeline_containers.html" . }}

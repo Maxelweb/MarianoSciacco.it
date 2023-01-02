@@ -28,7 +28,7 @@ a.timeline-see-more {
   border-radius: 6px;
   margin: 2em 40px 1em;
   font-weight: bold;
-  color: var(--ms-dark);
+  color: var(--ms-white);
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -36,7 +36,7 @@ a.timeline-see-more {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
-  background-color: var(--ms-gray);
+  background-color: var(--ms-box-light);
   border-radius: 6px;
   padding: 20px;
   margin: 0.5rem 0 2rem;

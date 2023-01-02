@@ -1,0 +1,29 @@
+image_folder: "images/tech/"
+cloud:
+  - image: aws.png
+    alt: Amazon Web Services
+  - image: docker.png 
+    alt: Docker
+  - image: kubernetes.png
+    alt: Kubernetes
+  - image: python.png 
+    alt: Python
+  - image: js.png 
+    alt: Javascript
+  - image: lua.png 
+    alt: Lua
+  - image: cpp.png
+    alt: C plus plus
+  - image: git.png 
+    alt: Git
+  - image: github.png 
+    alt: Github
+iot:
+  - image: ble.png
+    alt: Bluetooth
+  - image: mqtt.png
+    alt: MQTT
+  - image: zigbee.png
+    alt: ZigBee
+  - image: matter.png 
+    alt: Matter

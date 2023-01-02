@@ -3,4 +3,5 @@
 
 - id: see-more
   translation: "See more"
-
+- id: cv
+  translation: "Resume"

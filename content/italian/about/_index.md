@@ -7,18 +7,17 @@ title: Chi Sono
 
 ### Ad oggi
 
-*   Typescript, Javascript, Java, PHP, C++
-*   Linguaggi web Front-end (HTML5, CSS, JS con JQuery)
-*   **Angular 9, Laravel 8, Spring framework, NodeJS**
-*   Database (Postgres, Timescale, MYSQL, MariaDB)
-*   XML, JSON, YAML
-*   Git, Github, Gitlab, Docker
-*   DevOps (Github & Gitlab runners)
-*   Travis CI & Jenkins, Ansible
+- Typescript, Javascript, Java, PHP, C++
+- Linguaggi web Front-end (HTML5, CSS, JS con JQuery)
+- **Angular 9, Laravel 8, Spring framework, NodeJS**
+- Database (Postgres, Timescale, MYSQL, MariaDB)
+- XML, JSON, YAML
+- Git, Github, Gitlab, Docker
+- DevOps (Github & Gitlab runners)
+- Travis CI & Jenkins, Ansible
 
 Buone conoscenze di Windows, Linux e macOS.
 
----
 
 ## Background
 

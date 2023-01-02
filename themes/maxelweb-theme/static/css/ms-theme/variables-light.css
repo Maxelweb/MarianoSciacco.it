@@ -34,6 +34,7 @@
 
     /* ========== Fixed Colors ========== */
 
+    --ms-neutral: #999;
     --ms-error: #c41717;
     --ms-white: #fff;
     --ms-black: #111;

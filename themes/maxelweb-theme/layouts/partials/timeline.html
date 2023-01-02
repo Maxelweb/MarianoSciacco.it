@@ -1,19 +1,5 @@
 <div class="timeline">
     {{ range .Pages }}
-    {{ $year := time.Format "2006" .Date }}
-    {{if not (modBool $year 2)}}
-    <div class="container-box left">
-    {{ else }}
-    <div class="container-box right">
-    {{ end }}
-        <div class="content">
-            <h2 class="tml-title">
-                <i class="fa fa-{{ .Params.faIcon }}"></i> {{ time.Format "January, 2006" .Date }}
-            </h2>
-            <p>
-                {{ .Content }}
-            </p>
-        </div>
-    </div>
+    {{ partial "timeline_containers.html" . }}
     {{ end }}
 </div>

@@ -23,6 +23,9 @@
     --ms-secondary-lighter: #013f12; 
     --ms-primary-lighter: #073354;
 
+    --ms-dark-lighter: #f1f1f1;
+    --ms-light-darker: #CCC;
+
     --ms-box-shadow-12: transparent;
     --ms-box-shadow-24: transparent;
 

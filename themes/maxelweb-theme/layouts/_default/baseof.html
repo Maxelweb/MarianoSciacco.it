@@ -31,6 +31,13 @@
 
 <body>
     <div class="ms-settings-box">
+        <div class="ms-language-switcher">
+            {{ if .Site.IsMultiLingual }}
+                {{ range $.Translations }}
+                <a href="{{ .Permalink }}">{{ .Language.Params.short }}</a></li>
+                {{ end }}
+            {{ end }}
+        </div>
         <div class="ms-theme-switcher">
             <a id="ms-theme-toggle" aria-label="ms-theme-toggle" alt="Theme Switch" title="Theme Switch">
                 <i></i>

@@ -1,12 +1,19 @@
 {{ define "main" }}
 <div class="ms-wrapper-header"></div>
-<section class="ms-section ms-section-large">
+<section class="ms-section">
     <div class="ms-limiter">
         <div class="ms-section-title">
             <h1>{{ .Title }}</h1>
         </div>
         <div class="ms-section-content">
             {{ .Content }}
+        </div>
+    </div>
+</section>
+
+<section class="ms-section ms-section-large">
+    <div class="ms-limiter">
+        <div class="ms-section-content">
             {{ partial "timeline.html" . }}
         </div>
     </div>

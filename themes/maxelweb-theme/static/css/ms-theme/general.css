@@ -55,7 +55,7 @@ h3 {
   font-weight: normal;
   color: var(--ms-primary);
   text-decoration: none;
-  margin: 0.5rem 0;
+  margin: 3rem 0;
 }
 
 h1 {
@@ -73,7 +73,19 @@ h2 {
 h3 {
   color: var(--ms-secondary-hover);
   font-size: 1.75rem;
-  margin: 2.5rem 0 1.5rem;
+  margin: 2.0rem 0 1.5rem;
+}
+
+h4 {
+  color: var(--ms-secondary-hover);
+  margin: 1.5rem 0 1rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h4::before {
+  content: "> "
 }
 
 .cursor {

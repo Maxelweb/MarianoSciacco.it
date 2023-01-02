@@ -28,7 +28,7 @@ a:hover {
   color: var(--ms-secondary);
 }
 
-p {
+p,.ms-section-content {
   font-size: 1.275rem;
   line-height: 135%;
 }
@@ -87,31 +87,31 @@ article strong {
 /* ========== Utilities ========== */
 
 .ms-text-light {
-  color: var(--ms-light)
+  color: var(--ms-light) !important;
 }
 
 .ms-text-dark {
-  color: var(--ms-dark)
+  color: var(--ms-dark) !important;
 }
 
 .ms-text-primary {
-  color: var(--ms-primary)
+  color: var(--ms-primary) !important;
 }
 
 .ms-text-secondary {
-  color: var(--ms-secondary)
+  color: var(--ms-secondary) !important;
 }
 
 .ms-text-white {
-  color: var(--ms-white)
+  color: var(--ms-white) !important;
 }
 
-.ms-text-white {
-  color: var(--ms-black)
+.ms-text-black {
+  color: var(--ms-black) !important;
 }
 
 .ms-text-error {
-  color: var(--ms-error)
+  color: var(--ms-error) !important;
 }
 
 .ms-bg-light {

@@ -40,20 +40,23 @@
             <div class="logo-header cursor logo hide" onclick="location.replace('/')"></div>
             <div class="ms-navbar">
                 <div class="ms-url-list">
-                    <span class="ms-dropdown">
-                        <a href="#" class="link-header"><i class="fa fa-user"></i> Chi Sono <span class="caret-down"></span></a>
-                        <div class="ms-dropdown-content">
-                            <!-- <a href="#skills"><i class="fa fa-user-cog"></i> Skillset</a>
-                            <a href="#edu"><i class="fa fa-graduation-cap"></i> Formazione</a> -->
-                            <a href="/about"><i class="fa fa-copy"></i> Timeline</a>
-                            <a href="/portfolio"><i class="fa fa-copy"></i> Portfolio</a>
-                            <a href="http://cv.marianosciacco.it"><i class="far fa-file"></i> Curriculum (EN)</a>
-                            <a href="http://cvit.marianosciacco.it"><i class="far fa-file"></i> Curriculum (IT)</a>
+                    {{ $currentPage := . }}
+                    {{ range .Site.Menus.main }}
+                    {{ $menu_item_url := .URL | relLangURL }}
+                        {{ if .HasChildren }}
+                        <div class="ms-dropdown">
+                            <a href="{{ $menu_item_url }}" class="link-header"><i class="ms-icon-pre {{ .Pre }}"></i><i class="ms-icon-post {{ .Post }}"></i> {{ .Name }} <span class="caret-down"></span></a>
+                            <div class="ms-dropdown-content">
+                            {{ range .Children }}
+                                {{ $submenu_item_url := .URL | relLangURL }}
+                                <a href="{{ $submenu_item_url }}"><i class="{{ .Pre }}"></i>&nbsp;&nbsp;{{ .Name }}</a>  
+                            {{ end }}
+                            </div>
                         </div>
-                    </span>
-                    <a href="https://dev.marianosciacco.it" class="link-header"><i class="fas fa-code"></i> Sviluppo</a>
-                    <a href="http://git.marianosciacco.it/" class="link-header"><i class="fab fa-github"></i> Github</a>
-                    <a href="index.php#contacts" class="link-header"><i class="fa fa-envelope"></i> Contatti</a>
+                        {{ else }}
+                            <a href="{{ $menu_item_url }}" class="link-header"><i class="{{ .Pre }}"></i> {{ .Name }}</a>
+                        {{ end }}
+                    {{ end }}
                 </div>
             </div>
 
@@ -62,9 +65,28 @@
 
     <div class="ms-navbar-mobile">
         <div class="ms-url-list">
-            <a href="#" class="primary" onclick="displayId('menu-mobile')">Menù ☰</a>
-            <div id="menu-mobile" class="tleft hide">
-                <a href="#about"><i class="fa fa-user"></i> Chi Sono</a>
+            <a href="#" class="primary" onclick="displayId('menu-mobile')">Menù <i class="fas fa-bars ms-text-light"></i></a>
+            <div id="menu-mobile" class="tleft">
+                {{ range .Site.Menus.main }}
+                {{ $menu_item_url := .URL | relLangURL }}
+                    {{ if .HasChildren }}
+                        <a href="{{ $menu_item_url }}">
+                            <i class="{{ .Pre }}"></i>
+                            {{ .Name }}
+                        </a>
+                        {{ range .Children }}
+                            {{ $submenu_item_url := .URL | relLangURL }}
+                            <a href="{{ $submenu_item_url }}" class="">
+                                <i class="{{ .Pre }}"></i>
+                                {{ .Name }}
+                            </a>  
+                        {{ end }}
+                    {{ else }}
+                        <a href="{{ $menu_item_url }}"><i class="{{ .Pre }}"></i> {{ .Name }}</a>
+                    {{ end }}
+                {{ end }}
+            </div>
+                {{/*  <a href="#about"><i class="fa fa-user"></i> Chi Sono</a>
                 <a href="#skills"><i class="fa fa-user-cog"></i> Skillset</a>
                 <a href="#edu"><i class="fa fa-graduation-cap"></i> Formazione</a>
                 <a href="#portfolio"><i class="fa fa-copy"></i> Portfolio</a>
@@ -73,8 +95,7 @@
                 <a href="http://git.marianosciacco.it"><i class="fab fa-github"></i> Github</a>
                 <a href="#contacts"><i class="fa fa-envelope"></i> Contatti</a>
             </div>
-            <a href="https://dev.marianosciacco.it"><i class="fas fa-code"></i> Sviluppo</a>
-
+            <a href="https://dev.marianosciacco.it"><i class="fas fa-code"></i> Sviluppo</a>  */}}
         </div>
     </div>
     <div class="ms-wrapper">

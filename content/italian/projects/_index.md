@@ -1,6 +1,5 @@
 ---
 title: Progetti Personali
-layout: _default
 ---
 
 [&larr; Indietro](../)

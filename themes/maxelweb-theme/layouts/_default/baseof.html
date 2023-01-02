@@ -64,9 +64,18 @@
     </header>
 
     <div class="ms-navbar-mobile">
+
+        <input type="checkbox" id="ms_menu_icon" class="ms-icon-menu-checkbox" onclick="msToggle('#menu-mobile')" checked="f">
+        <label for="ms_menu_icon" class="ms-icon-menu-label">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+
+        {{/*  <a href="#" onclick="displayId('menu-mobile')" class="ms-menu-icon"><i class="fas fa-bars"></i></a>  */}}
         <div class="ms-url-list">
-            <a href="#" class="primary" onclick="displayId('menu-mobile')">Menù <i class="fas fa-bars ms-text-light"></i></a>
-            <div id="menu-mobile" class="tleft">
+            {{/*  <a href="#" class="primary" onclick="displayId('menu-mobile')">Menù <i class="fas fa-bars ms-text-secondary"></i></a>  */}}
+            <div id="menu-mobile" class="tleft" style="display: none;">
                 {{ range .Site.Menus.main }}
                 {{ $menu_item_url := .URL | relLangURL }}
                     {{ if .HasChildren }}
@@ -76,7 +85,7 @@
                         </a>
                         {{ range .Children }}
                             {{ $submenu_item_url := .URL | relLangURL }}
-                            <a href="{{ $submenu_item_url }}" class="">
+                            <a href="{{ $submenu_item_url }}" class="submenu">
                                 <i class="{{ .Pre }}"></i>
                                 {{ .Name }}
                             </a>  

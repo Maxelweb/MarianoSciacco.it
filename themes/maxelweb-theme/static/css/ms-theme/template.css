@@ -90,32 +90,26 @@ header.ms-header .ms-limiter {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
+.ms-navbar .ms-dropdown {
+  display: inline-block;
+}
 
 .ms-navbar .ms-dropdown-content {
-  /* 
-  z-index: 3;
-  position: absolute;
-  background-color: transparent;
-  min-width: 185px;
-  margin: 0px 45px;
-  transition: 0.3s; */
   display: none;
   z-index: 3;
   position: absolute;
-  background-color: transparent;
   min-width: 185px;
   margin: 0px 45px;
-  transition: 0.3s;
-  background-color: var(--ms-primary);
   padding: 20px;
   border-radius: 6px;
+  background-color: var(--ms-primary);
+  transition: background-color 0.8s;
 }
 
 .ms-navbar .ms-dropdown-content a {
   color: var(--ms-dark);
   background-color: var(--ms-light);
   display: block;
-  transition: 0.3s;
   cursor: pointer;
   text-decoration: none;
   text-transform: uppercase;
@@ -127,17 +121,33 @@ header.ms-header .ms-limiter {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
+.ms-navbar .ms-dropdown i.fa-folder {
+  padding-right: 2px; /* Fix icon replace */
+}
+
 .ms-navbar .ms-dropdown-content a:hover {
   background-color: #A9C0D2;
-  transition: 0.3s;
+}
+
+.ms-navbar .ms-dropdown a.link-header i.ms-icon-post {
+  display: none;
+}
+
+.ms-navbar .ms-dropdown:hover a.link-header i.ms-icon-pre {
+  display: none;
+}
+
+.ms-navbar .ms-dropdown:hover a.link-header i.ms-icon-post {
+  display: inline;
 }
 
 .ms-navbar .ms-dropdown:hover .ms-dropdown-content {
-  transition: 0.3s;
   display: block;
 }
 
-
+.ms-navbar .ms-dropdown-content:hover {
+  background-color: var(--ms-primary-hover);
+}
 
 .logo-header {
   width: 130px;
@@ -186,6 +196,10 @@ header.ms-header .ms-limiter {
   text-decoration: none;
   color: #CCC;
   background-color: var(--ms-primary-hover);
+}
+
+.ms-navbar-mobile .ms-url-list a:hover i {
+  color: #CCC;
 }
 
 /* ========== Body Content  ========== */

@@ -25,21 +25,25 @@
 
 	$(document).ready(function() 
 	{
-	 	// Loading splash
 
-	 	$(".name").fadeIn(2000);
-	 	$(".desc").fadeIn(3000);	
+		
+		// Loading splash
+
+		$(".splash-name").hide();
+		$(".splash-desc").hide();
+	 	$(".splash-name").fadeIn(2000);
+	 	$(".splash-desc").fadeIn(3000);	
 
 
 	 	// To the top button
 
-		 $(window).scroll(function() {
-		    if ($(window).scrollTop() > 300) {
-		      $('#TOP').removeClass('hide');
-		    } else {
-		      $('#TOP').addClass('hide');
-		    }
-		  });
+		//  $(window).scroll(function() {
+		//     if ($(window).scrollTop() > 300) {
+		//       $('#TOP').removeClass('hide');
+		//     } else {
+		//       $('#TOP').addClass('hide');
+		//     }
+		//   });
 
 		
 		// Offsets for side icons

@@ -217,6 +217,11 @@ p.false {
   margin: 0.1em 0;
 }
 
+.ms-btn i {
+  margin: 0 4px;
+  color: var(--ms-primary);
+}
+
 a.ms-btn,
 a.ms-btn:hover {
   color: var(--ms-dark);

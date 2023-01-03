@@ -13,11 +13,9 @@ cloud:
   - image: lua.png 
     alt: Lua
   - image: cpp.png
-    alt: C plus plus
-  - image: git.png 
-    alt: Git
-  - image: github.png 
-    alt: Github
+    alt: C++
+  - image: flutter.png
+    alt: Flutter
 iot:
   - image: ble.png
     alt: Bluetooth
@@ -27,3 +25,20 @@ iot:
     alt: ZigBee
   - image: matter.png 
     alt: Matter
+tools:
+  - image: vscode.png 
+    alt: Visual Studio Code
+  - image: git.png 
+    alt: Git
+  - image: github.png 
+    alt: Github
+  - image: atlassian.png 
+    alt: Atlassian Suite
+  - image: gha.png 
+    alt: Github Actions
+  - image: fedora.png 
+    alt: Fedora Linux
+  - image: debian.png 
+    alt: Debian Linux
+  - image: alpine.png 
+    alt: Alpine Linux

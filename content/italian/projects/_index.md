@@ -2,8 +2,6 @@
 title: Progetti Personali
 ---
 
-[&larr; Indietro](../)
-
 ### Progetti attivi (5)
 
 

@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Live Portfolio
-permalink: /portfolio/
 ---
 
 [&larr; Indietro](../)

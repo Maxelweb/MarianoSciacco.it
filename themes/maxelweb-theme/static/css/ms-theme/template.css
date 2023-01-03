@@ -398,12 +398,11 @@ section.ms-section-large .ms-limiter {
 
 .ms-logos-container {
   display: block;
-  text-align: center;
 }
 
 .ms-logos-container img {
   display: inline-flex;
-  max-width: 8% !important;
+  max-width: 100px !important;
   min-width: 32px !important;
   filter: saturate(0.75);
   border-radius: 6px;

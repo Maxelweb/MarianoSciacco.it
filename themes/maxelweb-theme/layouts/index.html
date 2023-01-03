@@ -66,24 +66,35 @@
             <p>
                 Di seguito alcune delle principali tecnologie con cui ho lavorato di recente.
             </p>
-            <h3>Cloud</h3>
+            <h3>{{ T "dev-cloud-programming" }}</h3>
+            <div class="ms-logos-container">
+                {{ $data := .Site.Data.technologies }}
+                {{ range $data.cloud }}
+                    <img src="{{ $data.image_folder }}{{ .image }}" alt="{{ .alt }}" title="{{ .alt }}"/>
+                {{ end }}
+            </div>
+            <h3>{{ T "dev-iot" }}</h3>
+            <div class="ms-logos-container">
+                {{ range $data.iot }}
+                    <img src="{{ $data.image_folder }}{{ .image }}" alt="{{ .alt }}" title="{{ .alt }}"/>
+                {{ end }}
+            </div>
+            <h3>{{ T "dev-tools" }}</h3>
+            <div class="ms-logos-container">
+                {{ range $data.tools }}
+                    <img src="{{ $data.image_folder }}{{ .image }}" alt="{{ .alt }}" title="{{ .alt }}"/>
+                {{ end }}
+            </div>
         </div>
     </div>
-    <div class="ms-logos-container">
-        {{ $data := .Site.Data.technologies }}
-        {{ range $data.cloud }}
-            <img src="{{ $data.image_folder }}{{ .image }}" alt="{{ .alt }}" title="{{ .alt }}"/>
-        {{ end }}
-    </div>
+</section>
+
+<section class="ms-section ms-section-light">
     <div class="ms-limiter">
-        <div class="ms-section-content ms-no-limits">
-            <h3>Internet of Things (IoT)</h3>
+        <div class="ms-section-content">
+            <h2 class="ms-my2"><i class="fas fa-rss"></i> {{ T "news-latest" }} </h2>
+            todo
         </div>
-    </div>
-    <div class="ms-logos-container">
-        {{ range $data.iot }}
-            <img src="{{ $data.image_folder }}{{ .image }}" alt="{{ .alt }}" title="{{ .alt }}"/>
-        {{ end }}
     </div>
 </section>
 

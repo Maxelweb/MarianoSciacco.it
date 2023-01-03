@@ -13,3 +13,13 @@
   translation: "Italiano"
 - id: lang-eng
   translation: "Inglese"
+
+
+- id: dev-cloud-programming
+  translation: "Cloud e Programmazione"
+- id: dev-iot
+  translation: "Internet of Things (IoT)"
+- id: dev-tools
+  translation: "Strumenti di sviluppo"
+- id: news-latest
+  translation: "Ultime novità"

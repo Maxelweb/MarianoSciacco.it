@@ -15,6 +15,9 @@
   translation: "Inglese"
 
 
+# Homepage
+# ---------------------------------------------
+
 - id: dev-cloud-programming
   translation: "Cloud e Programmazione"
 - id: dev-iot

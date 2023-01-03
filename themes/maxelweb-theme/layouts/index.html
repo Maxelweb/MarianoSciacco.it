@@ -46,14 +46,14 @@
         <div class="ms-section-content">
             <h2 class="ms-my2"><i class="fas fa-file-alt"></i> {{ T "cv" }} </h2>
             <h3>Download</h3>
-            <a href="http://cvit.marianosciacco.it" class="ms-btn ms-box-light ms-my1">
+            <a href="http://cvit.marianosciacco.it" class="ms-btn ms-btn-light ms-my1">
                 <i class="fas fa-file-download"></i> {{ T "lang-ita" }} - {{ T "format-normal" }}
             </a>
-            <a href="https://public.marianosciacco.it/cv_eu_marianosciacco_it.pdf" class="ms-btn ms-box-light ms-my1">
-                <i class="fas fa-file-download"></i> {{ T "lang-ita" }} - {{ T "format-europass" }}
-            </a>
-            <a href="http://cv.marianosciacco.it" class="ms-btn ms-box-gray ms-my1">
+            <a href="http://cv.marianosciacco.it" class="ms-btn ms-btn-light ms-my1">
                 <i class="fas fa-file-download"></i> {{ T "lang-eng" }} - {{ T "format-normal" }}
+            </a>
+            <a href="https://public.marianosciacco.it/cv_eu_marianosciacco_it.pdf" class="ms-btn ms-btn-light-outline ms-my1">
+                <i class="fas fa-file-download"></i> {{ T "lang-ita" }} - {{ T "format-europass" }}
             </a>
         </div>
     </div>
@@ -73,17 +73,20 @@
                     <img src="{{ $data.image_folder }}{{ .image }}" alt="{{ .alt }}" title="{{ .alt }}"/>
                 {{ end }}
             </div>
-            <h3>{{ T "dev-iot" }}</h3>
-            <div class="ms-logos-container">
-                {{ range $data.iot }}
-                    <img src="{{ $data.image_folder }}{{ .image }}" alt="{{ .alt }}" title="{{ .alt }}"/>
-                {{ end }}
-            </div>
-            <h3>{{ T "dev-tools" }}</h3>
-            <div class="ms-logos-container">
-                {{ range $data.tools }}
-                    <img src="{{ $data.image_folder }}{{ .image }}" alt="{{ .alt }}" title="{{ .alt }}"/>
-                {{ end }}
+            <a id="ms-tech-toggle" aria-label="ms-tech-toggle" alt="Toggle technologies" title="Toggle technologies" class="ms-btn ms-btn-dark-outline ms-btn-block cursor ms-my3" onclick="msToggle('#ms-tech-container')"><i class="far fa-caret-square-down"></i> {{ T "see-more" }}</a>
+            <div class="hide" id="ms-tech-container">
+                <h3>{{ T "dev-iot" }}</h3>
+                <div class="ms-logos-container">
+                    {{ range $data.iot }}
+                        <img src="{{ $data.image_folder }}{{ .image }}" alt="{{ .alt }}" title="{{ .alt }}"/>
+                    {{ end }}
+                </div>
+                <h3>{{ T "dev-tools" }}</h3>
+                <div class="ms-logos-container">
+                    {{ range $data.tools }}
+                        <img src="{{ $data.image_folder }}{{ .image }}" alt="{{ .alt }}" title="{{ .alt }}"/>
+                    {{ end }}
+                </div>
             </div>
         </div>
     </div>
@@ -93,7 +96,7 @@
     <div class="ms-limiter">
         <div class="ms-section-content">
             <h2 class="ms-my2"><i class="fas fa-rss"></i> {{ T "news-latest" }} </h2>
-            todo
+            <p></p>
         </div>
     </div>
 </section>
@@ -107,6 +110,7 @@
                     {{ partial "timeline_containers.html" . }}
                 {{ end }}
             <a class="timeline-see-more" href="about/#background">
+                <i class="far fa-caret-square-down"></i>
                 {{ T "see-more" }}
             </a>
         </div>

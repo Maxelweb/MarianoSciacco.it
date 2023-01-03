@@ -127,37 +127,24 @@
     background-color: var(--ms-error) !important;
 }
 
-.ms-box-light {
+.ms-btn-light {
     color: var(--ms-black) !important;
     background-color: var(--ms-light-darker) !important;
+    border: 2px solid var(--ms-light-darker) !important;
 }
 
-.ms-box-primary {
-    color: var(--ms-primary) !important;
-    background-color: var(--ms-primary-lighter) !important;
+.ms-btn-light-outline {
+    color: var(--ms-dark) !important;
+    border: 2px solid var(--ms-light-darker) !important;
 }
 
-.ms-box-secondary {
-    color: var(--ms-secondary) !important;
-    background-color: var(--ms-secondary-lighter) !important;
+.ms-btn-dark-outline {
+    color: var(--ms-dark) !important;
+    border: 2px solid var(--ms-box-light) !important;
 }
 
-.ms-box-gray {
-    color: var(--ms-black) !important;
-    background-color: var(--ms-neutral) !important;
-}
-
-.ms-box-white {
-    color: var(--ms-black) !important;
-    background-color: var(--ms-white) !important;
-}
-
-.ms-box-black {
-    color: var(--ms-white) !important;
-    background-color: var(--ms-black) !important;
-}
-
-.ms-box-error {
+.ms-btn-error {
     color: var(--ms-error) !important;
     background-color: var(--ms-error-lighter) !important;
+    border: 2px solid var(--ms-error-lighter) !important;
 }

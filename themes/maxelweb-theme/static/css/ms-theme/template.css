@@ -150,7 +150,8 @@ header.ms-header .ms-limiter {
 }
 
 .ms-navbar .ms-dropdown i.fa-folder {
-  padding-right: 2px; /* Fix icon replace */
+  padding-right: 2px;
+  /* Fix icon replace */
 }
 
 .ms-navbar .ms-url-list a.link-header:hover,
@@ -176,7 +177,7 @@ header.ms-header .ms-limiter {
   display: block;
 }
 
-  /* .ms-navbar .ms-dropdown-content:hover {
+/* .ms-navbar .ms-dropdown-content:hover {
     background-color: var(--ms-primary-hover);
   } */
 
@@ -200,16 +201,20 @@ label.ms-icon-menu-label {
   top: 45px;
   left: 8%;
   display: block;
-  width: 50px; /* width: 60px;  */
-  height: 50px; /* height: 60px; */
+  width: 50px;
+  /* width: 60px;  */
+  height: 50px;
+  /* height: 60px; */
   cursor: pointer;
 }
 
 label.ms-icon-menu-label div {
   position: relative;
   top: 0;
-  height: 9px; /* height: 12px; */
-  margin-bottom: 9px; /* margin-bottom: 12px; */
+  height: 9px;
+  /* height: 12px; */
+  margin-bottom: 9px;
+  /* margin-bottom: 12px; */
   background-color: var(--ms-dark);
   transition: 0.3s ease transform, 0.3s ease top, 0.3s ease width,
     0.3s ease right;
@@ -222,7 +227,8 @@ label.ms-icon-menu-label div:first-child {
 
 label.ms-icon-menu-label div:last-child {
   margin-bottom: 0;
-  transform-origin: 50px; /* transform-origin: 60px; */
+  transform-origin: 50px;
+  /* transform-origin: 60px; */
 }
 
 label.ms-icon-menu-label div:nth-child(2) {
@@ -230,20 +236,23 @@ label.ms-icon-menu-label div:nth-child(2) {
   width: 50px;
 }
 
-.ms-icon-menu-checkbox:checked + label.ms-icon-menu-label div:first-child {
+.ms-icon-menu-checkbox:checked+label.ms-icon-menu-label div:first-child {
   top: -6px;
   transform: rotateZ(45deg);
 }
 
-.ms-icon-menu-checkbox:checked + label.ms-icon-menu-label div:last-child {
-  top: 8px; /* top: 6px; */
+.ms-icon-menu-checkbox:checked+label.ms-icon-menu-label div:last-child {
+  top: 8px;
+  /* top: 6px; */
   transform: rotateZ(45deg);
 }
 
-.ms-icon-menu-checkbox:checked + label.ms-icon-menu-label div:nth-child(2) {
-  width: 72px; /* width: 85px; */
+.ms-icon-menu-checkbox:checked+label.ms-icon-menu-label div:nth-child(2) {
+  width: 72px;
+  /* width: 85px; */
   top: 0;
-  right: 12px; /* right: 13px; */
+  right: 12px;
+  /* right: 13px; */
   transform: rotateZ(-45deg);
 }
 
@@ -316,7 +325,7 @@ label.ms-icon-menu-label div:nth-child(2) {
   white-space: nowrap;
 }
 
-.ms-breadcrumb li + li:before {
+.ms-breadcrumb li+li:before {
   content: "//";
   padding: 0.3rem;
   color: var(--ms-primary)
@@ -324,6 +333,7 @@ label.ms-icon-menu-label div:nth-child(2) {
 
 .ms-wrapper {
   width: 100%;
+  min-height: calc(100vh - 280px);
   padding: 0;
   margin: 0;
 }
@@ -355,7 +365,7 @@ section .ms-limiter {
   padding: 1rem 0;
 }
 
-section.ms-section .ms-limiter{
+section.ms-section .ms-limiter {
   max-width: 720px;
 }
 
@@ -390,8 +400,8 @@ section.ms-section-large .ms-limiter {
   min-height: auto;
 }
 
-.ms-section-title > h1,
-.ms-section-content > h1{
+.ms-section-title>h1,
+.ms-section-content>h1 {
   margin-top: 0.25rem;
 }
 
@@ -449,7 +459,7 @@ section.ms-section-large .ms-limiter {
   margin: 160px 0;
   transform: skewY(357deg);
   transition: transform .15s linear;
-  border-top: 30px solid var(--ms-primary); 
+  border-top: 30px solid var(--ms-primary);
   text-transform: uppercase;
   text-align: right;
   font-weight: bold;
@@ -487,107 +497,22 @@ section.ms-section-large .ms-limiter {
 
 /* ========== Specific sections and Single Page  ========== */
 
-
-/* ========== FIXME: refactor the following parts  ========== */
-
-
-/* section div.ms-section-content {
-  width: 65%;
-} */
-
-section div.list-box-option {
-  width: auto;
-  margin: 30px auto 10px;
+table {
+  border: 2px solid var(--ms-gray);
 }
 
-section div.box-option {
-  width: 20%;
-  display: inline-block;
-  height: 250px;
-  margin: 2%;
-  background-color: var(--ms-light);
-  background-repeat: no-repeat;
-  background-size: 85%;
-  background-position: center;
-  border-radius: 4px;
-  position: relative;
-  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+table.ms-contacts td:nth-child(1) {
+  text-align: right;
+  color: var(--ms-dark);
 }
 
-
-section div.box-option div.box-text {
-  margin: 260px auto;
-  text-align: center;
-  padding: 10px 0;
-  font-style: italic;
+table.ms-contacts td {
+  padding: 2rem;
 }
 
-section div.box-option a {
-  color: #025390;
-  font-size: 24px;
-  transition: 0.3s;
-  font-weight: lighter;
+table.ms-contacts img {
+  margin: -20px 20px -20px 0;
 }
-
-section div.box-option a:hover {
-  text-decoration: none;
-}
-
-section#end,
-section.divider {
-  height: 0px;
-}
-
-section#pageheader {
-  background: transparent url("../images/material.jpg") no-repeat 100% center / cover;
-  height: 160px;
-}
-
-section#pageheader div.title {
-  letter-spacing: 2px;
-  font-size: 24px;
-  padding: 10px;
-  line-height: 35px;
-}
-
-section#end h1 {
-  color: var(--ms-light);
-  background-color: rgba(26, 85, 128, 0.1);
-  padding: 8px 12px;
-  text-align: center;
-}
-
-section#end input[type="text"],
-section#end input[type="submit"] {
-  border: none;
-  font-size: 30px;
-  color: var(--ms-light);
-  background-color: rgba(30, 120, 146, 0.83);
-}
-
-section#end input[type="text"] {
-  width: 250px;
-  background-color: transparent;
-}
-
-section#end form {
-  display: inline;
-}
-
-
-
-section#edu p {
-  border-left: 2px solid #CCC;
-  padding: 5px 20px;
-  margin: 1.2em 0.5em;
-}
-
-section#edu span {
-  font-size: 1.1em;
-  color: #8B5808;
-  font-weight: bold;
-}
-
 
 /* ========== Footer ========== */
 
@@ -597,7 +522,6 @@ footer.ms-footer {
   color: var(--ms-white);
   padding: 1.5rem 0;
   overflow: hidden;
-  /* border-top: 2px solid var(--ms-black); */
 }
 
 footer .ms-footer-logo {

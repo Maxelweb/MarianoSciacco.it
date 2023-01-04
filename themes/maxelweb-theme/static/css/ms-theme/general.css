@@ -135,8 +135,7 @@ p.false {
 }
 
 .tohide {
-  font-size: 24px;
-  color: #555;
+  color: var(--ms-dark);
   text-transform: lowercase;
 }
 

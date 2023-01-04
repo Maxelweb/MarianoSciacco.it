@@ -8,14 +8,10 @@
             {{ partial "breadcrumbs.html" . }}
         </div>
         <div class="ms-section-content">
-            <ul>
-            {{ range .Pages }}
-            <li>
-                <a href="{{.RelPermalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
-            </li>
-            {{ end }}
-            </ul>
             {{ .Content }} {{/*  FIXME: reset before pages list  */}}
+            {{ range .Pages }}
+                {{ partial "listing_full.html" . }}
+            {{ end }}
         </div>
     </div>
 </section>

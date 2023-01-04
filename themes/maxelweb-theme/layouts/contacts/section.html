@@ -1,0 +1,54 @@
+{{ define "main" }}
+<!-- Here the section refers to content/section/post-custom-name.md --> 
+<div class="ms-wrapper-header"></div>
+<section class="ms-section">
+    <div class="ms-limiter">
+        <div class="ms-section-title">
+            <h1>{{ .Title }}</h1>
+            {{ partial "breadcrumbs.html" . }}
+        </div>
+        <div class="ms-section-content">
+            {{ .Content }}
+			<h2><i class="fas fa-link"></i> Social Network </h2>
+			<table class="ms-contacts">
+				<tr>
+					<td><i class="fab fa-facebook-square"></i> <span class="tohide">Facebook</span></td>
+					<td>Mariano Sciacco</td>
+				</tr>			
+				<tr>
+					<td><i class="fab fa-twitter-square"></i> <span class="tohide">Twitter</span></td>
+					<td><a href="https://twitter.com/Maxelweb">@Maxelweb</a></td>
+				</tr>
+				<tr>
+					<td><i class="fab fa-linkedin"></i> <span class="tohide">Linked In</span></td>
+					<td><a href="https://www.linkedin.com/in/marianosciacco/">Mariano Sciacco</a></td>
+				</tr>	
+				<tr>
+					<td><i class="fab fa-github-square"></i> <span class="tohide">Github</span></td>
+					<td><a href="http://git.marianosciacco.it">Maxelweb</a></td>
+				</tr>
+				<tr>
+					<td><i class="fab fa-discord"></i> <span class="tohide">Discord</span></td>
+					<td>Maxel#6107</td>
+				</tr>	
+				<tr>
+					<td><i class="fab fa-youtube"></i> <span class="tohide">YouTube</span></td>
+					<td>Maxelweb</td>
+				</tr>				
+			</table>
+
+			<h2><i class="far fa-envelope"></i> Email </h2>
+			<table class="ms-contacts">
+				<tr>
+					<td><i class="fa fa-at"></i> <span class="tohide">Principale</span></td>
+					<td>marianosciacco@gmail.com</td>
+				</tr>	
+				<tr>
+					<td><i class="fa fa-envelope-square"></i> <span class="tohide">Secondaria</span></td>
+					<td>maxelweb@gmail.com</td>
+				</tr>												
+			</table>
+        </div>
+    </div>
+</section>
+{{ end }}

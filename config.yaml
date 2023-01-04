@@ -47,14 +47,26 @@ languages:
         parent: portfolio
         weight: 1
         name: Pubblicazioni
-        url: "/publications/"
+        url: "/portfolio/publications/"
         pre: "fas fa-file-alt"
-      - identifier: portfolio-projects
+      - identifier: portfolio-university
         parent: portfolio
         weight: 2
-        name: Progetti
-        url: "/projects/"
+        name: Progetti Universitari
+        url: "/portfolio/university/"
+        pre: "fas fa-university"
+      - identifier: portfolio-projects
+        parent: portfolio
+        weight: 3
+        name: Progetti Personali
+        url: "/portfolio/projects/"
         pre: "fas fa-project-diagram"
+      - identifier: portfolio-archive
+        parent: portfolio
+        weight: 4
+        name: Archivio Live
+        url: "/portfolio/archive/"
+        pre: "fas fa-archive"
       - identifier: github
         weight: 3
         name: Github
@@ -104,14 +116,26 @@ languages:
         parent: portfolio
         weight: 1
         name: Publications
-        url: "/publications/"
+        url: "/portfolio/publications/"
         pre: "fas fa-file-alt"
-      - identifier: portfolio-projects
+      - identifier: portfolio-university
         parent: portfolio
         weight: 2
-        name: Projects
-        url: "/projects/"
+        name: University Projects
+        url: "/portfolio/university/"
+        pre: "fas fa-university"
+      - identifier: portfolio-projects
+        parent: portfolio
+        weight: 3
+        name: Personal Projects
+        url: "/portfolio/projects/"
         pre: "fas fa-project-diagram"
+      - identifier: portfolio-archive
+        parent: portfolio
+        weight: 4
+        name: Live Archive
+        url: "/portfolio/archive/"
+        pre: "fas fa-archive"
       - identifier: github
         weight: 3
         name: Github

@@ -2,7 +2,7 @@
 layout: section
 title: Progetti Universitari
 ---
-
+<!-- 
 ### Laurea Informatica - Magistrale
 
 
@@ -102,4 +102,4 @@ Tesina di Scuola Superiore.
 
 #### [Sic et Simpliciter, Tecnologie Web](http://public.marianosciacco.it/guida_tecweb_unipd.pdf) - 📅 marzo 2019
 
-In questa guida, scritta in Latex, vengono raccolti tutti i consigli e i suggerimenti per realizzare un buon progetto di Tecnologie Web.
+In questa guida, scritta in Latex, vengono raccolti tutti i consigli e i suggerimenti per realizzare un buon progetto di Tecnologie Web. -->

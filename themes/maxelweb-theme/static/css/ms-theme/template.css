@@ -497,6 +497,43 @@ section.ms-section-large .ms-limiter {
 
 /* ========== Specific sections and Single Page  ========== */
 
+
+.ms-list {
+  margin: 1rem 0 3rem;
+}
+
+.ms-list-title {
+  font-size: 1.5rem;
+  margin: 2rem auto 0.5rem;
+}
+
+.ms-list-title a {
+  color: var(--ms-secondary-hover) !important;
+}
+
+.ms-list-subtitle {
+  font-size: 1.15rem;
+  color: var(--ms-neutral);
+}
+
+
+.ms-list-commas span::after{
+  content: ",";
+}
+
+.ms-list-commas span:last-child::after {
+  content: "";
+}
+
+
+.ms-list-subtitle i.fa-users {
+  margin-right: 2px;
+}
+
+.ms-list-subtitle i.fa-calendar {
+  margin-right:9px;
+}
+
 table {
   border: 2px solid var(--ms-gray);
 }

@@ -1,0 +1,45 @@
+{{ define "main" }}
+<div class="ms-wrapper-header"></div>
+<section class="ms-section">
+    <div class="ms-limiter">
+        <div class="ms-section-title">
+            <h1>{{ .Parent.Title }}</h1> 
+            {{ partial "breadcrumbs.html" . }}
+            <h3>{{ .Title }}</h3>
+        </div>
+        <div class="ms-section-content">
+            <div class="ms-list">
+                <div class="ms-list-subtitle ms-my3">
+                    <div>
+                        <i class="far fa-calendar"></i> {{.Date.Format "January 2006"}}
+                    </div>
+                    {{ with .Params.coauthors }}
+                    <div class="ms-list-commas">
+                        <i class="fas fa-users"></i> <strong>{{ T "collaborators" }}</strong>:
+                        {{ range . }}
+                            <span>{{ . }}</span>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                    <div class="ms-list-commas">
+                        <i class="fas fa-code"></i> <strong>{{ T "technologies" }}</strong>: 
+                        {{ range .Params.technologies }}
+                            <span>{{ . }}</span>
+                        {{ end }}
+                    </div>
+                </div>
+                {{ with .Params.gitURL }}
+                    <a href="{{ . }}" class="ms-btn ms-btn-light"><i class="fab fa-github"></i> {{ T "github-project" }}</a>
+                {{ end }}
+                {{ with .Params.websiteURL }}
+                    <a href="{{ . }}" class="ms-btn ms-btn-light"><i class="fas fa-link"></i> {{ T "website-link" }}</a>
+                {{ end }}
+                {{ with .Params.documentURL }}
+                    <a href="{{ . }}" class="ms-btn ms-btn-light-outline"><i class="fas fa-file-download"></i> {{ T "document-download" }}</a>
+                {{ end }}
+                <p>{{ .Content }}</p>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

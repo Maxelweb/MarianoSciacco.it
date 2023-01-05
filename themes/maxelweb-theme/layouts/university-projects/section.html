@@ -1,5 +1,4 @@
 {{ define "main" }}
-<!-- Here the section refers to content/section/_index.html --> 
 <div class="ms-wrapper-header"></div>
 <section class="ms-section ms-section-after-splash">
     <div class="ms-limiter">
@@ -9,14 +8,13 @@
         </div>
         <div class="ms-section-content">
             {{ .Content }}
-            
-            {{ with .Pages }}
-                <h2><i class="fas fa-link"></i> {{ T "related-pages" }}</h2>
-                <ul class="ms-my3">
-                {{ range . }}
-                    <li><a href="{{.RelPermalink}}">{{.Title}}</a></li>
-                {{ end }}
-                </ul>
+            <h2>{{ T "master-projects" }}</h2>
+            {{ range where .Pages "Params.tags" "intersect" (slice "msc") }}
+                {{ partial "listing_projects.html" . }}
+            {{ end }}
+            <h2>{{ T "bachelor-projects" }}</h2>
+            {{ range where .Pages "Params.tags" "intersect" (slice "bsc") }}
+                {{ partial "listing_projects.html" . }}
             {{ end }}
         </div>
     </div>

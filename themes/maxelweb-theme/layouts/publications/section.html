@@ -9,12 +9,9 @@
         </div>
         <div class="ms-section-content">
             {{ .Content }}
-            
             {{ with .Pages }}
-                <h2><i class="fas fa-link"></i> {{ T "related-pages" }}</h2>
-                <ul class="ms-my3">
                 {{ range . }}
-                    <li><a href="{{.RelPermalink}}">{{.Title}}</a></li>
+                    {{ partial "listing_full.html" . }}
                 {{ end }}
                 </ul>
             {{ end }}

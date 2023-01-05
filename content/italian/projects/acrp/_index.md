@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: page
 title: Progetti con Atlantis Roleplay
 ---
 

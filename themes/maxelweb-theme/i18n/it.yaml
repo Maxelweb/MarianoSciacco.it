@@ -13,6 +13,8 @@
   translation: "Italiano"
 - id: lang-eng
   translation: "Inglese"
+- id: related-pages
+  translation: "Pagine correlate"
 
 
 # Homepage
@@ -26,3 +28,23 @@
   translation: "Strumenti di sviluppo"
 - id: news-latest
   translation: "Ultime novità"
+
+# Portfolio
+# ---------------------------------------------
+
+- id: bachelor-projects
+  translation: "Laurea Informatica - Triennale"
+- id: master-projects
+  translation: "Laurea Informatica - Magistrale"
+- id: technologies
+  translation: "Tecnologie usate"
+- id: collaborators
+  translation: "Collaboratori"
+- id: supervisors
+  translation: "Supervisori"
+- id: github-project
+  translation: "Progetto di GitHub"
+- id: document-download
+  translation: "Scarica documento"
+- id: website-link
+  translation: "Sito web"

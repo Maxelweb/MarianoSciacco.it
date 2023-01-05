@@ -1,5 +1,5 @@
 ---
-layout: section
+# layout: section
 title: Progetti Universitari
 ---
 <!-- 

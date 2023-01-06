@@ -71,6 +71,7 @@ a.timeline-see-more:hover {
 
 .container-box .content img {
   max-width: 75% !important;
+  border-radius: 6px;
 }
 
 /* The circles on the timeline */

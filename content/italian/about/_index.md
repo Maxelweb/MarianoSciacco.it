@@ -2,26 +2,39 @@
 title: Chi Sono
 ---
 
+Sono un grande appassionato di tecnologie informatiche e mi interesso molto alla progettazione, sviluppo e gestione di tecnologie web. Sono nel campo da molti anni e sono stato partecipe di molti progetti online per interesse e studio personale.
+
+Ad oggi, lavoro principalmente in ambito Cloud & IoT e mi occupo di Ricerca e Sviluppo.
 
 ## Skillset
 
-### Ad oggi
+### Linguaggi di programmazione e di markup
 
-- Typescript, Javascript, Java, PHP, C++
-- Linguaggi web Front-end (HTML5, CSS, JS con JQuery)
-- **Angular 9, Laravel 8, Spring framework, NodeJS**
+- Python, Java, PHP, C++, NodeJS, Typescript, Javascript, Lua
+- Linguaggi funzionali (Haskell, F#)
+- Linguaggi web front-end (HTML5, CSS, JS)
+- Linguaggi di Markup (XML, JSON, YAML)
+
+### Framework e Servizi
+
+- Framework di sviluppo (Angular, Laravel, Spring, Flutter)
+- Amazon Web Services (AWS), Kafka, MQTT
 - Database (Postgres, Timescale, MYSQL, MariaDB)
-- XML, JSON, YAML
-- Git, Github, Gitlab, Docker
-- DevOps (Github & Gitlab runners)
-- Travis CI & Jenkins, Ansible
 
-Buone conoscenze di Windows, Linux e macOS.
+### Tool di sviluppo
+
+- Git, Github, Gitlab, Docker
+- Github actions, Gitlab runners, Bitbucket runners
+- Travis CI, Jenkins, Ansible
+
+Buone conoscenze di Windows, GNU/Linux e macOS.
 
 
 ## Background
 
-### Il passato da autodidatta
+### Timeline
+
+<!-- ### Il passato da autodidatta
 
 #### HTML5 / PHP / CSS / JS
 
@@ -37,4 +50,4 @@ Successivamente mi sono avvicinato al linguaggio **Javascript** man mano che svi
 
 Ho avuto modo di operare sulle distro **Debian** per la gestione server e **Raspbian** (ARM) per lavorare con i raspberry.
 
-Per quanto riguarda **Raspberry e Arduino**, ho realizzato piccoli circuiti molto basilari, giusto per avere una piccola infarinatura di elettronica.
+Per quanto riguarda **Raspberry e Arduino**, ho realizzato piccoli circuiti molto basilari, giusto per avere una piccola infarinatura di elettronica. -->

@@ -13,9 +13,11 @@
                     <div>
                         <i class="far fa-calendar"></i> {{.Date.Format "January 2006"}}
                     </div>
+                    {{/*  {{ $data := .Site.Data.general }}  */}}
                     {{ with .Params.coauthors }}
                     <div class="ms-list-commas">
                         <i class="fas fa-users"></i> <strong>{{ T "collaborators" }}</strong>:
+                        {{/*  <span>{{ $data.owner_name }}</span>  */}}
                         {{ range . }}
                             <span>{{ . }}</span>
                         {{ end }}

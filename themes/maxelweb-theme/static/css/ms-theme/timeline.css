@@ -30,6 +30,7 @@ a.timeline-see-more {
   font-weight: bold;
   color: var(--ms-light);
   transition: 0.3s;
+  text-decoration: none;
 }
 
 a.timeline-see-more:hover {

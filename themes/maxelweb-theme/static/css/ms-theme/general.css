@@ -23,10 +23,12 @@ body {
 
 a {
   color: var(--ms-primary);
+  text-decoration: underline;
 }
 
 a:hover {
   color: var(--ms-secondary);
+  text-decoration: none;
 }
 
 p,.ms-section-content {

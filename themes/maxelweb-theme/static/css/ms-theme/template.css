@@ -311,9 +311,8 @@ label.ms-icon-menu-label div:nth-child(2) {
   flex-wrap: wrap;
   align-items: baseline;
   padding: 0;
-  font-size: 1.25rem;
-  font-weight: bold;
-  text-transform: lowercase;
+  font-size: 1.15rem;
+  text-transform: capitalize;
 }
 
 .ms-breadcrumb li a {
@@ -326,7 +325,7 @@ label.ms-icon-menu-label div:nth-child(2) {
 }
 
 .ms-breadcrumb li+li:before {
-  content: "//";
+  content: "/";
   padding: 0.3rem;
   color: var(--ms-primary)
 }
@@ -387,8 +386,12 @@ section.ms-section-large .ms-limiter {
 }
 
 .ms-section .ms-section-title {
-  text-transform: uppercase;
   text-align: left;
+}
+
+.ms-section .ms-section-title h1,
+.ms-section .ms-section-title .ms-h1 {
+  text-transform: uppercase;
 }
 
 .ms-section .ms-section-content {
@@ -561,7 +564,11 @@ footer.ms-footer {
   overflow: hidden;
 }
 
-footer .ms-footer-logo {
+footer.ms-footer a {
+  color: var(--ms-neutral);
+}
+
+footer.ms-footer .ms-footer-logo {
   float: left;
   width: 50%;
   padding-right: 5em;

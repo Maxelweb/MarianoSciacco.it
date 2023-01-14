@@ -8,4 +8,4 @@ date: 2020-07-01
 draft: false
 ---
 
-Tesi Triennale in Informatica.
+Tesi triennale in Informatica

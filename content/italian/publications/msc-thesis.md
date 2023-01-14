@@ -8,4 +8,4 @@ date: 2022-09-01
 draft: false
 ---
 
-Tesi Magistrale in Informatica.
+Tesi magistrale in Informatica

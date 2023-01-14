@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Archivio Live
+faIcon: archive
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Progetti con Atlantis Roleplay
+faIcon: project-diagram
 ---
 
 ## Siti web sviluppati (2011-2017)

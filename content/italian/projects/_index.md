@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Progetti Personali
+faIcon: project-diagram
 ---
 
 ### Progetti attivi (5)

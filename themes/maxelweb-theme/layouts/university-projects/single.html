@@ -3,7 +3,9 @@
 <section class="ms-section">
     <div class="ms-limiter">
         <div class="ms-section-title">
-            <h1>{{ .Parent.Title }}</h1> 
+            {{ with .Parent }}
+                {{ partial "section_title.html" . }}
+            {{ end }}
             {{ partial "breadcrumbs.html" . }}
             <h3>{{ .Title }}</h3>
         </div>

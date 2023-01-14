@@ -1,6 +1,7 @@
 ---
-# layout: section
+layout: section
 title: Progetti Universitari
+faIcon: university
 ---
 <!-- 
 ### Laurea Informatica - Magistrale

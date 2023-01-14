@@ -1,5 +1,6 @@
 ---
 title: Chi Sono
+faIcon: user-astronaut
 ---
 
 Sono un grande appassionato di tecnologie informatiche e mi interesso molto alla progettazione, sviluppo e gestione di tecnologie web. Sono nel campo da molti anni e sono stato partecipe di molti progetti online per interesse e studio personale.

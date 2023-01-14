@@ -8,4 +8,4 @@ date: 2016-06-01
 draft: false
 ---
 
-Tesina di Scuola Superiore.
+Tesina di Scuola Superiore

@@ -11,4 +11,5 @@ date: 2022-02-01
 draft: false
 ---
 
-Progetto di Advanced Topics in Computer & Network Security in collaborazione Federico Carboni. Realizzazione di un toolkit utilizzato per eseguire test di QR-code multipli su applicazioni Android e iOS.
+Progetto di Advanced Topics in Computer & Network Security in collaborazione Federico Carboni. 
+Realizzazione di un toolkit utilizzato per eseguire test di QR-code multipli su applicazioni Android e iOS.

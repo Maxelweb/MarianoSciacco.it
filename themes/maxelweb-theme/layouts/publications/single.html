@@ -18,9 +18,7 @@
                 {{ with .Params.coauthors }}
                 <div class="ms-list-commas">
                     <i class="fas fa-users"></i> <strong>{{ T "supervisors" }}</strong>:
-                    {{ range . }}
-                        <span>{{ . }}</span>
-                    {{ end }}
+                    {{ partial "function_coauthors.html" . }}
                 </div>
                 {{ end }}
             </div>

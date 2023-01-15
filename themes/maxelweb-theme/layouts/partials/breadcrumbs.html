@@ -1,4 +1,30 @@
+    
+{{/*  FIXME: Works in version >=0.109.x of Hugo  */}}
+    
 <ol class="ms-breadcrumb">
+    {{- range .Ancestors.Reverse }}
+        <li>
+            <a href="{{ .RelPermalink }}">
+            {{ if gt (len .Title) 30 }}
+                {{ slicestr .Title 0 30 }}
+            {{ else }}
+                {{ .Title }}
+            {{ end }} 
+            </a>
+        </li>
+    {{- end }}
+    <li class="active" aria-current="page">
+        <a href="{{ .RelPermalink }}">
+        {{ if gt (len .Title) 30 }}
+            {{ slicestr .Title 0 30 }}...
+        {{ else }}
+            {{ .Title }}
+        {{ end }} 
+        </a>
+    </li>
+</ol>
+
+{{/*  <ol class="ms-breadcrumb">
     <li><a href="/">Home</a></li>
     {{ $rellink := "" }}
     {{ range (split .RelPermalink "/") }}
@@ -8,18 +34,4 @@
         {{ end }}
     {{ end }}
 </ol>
-
-{{/*
-    
-    FIXME: Works in latest version of Hugo
-    
-    <ol class="ms-breadcrumb">
-    <ul>
-        {{- range .Ancestors.Reverse }}
-        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-        {{- end }}
-        <li class="active" aria-current="page">
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        </li>
-    </ul>
-</ol>  */}}
+  */}}

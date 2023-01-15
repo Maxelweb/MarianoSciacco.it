@@ -1,0 +1,8 @@
+{{ $data_coauthors := site.Data.coauthors }}
+{{ range . }}
+    {{ with index (where $data_coauthors.coauthors ".name" "==" .) 0 }} 
+        <span><a href="{{ .url }}" target="_blank">{{ .name }}</a></span>
+    {{ else }}
+        <span>{{ . }}</span>
+    {{ end }}
+{{ end }}

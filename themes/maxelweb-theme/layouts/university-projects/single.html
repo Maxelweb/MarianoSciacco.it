@@ -15,13 +15,16 @@
                     <div>
                         <i class="far fa-calendar"></i> {{.Date.Format "January 2006"}}
                     </div>
-                    {{/*  {{ $data := .Site.Data.general }}  */}}
+                    {{ $data_coauthors := $.Site.Data.coauthors }}
                     {{ with .Params.coauthors }}
                     <div class="ms-list-commas">
                         <i class="fas fa-users"></i> <strong>{{ T "collaborators" }}</strong>:
-                        {{/*  <span>{{ $data.owner_name }}</span>  */}}
                         {{ range . }}
-                            <span>{{ . }}</span>
+                            {{ with index (where $data_coauthors.coauthors ".name" "==" .) 0 }} 
+                                <span><a href="{{ .url }}" target="_blank">{{ .name }}</a></span>
+                            {{ else }}
+                                <span>{{ . }}</span>
+                            {{ end }}
                         {{ end }}
                     </div>
                     {{ end }}

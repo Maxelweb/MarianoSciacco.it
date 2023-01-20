@@ -9,43 +9,36 @@
         </div>
         <div class="ms-section-content">
             {{ .Content }}
-			<h2><i class="fas fa-link"></i> Social Network </h2>
+			<h2><i class="fas fa-link"></i> Social Networks </h2>
+			{{ $contacts := .Site.Data.general.owner.contacts }}
 			<table class="ms-contacts">
 				<tr>
-					<td><i class="fab fa-facebook-square"></i> <span class="tohide">Facebook</span></td>
-					<td>Mariano Sciacco</td>
-				</tr>			
-				<tr>
-					<td><i class="fab fa-twitter-square"></i> <span class="tohide">Twitter</span></td>
-					<td><a href="https://twitter.com/Maxelweb">@Maxelweb</a></td>
-				</tr>
-				<tr>
 					<td><i class="fab fa-linkedin"></i> <span class="tohide">Linked In</span></td>
-					<td><a href="https://www.linkedin.com/in/marianosciacco/">Mariano Sciacco</a></td>
-				</tr>	
+					<td><a href="{{ $contacts.linkedin_url }}">{{ $contacts.linkedin_name }}</a></td>
+				</tr>					
 				<tr>
 					<td><i class="fab fa-github-square"></i> <span class="tohide">Github</span></td>
-					<td><a href="http://git.marianosciacco.it">Maxelweb</a></td>
+					<td><a href="{{ $contacts.github_url }}">{{ $contacts.github_name }}</a></td>
 				</tr>
 				<tr>
 					<td><i class="fab fa-discord"></i> <span class="tohide">Discord</span></td>
-					<td>Maxel#6107</td>
+					<td><a href="{{ $contacts.discord_url }}">{{ $contacts.discord_name }}</a></td>
 				</tr>	
 				<tr>
-					<td><i class="fab fa-youtube"></i> <span class="tohide">YouTube</span></td>
-					<td>Maxelweb</td>
-				</tr>				
+					<td><i class="fab fa-facebook-square"></i> <span class="tohide">Facebook</span></td>
+					<td><a href="{{ $contacts.facebook_url }}">{{ $contacts.facebook_name }}</a></td>
+				</tr>			
+				<tr>
+					<td><i class="fab fa-twitter-square"></i> <span class="tohide">Twitter</span></td>
+					<td><a href="{{ $contacts.twitter_url }}">{{ $contacts.twitter_name }}</a></td>
+				</tr>		
 			</table>
 
 			<h2><i class="far fa-envelope"></i> Email </h2>
-			<table class="ms-contacts">
+			<table class="ms-contacts ms-contacts-secondary">
 				<tr>
 					<td><i class="fa fa-at"></i> <span class="tohide">Principale</span></td>
-					<td>marianosciacco@gmail.com</td>
-				</tr>	
-				<tr>
-					<td><i class="fa fa-envelope-square"></i> <span class="tohide">Secondaria</span></td>
-					<td>maxelweb@gmail.com</td>
+					<td>{{ $contacts.email }}</a></td>
 				</tr>												
 			</table>
         </div>

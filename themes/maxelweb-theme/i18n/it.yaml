@@ -17,7 +17,16 @@
   translation: "Pagine correlate"
 - id: go-back
   translation: "Torna indietro"
-
+- id: developed-with
+  translation: "Sviluppato con"
+- id: from
+  translation: "da"
+- id: last-update
+  translation: "Ultimo aggiornamento"
+- id: credits
+  translation: "Crediti"
+- id: source-code
+  translation: "Codice Sorgente"
 
 # Homepage
 # ---------------------------------------------

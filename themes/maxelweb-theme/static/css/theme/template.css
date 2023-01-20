@@ -537,12 +537,15 @@ section.ms-section-large .ms-limiter {
   margin-right:9px;
 }
 
-table {
-  border: 2px solid var(--ms-gray);
+table.ms-contacts {
+  border: 4px solid var(--ms-primary);
+}
+
+table.ms-contacts-secondary {
+  border: 4px solid var(--ms-secondary);
 }
 
 table.ms-contacts td:nth-child(1) {
-  text-align: right;
   color: var(--ms-dark);
 }
 

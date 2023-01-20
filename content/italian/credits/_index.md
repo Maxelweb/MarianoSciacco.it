@@ -3,7 +3,12 @@ layout: page
 title: Crediti
 ---
 
-## Icons
+## Sito web
 
-<!-- - [Technologies Icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/) -->
+- Sito web realizzato con **Hugo**, a static site generator engine
+- Tema e Logo realizzati interamente da Mariano Sciacco
+
+
+## Icone
+
 - [Website Icons from Font Awesome 5](https://fontawesome.com/license/free)

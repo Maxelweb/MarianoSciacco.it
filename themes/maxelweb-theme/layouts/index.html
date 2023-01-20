@@ -1,14 +1,5 @@
 {{ define "main" }}
 
-<!-- <header>
-    <div class="inner-header">
-        <img class="my-portrait" src="/images/my-portrait.jpeg">
-        <h1>Hi! I'm Mariano.</h1>
-        <h2>Computer Scientist living in Padova, Italy</h2>
-        <i class="fas fa-caret-down"></i>
-    </div>
-</header> -->
-
 <div class="bottom-header">
     <div class="bottom-header-text">
         <strong>Mariano Sciacco, Maxelweb</strong>: just a guy playing with the Web <i class="fa fa-globe"></i>
@@ -18,7 +9,7 @@
 <section class="ms-section-splash">
     <div class="ms-limiter">
         <div class="splash-name">Mariano Sciacco, <span>Maxelweb</span></div>
-        <div class="splash-desc"><img class="ms-portrait" src="/images/my-portrait.jpeg" alt="Mariano Sciacco"></div>
+        <div class="splash-desc"><img class="ms-portrait" src="/images/my-portrait.jpeg" alt="{{ .Site.Data.general.owner.full_name }}"></div>
     </div>
 </section>
 
@@ -46,13 +37,13 @@
         <div class="ms-section-content">
             <h2 class="ms-my2"><i class="fas fa-file-alt"></i> {{ T "cv" }} </h2>
             <h3>Download</h3>
-            <a href="http://cvit.marianosciacco.it" class="ms-btn ms-btn-light ms-my1">
+            <a href="{{ .Site.Data.general.resume.ita_url }}" class="ms-btn ms-btn-light ms-my1">
                 <i class="fas fa-file-download"></i> {{ T "lang-ita" }} - {{ T "format-normal" }}
             </a>
-            <a href="http://cv.marianosciacco.it" class="ms-btn ms-btn-light ms-my1">
+            <a href="{{ .Site.Data.general.resume.eng_url }}" class="ms-btn ms-btn-light ms-my1">
                 <i class="fas fa-file-download"></i> {{ T "lang-eng" }} - {{ T "format-normal" }}
             </a>
-            <a href="https://public.marianosciacco.it/cv_eu_marianosciacco_it.pdf" class="ms-btn ms-btn-light-outline ms-my1">
+            <a href="{{ .Site.Data.general.resume.ita_euro_url }}" class="ms-btn ms-btn-light-outline ms-my1">
                 <i class="fas fa-file-download"></i> {{ T "lang-ita" }} - {{ T "format-europass" }}
             </a>
         </div>

@@ -27,7 +27,8 @@
 
 <body>
     <div class="ms-settings-box">
-        {{/*  <div class="ms-language-switcher">
+        {{/* FIXME: enable multi-language when ready  
+            <div class="ms-language-switcher">
             {{ if .Site.IsMultiLingual }}
                 {{ range $.Translations }}
                 <a href="{{ .Permalink }}">{{ .Language.Params.short }}</a></li>
@@ -108,10 +109,15 @@
                 <div class="logo-footer"></div>
             </div>
             <div class="ms-footer-text">
-                <p>Developed with <i class="fas fa-heart"></i> by Mariano Sciacco <a href="mailto:marianosciacco@gmail.com" alt="Contact site admin" title="Contact site admin"><i class="fas fa-envelope"></i></a></p>
-                <p><i class="fas fa-code"></i> v3-development</p>
+                <p>{{ T "developed-with" }} <i class="fas fa-heart"></i> {{ T "from" }} {{ .Site.Data.general.owner.username }} <a href="mailto:{{ .Site.Data.general.owner.contacts.email }}" alt="Contact site admin" title="Contact site admin"><i class="fas fa-envelope"></i></a></p>
                 <p>
-                    <i class="fab fa-github"></i> <a href="http://this.marianosciacco.it">Source Code on Github </a>
+                    <i class="fas fa-code"></i> v{{ .Site.Data.general.website.version }} 
+                    <small>({{ .Site.Data.general.website.last_update }})</small>
+                    
+                </p>
+                <p>
+                    <a href="/credits">{{ T "credits" }}</a> - 
+                    <a href="http://this.marianosciacco.it" target="_blank">{{ T "source-code" }}</a>
                 </p>
             </div>
         </div>

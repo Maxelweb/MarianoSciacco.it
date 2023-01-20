@@ -1,0 +1,28 @@
+website:
+  version: "3.0.0"
+  last_update: "2022-01-20"
+  git_url: "http://this.marianosciacco.it"
+  app_url: "https://marianosciacco.it"
+
+resume:
+  ita_url: http://cvit.marianosciacco.it/
+  eng_url: http://cv.marianosciacco.it/
+  ita_euro_url: https://public.marianosciacco.it/cv_eu_marianosciacco_it.pdf
+
+owner:
+  full_name: Mariano Sciacco 
+  name: Mariano
+  surname: Sciacco  
+  username: Maxelweb
+  contacts: 
+    email: marianosciacco@gmail.com
+    facebook_name: Mariano Sciacco
+    facebook_url: "#"
+    twitter_name: "@Maxelweb"
+    twitter_url: https://twitter.com/Maxelweb
+    linkedin_name: Mariano Sciacco
+    linkedin_url: https://www.linkedin.com/in/marianosciacco/
+    github_name: Maxelweb
+    github_url: https://github.com/maxelweb/
+    discord_name: Maxel#6107
+    discord_url: "#"

@@ -1,20 +1,27 @@
-# name: Website Autodeploy
+name: Website Autodeploy
 
-# on: 
-#   push:
-#     paths-ignore:
-#     - 'docs/**'
-#     - '.github/**'
-#     - '**.md'
+on: 
+  push:
+    paths-ignore:
+    - 'docs/**'
+    - '.github/**'
 
-# jobs:
-#   deploy:
-#     runs-on: ubuntu-latest
-#     steps:
-#     - uses: actions/checkout@v1
-#     - name: git-ftp push
-#       uses: sebastianpopp/git-ftp-action@releases/v2
-#       with:
-#         url: ${{ secrets.FTP_URL }}
-#         user: ${{ secrets.FTP_USER }}
-#         password: ${{ secrets.FTP_PWD }}
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v1
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.109.0'
+    - name: Build Hugo 
+      run: hugo --minify --environment=production
+    - name: Push remote update with git-ftp
+      uses: sebastianpopp/git-ftp-action@releases/v2
+      with:
+        localdir: "public"
+        url: ${{ secrets.FTP_URL }}
+        user: ${{ secrets.FTP_USER }}
+        password: ${{ secrets.FTP_PWD }}

@@ -3,7 +3,7 @@ name: MarianoSciacco.it Deploy Production
 on: 
   push:
     paths-ignore:
-    - 'README.md/**'
+    - '**/README.md'
 
 jobs:
   deploy:

@@ -10,11 +10,11 @@
             {{ .Content }}
             <h2>{{ T "master-projects" }}</h2>
             {{ range where .Pages "Params.tags" "intersect" (slice "msc") }}
-                {{ partial "listing_projects.html" . }}
+                {{ partial "listing_items.html" . }}
             {{ end }}
             <h2>{{ T "bachelor-projects" }}</h2>
             {{ range where .Pages "Params.tags" "intersect" (slice "bsc") }}
-                {{ partial "listing_projects.html" . }}
+                {{ partial "listing_items.html" . }}
             {{ end }}
         </div>
     </div>

@@ -326,7 +326,7 @@ label.ms-icon-menu-label div:nth-child(2) {
 
 .ms-breadcrumb li+li:before {
   content: "/";
-  padding: 0.3rem;
+  padding: 0 0.2rem 0 0.45rem;
   color: var(--ms-primary)
 }
 

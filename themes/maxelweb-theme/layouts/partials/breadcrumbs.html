@@ -4,11 +4,10 @@
 <ol class="ms-breadcrumb">
     {{- range .Ancestors.Reverse }}
         <li>
-            <a href="{{ .RelPermalink }}">
             {{ if gt (len .Title) 30 }}
-                {{ slicestr .Title 0 30 }}
+                <a href="{{ .RelPermalink }}">{{ slicestr .Title 0 30 }}...</a>
             {{ else }}
-                {{ .Title }}
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
             {{ end }} 
             </a>
         </li>
@@ -16,9 +15,9 @@
     <li class="active" aria-current="page">
         <a href="{{ .RelPermalink }}">
         {{ if gt (len .Title) 30 }}
-            {{ slicestr .Title 0 30 }}...
+            <a href="{{ .RelPermalink }}">{{ slicestr .Title 0 30 }}...</a>
         {{ else }}
-            {{ .Title }}
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         {{ end }} 
         </a>
     </li>

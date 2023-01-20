@@ -3,8 +3,8 @@
         <a href="{{.RelPermalink}}">{{.Title}}</a>
     </div>
     <div class="ms-list-subtitle">
-        <div>
-            <i class="far fa-calendar"></i> {{.Date.Format "January 2006"}}
+        <div class="text-capitalize">
+            <i class="far fa-calendar"></i> {{ .Date | time.Format "January 2006"}}
         </div>
         {{ with .Params.coauthors }}
         <div class="ms-list-commas">

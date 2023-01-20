@@ -1,4 +1,4 @@
-![logo](https://marianosciacco.it/images/favicon.png)
+![logo](https://marianosciacco.it/images/favicon.png | width=100)
 
 ## MarianoSciacco.it - Personal Web Page
 

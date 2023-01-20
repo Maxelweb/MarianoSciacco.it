@@ -1,2 +1,2 @@
 *.DS_Store
-# .hugo_build_lock
+.hugo_build.lock

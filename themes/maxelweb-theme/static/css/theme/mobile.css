@@ -93,6 +93,10 @@
         padding: 2em;
     }
 
+    .ms-section-splash .splash-name {
+        text-shadow: #000 0px 0px 1px !important;
+    }
+
     .ms-section-splash {
         background-attachment: local !important;
     }
@@ -267,6 +271,10 @@
         width: auto;
         text-align: center !important;
         padding: 2em;
+    }
+
+    .ms-section-splash .splash-name {
+        text-shadow: #000 0px 0px 1px !important;
     }
 
     .ms-section-splash {

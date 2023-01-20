@@ -1,0 +1,136 @@
+it: 
+  languageName: Italiano
+  languageCode: 'it-IT'
+  title: 'Homepage'
+  params:
+    short: ITA
+  weight: 1
+  contentDir: "content/italian"
+  menu:
+    main:
+    - identifier: about
+      weight: 1
+      name: Chi sono
+      url: "/about/"
+      pre: "far fa-user"
+      post: "fas fa-user-astronaut"
+    - identifier: about-background
+      parent: about
+      weight: 2
+      name: Background
+      url: "/about/#background"
+      pre: "fas fa-user-graduate"
+    - identifier: about-skills
+      parent: about
+      weight: 1
+      name: Skillset
+      url: "/about/#skillset"
+      pre: "fas fa-user-tie"
+    - identifier: portfolio
+      weight: 2
+      name: Portfolio
+      url: "/portfolio/"
+      pre: "far fa-folder"
+      post: "far fa-folder-open"
+    - identifier: portfolio-publications
+      parent: portfolio
+      weight: 1
+      name: Pubblicazioni
+      url: "/publications/"
+      pre: "fas fa-file-alt"
+    - identifier: portfolio-university
+      parent: portfolio
+      weight: 2
+      name: Progetti Universitari
+      url: "/university-projects/"
+      pre: "fas fa-university"
+    - identifier: portfolio-projects
+      parent: portfolio
+      weight: 3
+      name: Progetti Personali
+      url: "/projects/"
+      pre: "fas fa-project-diagram"
+    - identifier: portfolio-archive
+      parent: portfolio
+      weight: 4
+      name: Archivio Live
+      url: "/archive/"
+      pre: "fas fa-archive"
+    - identifier: github
+      weight: 3
+      name: Github
+      url: "http://git.marianosciacco.it"
+      pre: "fab fa-github-alt"
+    - identifier: contacts
+      weight: 4
+      name: Contatti
+      url: "/contacts/"
+      pre: "far fa-envelope"
+en: 
+  languageName: English
+  languageCode: 'en-US'
+  title: 'Homepage'
+  params:
+    short: ENG
+  weight: 2
+  contentDir: "content/english"
+  menu:
+    main:
+    - identifier: about
+      weight: 1
+      name: About me
+      url: "/about/"
+      pre: "far fa-user"
+      post: "fas fa-user-astronaut"
+    - identifier: about-background
+      parent: about
+      weight: 1
+      name: Background
+      url: "/about/#background"
+      pre: "fas fa-user-graduate"
+    - identifier: about-skills
+      parent: about
+      weight: 2
+      name: Skills
+      url: "/about/#skills"
+      pre: "fas fa-user-tie"
+    - identifier: portfolio
+      weight: 2
+      name: Portfolio
+      url: "/portfolio/"
+      pre: "far fa-folder"
+      post: "far fa-folder-open"
+    - identifier: portfolio-publications
+      parent: portfolio
+      weight: 1
+      name: Publications
+      url: "/publications/"
+      pre: "fas fa-file-alt"
+    - identifier: portfolio-university
+      parent: portfolio
+      weight: 2
+      name: University Projects
+      url: "/university-projects/"
+      pre: "fas fa-university"
+    - identifier: portfolio-projects
+      parent: portfolio
+      weight: 3
+      name: Personal Projects
+      url: "/projects/"
+      pre: "fas fa-project-diagram"
+    - identifier: portfolio-archive
+      parent: portfolio
+      weight: 4
+      name: Live Archive
+      url: "/archive/"
+      pre: "fas fa-archive"
+    - identifier: github
+      weight: 3
+      name: Github
+      url: "http://git.marianosciacco.it"
+      pre: "fab fa-github-alt"
+    - identifier: contacts
+      weight: 4
+      name: Contacts
+      url: "/contacts/"
+      pre: "far fa-envelope"

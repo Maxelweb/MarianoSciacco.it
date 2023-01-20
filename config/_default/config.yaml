@@ -1,0 +1,8 @@
+baseURL: 'http://localhost/'
+title: 'Mariano Sciacco, Maxelweb'
+theme: 
+  - "maxelweb-theme"
+defaultContentLanguage: it
+disableKinds:
+- taxonomy
+- term

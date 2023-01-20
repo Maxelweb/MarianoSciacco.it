@@ -8,11 +8,11 @@
  *
  */
 
-@import url("ms-theme/reboot.css"); 
-@import url("ms-theme/font.css"); 
-@import url("ms-theme/variables-light.css"); 
-@import url("ms-theme/utilities.css");
-@import url("ms-theme/general.css");
-@import url("ms-theme/template.css");
-@import url("ms-theme/timeline.css");
-@import url("ms-theme/mobile.css");
+@import url("theme/reboot.css"); 
+@import url("theme/font.css"); 
+@import url("theme/variables-light.css"); 
+@import url("theme/utilities.css");
+@import url("theme/general.css");
+@import url("theme/template.css");
+@import url("theme/timeline.css");
+@import url("theme/mobile.css");

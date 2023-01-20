@@ -485,6 +485,7 @@ section.ms-section-large .ms-limiter {
 
 .ms-section-splash .splash-name {
   background-color: transparent;
+  text-shadow: #000 0px 0px 50px, #000 0px 0px 50px;
 }
 
 .ms-section-splash span {

@@ -5,3 +5,57 @@
   translation: "See more"
 - id: cv
   translation: "Resume"
+- id: format-normal
+  translation: "Normal format"
+- id: format-europass
+  translation: "Europass format"
+- id: lang-ita
+  translation: "Italian"
+- id: lang-eng
+  translation: "English"
+- id: related-pages
+  translation: "Related pages"
+- id: go-back
+  translation: "Go back"
+- id: developed-with
+  translation: "Developed with"
+- id: from
+  translation: "from"
+- id: last-update
+  translation: "Last update"
+- id: credits
+  translation: "Credits"
+- id: source-code
+  translation: "Source Code"
+
+# Homepage
+# ---------------------------------------------
+
+- id: dev-cloud-programming
+  translation: "Cloud & Programming"
+- id: dev-iot
+  translation: "Internet of Things (IoT)"
+- id: dev-tools
+  translation: "Development tools"
+- id: news-latest
+  translation: "Latest News"
+
+# Portfolio
+# ---------------------------------------------
+
+- id: bachelor-projects
+  translation: "Bachelor Degree in Computer Science"
+- id: master-projects
+  translation: "Master Degree in Computer Science"
+- id: technologies
+  translation: "Technologies"
+- id: collaborators
+  translation: "Collaborators"
+- id: supervisors
+  translation: "Supervisors"
+- id: github-project
+  translation: "GitHub Project"
+- id: document-download
+  translation: "Download document"
+- id: website-link
+  translation: "Website"

@@ -4,24 +4,29 @@ on:
   push:
     paths-ignore:
     - 'README.md/**'
-    # - '.github/**'
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v1
+      uses: actions/checkout@v3
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: '0.109.0'
     - name: Build Hugo 
       run: hugo --minify --environment=production
-    - name: Push remote update with git-ftp
-      uses: sebastianpopp/git-ftp-action@releases/v2
+    - name: Push remote update
+      uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
-        localdir: "public"
-        url: ${{ secrets.FTP_URL }}
-        user: ${{ secrets.FTP_USER }}
+        server: ${{ secrets.FTP_URL }}
+        username: ${{ secrets.FTP_USER }}
         password: ${{ secrets.FTP_PWD }}
+        local-dir: ./public/
+        server-dir: ./www/
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/.github/**
+          **/_old/**

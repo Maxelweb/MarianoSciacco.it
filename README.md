@@ -1,10 +1,10 @@
-![logo](https://marianosciacco.it/images/favicon.png | width=100)
+<img src="https://marianosciacco.it/images/logo-v3-light.png" width="100">
 
 ## MarianoSciacco.it - Personal Web Page
 
 ### Deployment
 
-![Autodeploy](https://github.com/Maxelweb/MarianoSciacco.it/workflows/Website%20Autodeploy/badge.svg)
+[![MarianoSciacco.it Deploy Production](https://github.com/Maxelweb/MarianoSciacco.it/actions/workflows/deploy.yml/badge.svg?branch=master)](https://github.com/Maxelweb/MarianoSciacco.it/actions/workflows/deploy.yml)
 
 ### Version
 

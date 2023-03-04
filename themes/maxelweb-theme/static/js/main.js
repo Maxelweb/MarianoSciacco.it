@@ -30,12 +30,18 @@
 		}
     }  
 
+	// Theme Switcher
 	const darkIconClass = 'far fa-lightbulb'
 	const lightIconClass = 'fas fa-lightbulb'
 	var darkCSS = $("#ms-theme-style");
 	var darkToggle = $("#ms-theme-toggle");
 	var darkToggleIcon = $("#ms-theme-toggle i");
 	
+	// Check system theme color preference
+	function isSystemPreferenceDark() {
+		return window.matchMedia("(prefers-color-scheme: dark)").matches;
+	}
+
 	// Set theme with the given mode and toggle the theme icon button
 	function setThemeMode(mode) {
 	  if (mode === "dark") {
@@ -60,12 +66,12 @@
 
 
     // DOCUMENT READY
-
 	$(document).ready(function() 
 	{
-		
 		// Theme setter
-		setThemeMode(localStorage.getItem("ms-theme") || "light");
+		var preferredThemeMode = isSystemPreferenceDark() ? "dark" : "light";
+		console.log(preferredThemeMode)
+		setThemeMode(localStorage.getItem("ms-theme") || preferredThemeMode);
 
 		// Uncheck menu
 		$("#ms_menu_icon").removeAttr("checked");
@@ -75,5 +81,4 @@
 		$(".splash-desc").hide();
 	 	$(".splash-name").fadeIn(1200);
 	 	$(".splash-desc").fadeIn(2000);	
-
 	});

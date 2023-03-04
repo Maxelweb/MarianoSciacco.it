@@ -8,7 +8,12 @@
 
 ### Version
 
-**v3.0.0** (2022-01-20)
+**v3.0.1** (2023-03-04)
+
+- Add prefers-system-color to JS to detect default theme colors
+- Edit links text-decoration
+
+**v3.0.0** (2023-01-20)
 
 - New release with complete re-build in Hugo
 - Add new publications and university projects

@@ -317,6 +317,11 @@ label.ms-icon-menu-label div:nth-child(2) {
 
 .ms-breadcrumb li a {
   color: var(--ms-dark);
+  text-decoration: none;
+}
+
+.ms-breadcrumb li a:hover {
+  text-decoration: underline;
 }
 
 .ms-breadcrumb li {
@@ -504,6 +509,9 @@ section.ms-section-large .ms-limiter {
 
 .ms-list {
   margin: 1rem 0 3rem;
+  background-color: var(--ms-box-light);
+  border-radius: 6px;
+  padding: 2px 20px 8px;
 }
 
 .ms-list-title {
@@ -570,6 +578,11 @@ footer.ms-footer {
 
 footer.ms-footer a {
   color: var(--ms-neutral);
+  text-decoration: none;
+}
+
+footer.ms-footer a:hover {
+  text-decoration: underline;
 }
 
 footer.ms-footer .ms-footer-logo {

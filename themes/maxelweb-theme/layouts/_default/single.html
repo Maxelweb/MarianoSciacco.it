@@ -4,31 +4,33 @@
 <section class="ms-section">
     <div class="ms-limiter">
         <div class="ms-section-title">
-            {{ with .Parent }}
+            {{/*  {{ with .Parent }}
                 {{ partial "section_title.html" . }}
-            {{ end }}
-            {{ partial "breadcrumbs.html" . }}
+            {{ end }}  */}}
             <h3>{{ .Title }}</h3>
+            {{ partial "breadcrumbs.html" . }}
         </div>
         <div class="ms-section-content">
-            <div class="ms-list-subtitle ms-my3">
-                <div>
-                    <i class="far fa-calendar"></i> {{.Date.Format "January 2006"}}
-                </div>
-                {{ with .Params.coauthors }}
-                <div class="ms-list-commas">
-                    <i class="fas fa-users"></i> <strong>{{ T "collaborators" }}</strong>:
-                    {{ range . }}
-                        <span>{{ . }}</span>
+            <div class="ms-list">
+                <div class="ms-list-subtitle ms-my3">
+                    <div class="text-capitalize">
+                        <i class="far fa-calendar"></i> {{ .Date | time.Format "January 2006"}}
+                    </div>
+                    {{ with .Params.coauthors }}
+                    <div class="ms-list-commas">
+                        <i class="fas fa-users"></i> <strong>{{ T "collaborators" }}</strong>:
+                        {{ range . }}
+                            <span>{{ . }}</span>
+                        {{ end }}
+                    </div>
                     {{ end }}
                 </div>
+                {{ with .Params.documentURL }}
+                    <a href="{{ . }}" class="ms-btn ms-btn-light-outline"><i class="fas fa-file-download"></i> {{ T "document-download" }}</a>
                 {{ end }}
-            </div>
-            {{ with .Params.documentURL }}
-                <a href="{{ . }}" class="ms-btn ms-btn-light-outline"><i class="fas fa-file-download"></i> {{ T "document-download" }}</a>
-            {{ end }}
-            <div class="ms-my3">
-                {{ .Content }}
+                <div class="ms-my3">
+                    {{ .Content }}
+                </div>
             </div>
         </div>
     </div>

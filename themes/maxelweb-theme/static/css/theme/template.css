@@ -508,7 +508,7 @@ section.ms-section-large .ms-limiter {
 
 
 .ms-list {
-  margin: 1rem 0 3rem;
+  margin: 1.5rem 0;
   background-color: var(--ms-box-light);
   border-radius: 6px;
   padding: 2px 20px 8px;
@@ -521,11 +521,18 @@ section.ms-section-large .ms-limiter {
 
 .ms-list-title a {
   color: var(--ms-secondary-hover) !important;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.ms-list-title a:hover {
+  text-decoration: underline;
 }
 
 .ms-list-subtitle {
   font-size: 1.15rem;
-  color: var(--ms-neutral);
+  color: var(--ms-dark);
+  margin: 10px 0;
 }
 
 

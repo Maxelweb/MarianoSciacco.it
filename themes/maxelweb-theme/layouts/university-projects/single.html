@@ -3,17 +3,17 @@
 <section class="ms-section">
     <div class="ms-limiter">
         <div class="ms-section-title">
-            {{ with .Parent }}
+            {{/*  {{ with .Parent }}
                 {{ partial "section_title.html" . }}
-            {{ end }}
-            {{ partial "breadcrumbs.html" . }}
+            {{ end }}  */}}
             <h3>{{ .Title }}</h3>
+            {{ partial "breadcrumbs.html" . }}
         </div>
         <div class="ms-section-content">
             <div class="ms-list">
                 <div class="ms-list-subtitle ms-my3">
-                    <div>
-                        <i class="far fa-calendar"></i> {{.Date.Format "January 2006"}}
+                    <div class="text-capitalize">
+                        <i class="far fa-calendar"></i> {{ .Date | time.Format "January 2006"}}
                     </div>
                     {{ with .Params.coauthors }}
                     <div class="ms-list-commas">

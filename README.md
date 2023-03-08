@@ -8,6 +8,11 @@
 
 ### Version
 
+**v3.0.2** (2023-03-09)
+
+- Style fixes in publications and university projects
+- Fix theme mode toggle not showing during JS loading
+
 **v3.0.1** (2023-03-04)
 
 - Add prefers-system-color to JS to detect default theme colors

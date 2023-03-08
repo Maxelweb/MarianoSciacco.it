@@ -1,6 +1,6 @@
 website:
-  version: "3.0.1"
-  last_update: "2023-03-04"
+  version: "3.0.2"
+  last_update: "2023-03-09"
   git_url: "http://this.marianosciacco.it"
   app_url: "https://marianosciacco.it"
 

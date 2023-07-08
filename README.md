@@ -8,6 +8,10 @@
 
 ### Version
 
+**v3.0.3** (2023-07-08)
+
+- Edit live archive
+
 **v3.0.2** (2023-03-09)
 
 - Style fixes in publications and university projects

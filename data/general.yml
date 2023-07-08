@@ -1,6 +1,6 @@
 website:
-  version: "3.0.2"
-  last_update: "2023-03-09"
+  version: "3.0.3"
+  last_update: "2023-07-08"
   git_url: "http://this.marianosciacco.it"
   app_url: "https://marianosciacco.it"
 
@@ -24,5 +24,5 @@ owner:
     linkedin_url: https://www.linkedin.com/in/marianosciacco/
     github_name: Maxelweb
     github_url: https://github.com/maxelweb/
-    discord_name: Maxel#6107
+    discord_name: Maxelweb
     discord_url: "#"

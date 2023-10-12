@@ -8,6 +8,11 @@
 
 ### Version
 
+**v3.1.0** (2023-10-12)
+
+- Add new publications
+- Add new authors link
+
 **v3.0.3** (2023-07-08)
 
 - Edit live archive

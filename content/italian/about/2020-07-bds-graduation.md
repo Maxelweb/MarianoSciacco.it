@@ -1,5 +1,5 @@
 ---
-title: Conseguimento Laurea Triennale in Informatica (PD)
+title: Conseguimento Laurea Triennale in Informatica (UniPD)
 customDate: Giugno 2020
 faIcon: graduation-cap
 tags: [university,unipd,computer-science,graduation]

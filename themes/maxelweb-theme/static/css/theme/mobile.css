@@ -167,7 +167,9 @@
         line-height: 1.4;
     }
 
-
+    .ms-list-cover {
+        background-image:none !important;
+    }
 
     table td {
         word-break: break-all;
@@ -296,6 +298,9 @@
         content: "";
     }
 
+    .ms-list-cover {
+        background-image:none !important;
+    }
 
     section div.box-option {
         width: 300px;

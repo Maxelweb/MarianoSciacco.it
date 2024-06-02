@@ -1,8 +1,8 @@
 ---
-title: QBreak - Social Network
+title: QBreak - Database per un Social Network
 gitURL: https://github.com/Maxelweb/qBreakDatabaseUNIPD
 documentURL: http://public.marianosciacco.it/qbreak_unipd.pdf
-coverURL: 
+coverURL: /images/portfolio/qbreak.png
 websiteURL:
 coauthors: []
 technologies: [SQL]

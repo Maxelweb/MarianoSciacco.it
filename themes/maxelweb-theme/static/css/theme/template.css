@@ -506,6 +506,31 @@ section.ms-section-large .ms-limiter {
 
 /* ========== Specific sections and Single Page  ========== */
 
+.ms-cover {
+  position: relative;
+  margin: -2px -20px 3px;
+  text-align: center;
+}
+
+.ms-list-cover {
+  background-position: center;
+  background-attachment: fixed;
+  background-size: auto;
+  background-blend-mode: overlay;
+  background-repeat: repeat-y;
+}
+
+.ms-cover img {
+  max-width: 99.9% !important;
+  margin: 0px 0px;
+  border-radius: 6px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  width: fit-content;
+  background-color: transparent;
+  border: 1px solid var(--ms-box-light);
+  border-bottom: 0;
+}
 
 .ms-list {
   margin: 1.5rem 0;

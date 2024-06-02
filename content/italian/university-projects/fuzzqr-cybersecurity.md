@@ -2,7 +2,7 @@
 title: FuzzQR - QR Code Fuzzing Toolkit for Android & iOS
 gitURL: https://github.com/Maxelweb/FuzzQR
 documentURL: https://github.com/Maxelweb/FuzzQR/releases/download/v1.0.1/FuzzQR-Paper-CarboniSciacco.pdf
-coverURL: 
+coverURL: https://user-images.githubusercontent.com/34033090/152697122-2000350a-edfa-4129-b70a-15025e45162e.png
 websiteURL:
 coauthors: [Federico Carboni, Denis Donadel]
 technologies: [Python, NodeJS]

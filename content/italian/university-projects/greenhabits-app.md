@@ -2,7 +2,7 @@
 title: Green Habits - Flutter App
 gitURL: 
 documentURL: https://public.marianosciacco.it/relazione_greenhabits_unipd.pdf
-coverURL: 
+coverURL: /images/portfolio/greenhabits.png
 websiteURL: https://play.google.com/store/apps/details?id=com.greenhabits.GreenHabits
 coauthors: [Bryan Lucchetta]
 technologies: [Flutter, Dart, iOS, Android]

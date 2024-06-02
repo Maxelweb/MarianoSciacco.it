@@ -1,7 +1,7 @@
 ---
 title: If You’re Scanning This, It’s Too Late! A QR Code-Based Fuzzing Methodology to Identify Input Vulnerabilities in Mobile Apps
-documentURL: https://link.springer.com/chapter/10.1007/978-3-031-41181-6_30
-coverURL: 
+referenceURL: https://link.springer.com/chapter/10.1007/978-3-031-41181-6_30
+coverURL: /images/portfolio/qrfuzz.png
 coauthors: [Prof. Mauro Conti, Denis Donadel, Federico Carboni]
 tags: [unipd,paper,springer,qrcode,fuzzing,cybersecurity]
 date: 2023-10-04

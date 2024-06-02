@@ -1,9 +1,9 @@
 ---
 title: Project ThiReMa - Red Round Robin
 gitURL: https://github.com/RedRoundRobin
-documentURL: 
-coverURL: 
-websiteURL:
+documentURL: https://github.com/RedRoundRobin/riot/tree/master/_documentazione/Documenti%20esterni
+coverURL: /images/portfolio/riot.png
+websiteURL: https://maxelweb.github.io/swe-site/
 coauthors: [Giuseppe Vito Bitetti,Lorenzo Dei Negri,Nicolò Frison,Fouad Mouad,Mariano Sciacco,Alessandro Tommasin,Giovanni Vidotto]
 technologies: [Java,C++,MQTT,NodeJS,PHP,Docker,Spring,Apache Kafka,Telegram]
 tags: [unipd,bsc]

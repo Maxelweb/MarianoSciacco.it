@@ -1,4 +1,6 @@
-<div class="ms-list">
+<div 
+    class="ms-list {{ with .Params.coverURL }} ms-list-cover {{ end }}" 
+    {{ with .Params.coverURL }} style="background-image:url({{ . }})" {{ end }}>
     <div class="ms-list-title ms-h3">
         <a href="{{.RelPermalink}}">{{.Title}}</a>
     </div>

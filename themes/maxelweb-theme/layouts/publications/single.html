@@ -12,6 +12,11 @@
         </div>
         <div class="ms-section-content">
             <div class="ms-list">
+                {{ with .Params.coverURL }}
+                <div class="ms-cover">
+                    <img src="{{ . }}" alt="Cover"/>
+                </div>
+                {{ end }}
                 <div class="ms-list-subtitle ms-my3">
                     <div class="text-capitalize">
                         <i class="far fa-calendar"></i> {{ .Date | time.Format "January 2006"}}
@@ -25,6 +30,9 @@
                 </div>
                 {{ with .Params.documentURL }}
                     <a href="{{ . }}" class="ms-btn ms-btn-light-outline"><i class="fas fa-file-download"></i> {{ T "document-download" }}</a>
+                {{ end }}
+                {{ with .Params.referenceURL }}
+                    <a href="{{ . }}" target="_blank" class="ms-btn ms-btn-light-outline"><i class="fas fa-link"></i> {{ T "reference-link" }}</a>
                 {{ end }}
                 <div class="ms-my3">
                     {{ .Content }}

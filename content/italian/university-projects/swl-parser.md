@@ -3,7 +3,7 @@ title: SWL Parser
 gitURL: https://github.com/Maxelweb/SwlParserUNIPD
 documentURL: https://github.com/Maxelweb/SwlParserUNIPD/blob/master/README.md
 coverURL: 
-websiteURL: http://swl.marianosciacco.it
+websiteURL: http://swl.unipd.marianosciacco.it
 coauthors: [Gianmarco Pettinato]
 technologies: [C++]
 tags: [unipd,bsc]
